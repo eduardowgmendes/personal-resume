@@ -1,0 +1,118 @@
+{
+    "name": "Eduardo Willian Gonçalves Mendes",
+    "profile": {
+        "profession": "Junior Java Backend Developer",
+        "nationality": "Brazilian",
+        "age": 33
+    },
+    "bio": "Desenvolvedor Java e Android Júnior, super entusiasta de tecnologias mobile e sistemas operacionais. Cada vez mais apaixonado pela plataforma Java, evangelista da plataforma Android e aventureiro Kotlin. Saudosista de tecnologias mobile antigas - hardware e software - dono de um Nokia 3110. Defensor assíduo das boas práticas de desenvolvimento de software Orientado à Objetos.",
+    "contact": {
+        "address": "Rua José Sergio, 203 – JD Maria Antônia - Sumaré São Paulo - 13178-416",
+        "github": "https://github.com/eduardowgmendes",
+        "whatsapp": "(19) 98209-1363",
+        "mobile": "(19) 98209-1363",
+        "alternatePhone": "(19) 98209-1363",
+        "linkedin": "https://www.linkedin.com/in/eduardo-willian-goncalves-mendes/",
+        "primaryEmail": "eduardowilliangm@gmail.com",
+        "secondaryEmail": "eduardowilliangm@hotmail.com"
+    },
+    "workExperience": [
+        {
+            "companyWebsite": "https://www.google.com.br",
+            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQH5AzTMCm_FTg/company-logo_200_200/company-logo_200_200/0/1630480530366/varitus_logo?e=1744848000&v=beta&t=A4YCOL21Q8T5USumG2qEpxn_2k54G3oa7XERXYW3Z5M",
+            "role": "Junior Java Backend Developer",
+            "location": "Araras, SP",
+            "company": "Varitus do Brasil",
+            "startDate": "June 2022",
+            "endDate": "November 2023",
+            "description": "Collaborated with the engineering team on identifying and resolving issues in the Notafaz application for issuing tax documents. Developed and maintained REST APIs supporting multiple corporate applications, ensuring system efficiency, reliability, and scalability."
+        },
+        {
+            "companyWebsite": "https://www.google.com.br",
+            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQG8yAXfI7--3A/company-logo_200_200/company-logo_200_200/0/1643031266208/onebrain_logo?e=1744848000&v=beta&t=3WpEFcom5-DGbcv3MdW2mISh3xJ09McBWkuHgZASwPg",
+            "role": "Junior Systems Analyst",
+            "location": "Campinas, SP",
+            "company": "OneBrain IT Solutions",
+            "startDate": "November 2020",
+            "endDate": "February 2021",
+            "description": "Assisted the backend team in developing REST APIs and maintaining and restructuring existing APIs using Java and JDBC Template for PostgreSQL database integration."
+        },
+        {
+            "companyWebsite": "https://www.google.com.br",
+            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQG4N-JHQv6XRQ/company-logo_200_200/company-logo_200_200/0/1690392562952/kroton_educacional_s_a_logo?e=1744848000&v=beta&t=m4iJ9R7PESy8tiwX30frsOeZwyF-8bNbdXkg1BvN4m8",
+            "role": "Web Developer",
+            "location": "Valinhos, SP",
+            "company": "Kroton Educacional",
+            "startDate": "August 2015",
+            "endDate": "September 2018",
+            "description": "Developed interactive educational materials using CSS3, JavaScript, and HTML5, alongside frameworks like Bootstrap and jQuery, for online courses reaching over 2 million students nationwide."
+        },
+        {
+            "companyWebsite": "https://www.google.com.br",
+            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQHodomaFlBNNg/company-logo_200_200/company-logo_200_200/0/1723577122134/agencia_humann_logo?e=1744848000&v=beta&t=LrFevsux7Pt1Ij8RBCDod3RCZzYBeApyTT87t2rpN-8",
+            "role": "Graphic Designer UI/UX",
+            "location": "Sumaré, SP",
+            "company": "Humman Inteligência Digital",
+            "startDate": "April 2014",
+            "endDate": "February 2015",
+            "description": "Collaborated on creating advertising materials for international clients and developed sophisticated user interfaces and experiences for various projects."
+        }
+    ],
+    "education": [
+        {
+            "institutionWebsite":"http://www.educacao.sp.gov.br/cgrh/escolas/luiz-campo-dall-orto-sobrinho/",
+            "institutionLogoUrl": "",
+            "degree": "High School Diploma",
+            "institution": "E.E. Luiz Campos Dall’orto Sobrinho",
+            "startDate": "January 2006",
+            "endDate": "December 2008",
+            "status":"Finished"
+        },
+        {
+            "institutionWebsite":"https://ciandt.com/br/",
+            "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQFrob6OoOk9iQ/company-logo_200_200/company-logo_200_200/0/1638360715950/dextra_digital_logo?e=1744848000&v=beta&t=DfQfHkuhoOMrRUJQ-HOKkkRHJO40SO0GUZ3Y03n58Ko",
+            "degree": "Java Spring MVC Training",
+            "institution": "Dextraining - Pólis de Alta Tecnologia",
+            "startDate": "February 2016",
+            "endDate": "September 2016",
+            "status":"Finished"
+        },
+        {
+            "institutionWebsite":"https://www.wyden.com.br/",
+            "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQFRqANreQfkjQ/company-logo_200_200/company-logo_200_200/0/1698864055544/wyden_educacional_logo?e=1744848000&v=beta&t=9F46SBxH4grtkHV65WqmD8Zu6-JzJ7tWj6nbzeFCtfk",
+            "degree": "Systems Analysis and Development",
+            "institution": "Wyden - Metrocamp",
+            "startDate": "September 2023",
+            "endDate": "January 2026",
+            "status":"In Progress"
+        }
+    ],
+    "skills": {
+        "programmingLanguages": [
+            "Java",
+            "JavaScript",
+            "Kotlin"
+        ],
+        "backend": [
+            "Web application and RESTful API development using Spring",
+            "SQL database integration with JPA and Hibernate",
+            "RESTful API documentation with Swagger"
+        ],
+        "frontend": [
+            "Web interface creation with React.js, JavaScript, CSS3, HTML5, Bootstrap, and jQuery"
+        ],
+        "android": [
+            "Native app development with Java and Kotlin",
+            "Experience with libraries like Room, SQLite, and Retrofit"
+        ],
+        "databases": [
+            "PostgreSQL",
+            "MySQL"
+        ],
+        "tools": [
+            "Version control with Git",
+            "Dependency management with Maven and Gradle",
+            "Dynamic reporting with JasperReports"
+        ]
+    }
+}
