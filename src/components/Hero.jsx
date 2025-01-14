@@ -1,4 +1,4 @@
-import { Avatar, Card, Col, Flex, Row } from "antd";
+import { Avatar, Flex } from "antd";
 import Paragraph from "antd/es/typography/Paragraph";
 import Title from "antd/es/typography/Title";
 
