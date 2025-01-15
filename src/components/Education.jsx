@@ -24,7 +24,7 @@ export default function Education({ education }) {
                         
                             <Flex vertical align="start" justify="space-between" style={{height: '100%', flex: 1, padding: '0 1rem 0 1rem'}}>
                                 <Title level={5} ellipsis={{ rows: 2, expandable: false, symbol: '...' }} style={{margin: 0}}>{item.degree}</Title>
-                                <Paragraph type="secondary" ellipsis={{ rows: 1, expandable: false, symbol: '...' }} style={{margin: 0}}>{item.institution}</Paragraph>
+                                <Paragraph type="secondary" ellipsis={{ rows: 2, expandable: false, symbol: '...' }} style={{margin: 0}}>{item.institution}</Paragraph>
                             </Flex>
                         
 

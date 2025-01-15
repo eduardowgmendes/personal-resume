@@ -15,7 +15,7 @@ export default function HomePage({ personalResume }) {
                     <Flex vertical style={{ padding: '1rem' }}>
                         
                         <Hero 
-                            profilePicture={'./src/assets/profile-picture.jpg'} 
+                            profilePicture={'./profile-picture.jpg'} 
                             name={personalResume.name} 
                             profileDetails={personalResume.profile} 
                             bio={personalResume.bio} 
