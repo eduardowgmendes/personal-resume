@@ -35,7 +35,7 @@ export default function Hero({ profilePicture, name, profileDetails, bio, contac
                 <Paragraph
                     type="secondary"
                     style={{ margin: 0, textAlign: 'center' }}
-                    ellipsis={{ rows: 5, expandable: true, symbol: '...' }}
+                    ellipsis={{ rows: 5, expandable: true, symbol: 'Ver mais' }}
                 >
                     {bio}
                 </Paragraph>
@@ -43,7 +43,7 @@ export default function Hero({ profilePicture, name, profileDetails, bio, contac
 
             <Flex align="start" justify="center" gap={'large'} style={{padding: '1rem'}} wrap>
                 {contacts.map((contact, index) => (
-                    <Flex vertical key={index} style={{padding: '1rem 0 1rem 0'}} flex={1}>
+                    <Flex vertical key={index} style={{padding: '1rem 0 1rem 0'}}>
                         <Paragraph style={{margin: 0}}>{contact.label}</Paragraph>
                         {contact.link ? (
                             <Link type="secondary" ellipsis={{ rows: 2, expandable: false, symbol: '...' }} href={contact.link} target="_blank" rel="noopener noreferrer">

@@ -32,9 +32,7 @@ function App() {
       }}>
       <Layout style={{ minHeight: '100vh'}}>
 
-        <Segmented vertical style={{ 
-         zIndex: 9999, margin: '1rem', position: 'absolute', top: 0, right: 0
-        }}
+        <Segmented vertical style={{ zIndex: 9999, margin: '1rem', position: 'absolute', top: 0, right: 0 }}
           options={[
             { icon: <SunFilled />, value: 'light' },
             { label: <MoonFilled />, value: 'dark' }

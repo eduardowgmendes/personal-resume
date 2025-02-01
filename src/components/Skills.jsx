@@ -12,7 +12,7 @@ export default function Skills({ skills }) {
 
                 <SectionHeader title={'Skills'} />
 
-                <Card bordered >
+                <Card bordered={false} >
                     <Flex vertical>
                         <Title level={5}>Backend</Title>
                         {skills.backend.map((item, index) => (

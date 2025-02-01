@@ -25,7 +25,66 @@
             "company": "Varitus do Brasil",
             "startDate": "June 2022",
             "endDate": "November 2023",
-            "description": "Collaborated with the engineering team on identifying and resolving issues in the Notafaz application for issuing tax documents. Developed and maintained REST APIs supporting multiple corporate applications, ensuring system efficiency, reliability, and scalability."
+            "description": "Collaborated with the engineering team on identifying and resolving issues in the Notafaz application for issuing tax documents. Developed and maintained REST APIs supporting multiple corporate applications, ensuring system efficiency, reliability, and scalability.",
+            "achievements": [],
+            "techonologiesUsed": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "alsoWorkedOn": [],
+            "projects": [
+                {
+                    "name": "Notafaz",
+                    "description": "A simple description of the project",
+                    "website": "https://www.google.com",
+                    "technologies": [
+                        "Java",
+                        "Spring",
+                        "Java EE",
+                        "Java Beans",
+                        "JAX-RS",
+                        "Soap",
+                        "Rest"
+                    ],
+                    "media": {
+                        "projectLogo": "https://logodownload.org/wp-content/uploads/2014/09/honda-carros-logo-1.png",
+                        "projectCover": "https://images.unsplash.com/photo-1560792523-9b3e98060a4d?q=80&w=1988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        "projectImages": [
+                            {
+                                "pictureUrl": "",
+                                "description": "",
+                                "pictureCaption": ""
+                            },
+                            {
+                                "pictureUrl": "",
+                                "description": "",
+                                "pictureCaption": ""
+                            },
+                            {
+                                "pictureUrl": "",
+                                "description": "",
+                                "pictureCaption": ""
+                            },
+                            {
+                                "pictureUrl": "",
+                                "description": "",
+                                "pictureCaption": ""
+                            }
+                        ]
+                    }
+                }
+            ]
         },
         {
             "companyWebsite": "https://www.google.com.br",
@@ -35,7 +94,66 @@
             "company": "OneBrain IT Solutions",
             "startDate": "November 2020",
             "endDate": "February 2021",
-            "description": "Assisted the backend team in developing REST APIs and maintaining and restructuring existing APIs using Java and JDBC Template for PostgreSQL database integration."
+            "description": "Assisted the backend team in developing REST APIs and maintaining and restructuring existing APIs using Java and JDBC Template for PostgreSQL database integration.",
+            "achievements": [],
+            "techonologiesUsed": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "alsoWorkedOn": [],
+            "projects": [
+                {
+                    "name": "Notafaz",
+                    "description": "",
+                    "website": "https://www.google.com",
+                    "technologies": [
+                        "Java",
+                        "Spring",
+                        "Java EE",
+                        "Java Beans",
+                        "JAX-RS",
+                        "Soap",
+                        "Rest"
+                    ],
+                    "media": {
+                        "projectLogo": "",
+                        "projectCover": "https://images.unsplash.com/photo-1604782206219-3b9576575203?q=80&w=1994&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        "projectImages": [
+                            {
+                                "pictureUrl": "",
+                                "description": "",
+                                "pictureCaption": ""
+                            },
+                            {
+                                "pictureUrl": "",
+                                "description": "",
+                                "pictureCaption": ""
+                            },
+                            {
+                                "pictureUrl": "",
+                                "description": "",
+                                "pictureCaption": ""
+                            },
+                            {
+                                "pictureUrl": "",
+                                "description": "",
+                                "pictureCaption": ""
+                            }
+                        ]
+                    }
+                }
+            ]
         },
         {
             "companyWebsite": "https://www.google.com.br",
@@ -45,7 +163,74 @@
             "company": "Kroton Educacional",
             "startDate": "August 2015",
             "endDate": "September 2018",
-            "description": "Developed interactive educational materials using CSS3, JavaScript, and HTML5, alongside frameworks like Bootstrap and jQuery, for online courses reaching over 2 million students nationwide."
+            "description": "Developed interactive educational materials using CSS3, JavaScript, and HTML5, alongside frameworks like Bootstrap and jQuery, for online courses reaching over 2 million students nationwide.",
+            "achievements": [],
+            "techonologiesUsed": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "alsoWorkedOn": [
+                {
+                    "media": {
+                        "projectLogo": ""
+                    },
+                    "name": "Novo Layout Web Aulas",
+                    "description": "Definição de um novo layout e formato de Web Aulas mais interativas com utilização do Bootstrap para melhorar a experiência do aluno."
+                }
+            ],
+            "projects": [
+                {
+                    "name": "Notafaz",
+                    "description": "",
+                    "website": "https://www.google.com",
+                    "technologies": [
+                        "Java",
+                        "Spring",
+                        "Java EE",
+                        "Java Beans",
+                        "JAX-RS",
+                        "Soap",
+                        "Rest"
+                    ],
+                    "media": {
+                        "projectLogo": "",
+                        "projectCover": "https://images.unsplash.com/photo-1572705824045-3dd0c9a47945?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        "projectImages": [
+                            {
+                                "pictureUrl": "",
+                                "description": "",
+                                "pictureCaption": ""
+                            },
+                            {
+                                "pictureUrl": "",
+                                "description": "",
+                                "pictureCaption": ""
+                            },
+                            {
+                                "pictureUrl": "",
+                                "description": "",
+                                "pictureCaption": ""
+                            },
+                            {
+                                "pictureUrl": "",
+                                "description": "",
+                                "pictureCaption": ""
+                            }
+                        ]
+                    }
+                }
+            ]
         },
         {
             "companyWebsite": "https://www.google.com.br",
@@ -55,36 +240,200 @@
             "company": "Humman Inteligência Digital",
             "startDate": "April 2014",
             "endDate": "February 2015",
-            "description": "Collaborated on creating advertising materials for international clients and developed sophisticated user interfaces and experiences for various projects."
+            "description": "Collaborated on creating advertising materials for international clients and developed sophisticated user interfaces and experiences for various projects.",
+            "achievements": [
+                {
+                    "name": "Vencedor do Prêmio do Site da Beiesdorff",
+                    "description": "A agência alcançou um novo prêmio destaque no ano de 2014."
+                }
+            ],
+            "techonologiesUsed": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "alsoWorkedOn": [
+                {
+                    "media": {
+                        "projectLogo": ""
+                    },
+                    "name": "Beiersdorff WebSite",
+                    "description": "A simple project description"
+                },
+                {
+                    "media": {
+                        "projectLogo": ""
+                    },
+                    "name": "Beiersdorff WebSite",
+                    "description": "A simple project description"
+                },
+                {
+                    "media": {
+                        "projectLogo": ""
+                    },
+                    "name": "Beiersdorff WebSite",
+                    "description": "A simple project description"
+                }
+            ],
+            "projects": [
+                {
+                    "name": "Beiersdorff",
+                    "description": "Desenvolvi funcionalidades e implementei melhorias no website da Beiersdorff, focando na experiência do usuário, otimização de desempenho e alinhamento com as necessidades do cliente.",
+                    "website": "https://www.google.com",
+                    "technologies": [
+                        "Java",
+                        "Spring",
+                        "Java EE",
+                        "Java Beans",
+                        "JAX-RS",
+                        "Soap",
+                        "Rest"
+                    ],
+                    "media": {
+                        "projectLogo": "",
+                        "projectCover": "https://images.unsplash.com/photo-1456024569359-9e78b5d10a80?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        "projectImages": [
+                            {
+                                "pictureUrl": "",
+                                "description": "",
+                                "pictureCaption": ""
+                            },
+                            {
+                                "pictureUrl": "",
+                                "description": "",
+                                "pictureCaption": ""
+                            },
+                            {
+                                "pictureUrl": "",
+                                "description": "",
+                                "pictureCaption": ""
+                            },
+                            {
+                                "pictureUrl": "",
+                                "description": "",
+                                "pictureCaption": ""
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Reckitt & Benckiser",
+                    "description": "Contribuí para a manutenção do site e o desenvolvimento de novas seções interativas, garantindo uma interface responsiva e moderna.",
+                    "website": "https://www.google.com",
+                    "technologies": [
+                        "Java",
+                        "Spring",
+                        "Java EE",
+                        "Java Beans",
+                        "JAX-RS",
+                        "Soap",
+                        "Rest"
+                    ],
+                    "media": {
+                        "projectLogo": "",
+                        "projectCover": "https://images.unsplash.com/photo-1595105579635-662c74f88f05?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        "projectImages": [
+                            {
+                                "pictureUrl": "",
+                                "description": "",
+                                "pictureCaption": ""
+                            },
+                            {
+                                "pictureUrl": "",
+                                "description": "",
+                                "pictureCaption": ""
+                            },
+                            {
+                                "pictureUrl": "",
+                                "description": "",
+                                "pictureCaption": ""
+                            },
+                            {
+                                "pictureUrl": "",
+                                "description": "",
+                                "pictureCaption": ""
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "courses": [
+        {
+            "institutionWebsite": "",
+            "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQEZkMsv5FwbDA/company-logo_200_200/company-logo_200_200/0/1710187635900/aluracursos_logo?e=1744848000&v=beta&t=G9eg2VCq9Q_xNmPHWBwCOsdwAAZiJSs8FY_9OZ26nLI",
+            "name": "Android Recycler View",
+            "institution": "Alura",
+            "startDate": "November 2018",
+            "endDate": "December 2018",
+            "status": "Finished"
+        },
+        {
+            "institutionWebsite": "https://www.udemy.com/",
+            "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1744848000&v=beta&t=dUiQ0MY-f0i4jPuTVzpfeEJL8XlUUY_bM5Os9V5jXOU",
+            "name": "Kotlin",
+            "institution": "Udemy",
+            "startDate": "November 2019",
+            "endDate": "January 2020",
+            "status": "Finished"
+        },
+        {
+            "institutionWebsite": "https://www.udemy.com/",
+            "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1744848000&v=beta&t=dUiQ0MY-f0i4jPuTVzpfeEJL8XlUUY_bM5Os9V5jXOU",
+            "name": "Flutter",
+            "institution": "Udemy",
+            "startDate": "November 2019",
+            "endDate": "February 2020",
+            "status": "Finished"
+        },
+        {
+            "institutionWebsite": "https://www.udemy.com/",
+            "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1744848000&v=beta&t=dUiQ0MY-f0i4jPuTVzpfeEJL8XlUUY_bM5Os9V5jXOU",
+            "name": "Spring MVC",
+            "institution": "Udemy",
+            "startDate": "December 2019",
+            "endDate": "March 2020",
+            "status": "Finished"
         }
     ],
     "education": [
         {
-            "institutionWebsite":"http://www.educacao.sp.gov.br/cgrh/escolas/luiz-campo-dall-orto-sobrinho/",
+            "institutionWebsite": "http://www.educacao.sp.gov.br/cgrh/escolas/luiz-campo-dall-orto-sobrinho/",
             "institutionLogoUrl": "",
             "degree": "High School Diploma",
             "institution": "E.E. Luiz Campos Dall’orto Sobrinho",
             "startDate": "January 2006",
             "endDate": "December 2008",
-            "status":"Finished"
+            "status": "Finished"
         },
         {
-            "institutionWebsite":"https://ciandt.com/br/",
+            "institutionWebsite": "https://ciandt.com/br/",
             "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQFrob6OoOk9iQ/company-logo_200_200/company-logo_200_200/0/1638360715950/dextra_digital_logo?e=1744848000&v=beta&t=DfQfHkuhoOMrRUJQ-HOKkkRHJO40SO0GUZ3Y03n58Ko",
             "degree": "Java Spring MVC Training",
             "institution": "Dextraining - Pólis de Alta Tecnologia",
             "startDate": "February 2016",
             "endDate": "September 2016",
-            "status":"Finished"
+            "status": "Finished"
         },
         {
-            "institutionWebsite":"https://www.wyden.com.br/",
+            "institutionWebsite": "https://www.wyden.com.br/",
             "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQFRqANreQfkjQ/company-logo_200_200/company-logo_200_200/0/1698864055544/wyden_educacional_logo?e=1744848000&v=beta&t=9F46SBxH4grtkHV65WqmD8Zu6-JzJ7tWj6nbzeFCtfk",
             "degree": "Systems Analysis and Development",
             "institution": "Wyden - Metrocamp",
             "startDate": "September 2023",
             "endDate": "January 2026",
-            "status":"In Progress"
+            "status": "In Progress"
         }
     ],
     "skills": {
