@@ -18,7 +18,7 @@
     },
     "workExperience": [
         {
-            "companyWebsite": "https://www.google.com.br",
+            "companyWebsite": "https://www.varitus.com.br/",
             "companyLogoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQH5AzTMCm_FTg/company-logo_200_200/company-logo_200_200/0/1630480530366/varitus_logo?e=1744848000&v=beta&t=A4YCOL21Q8T5USumG2qEpxn_2k54G3oa7XERXYW3Z5M",
             "role": "Junior Java Backend Developer",
             "location": "Araras, SP",
@@ -28,26 +28,23 @@
             "description": "Collaborated with the engineering team on identifying and resolving issues in the Notafaz application for issuing tax documents. Developed and maintained REST APIs supporting multiple corporate applications, ensuring system efficiency, reliability, and scalability.",
             "achievements": [],
             "techonologiesUsed": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Java",
+                "Spring MVC",
+                "XML",
+                "React.js",
+                "Flyway",
+                "Amazon Web Services",
+                "Jenkins",
+                "JUnit",
+                "Mockito"
             ],
             "alsoWorkedOn": [],
             "projects": [
                 {
                     "name": "Notafaz",
-                    "description": "A simple description of the project",
-                    "website": "https://www.google.com",
+                    "category": "Sistema de Emissão e Gestão de Documentos Fiscais.",
+                    "description": "Solução completa para emissão dos principais documentos eletrônicos, usada por mais de 10 mil empresas.",
+                    "website": "https://www.varitus.com.br/notafaz-para-medias-e-grandes-empresas/",
                     "technologies": [
                         "Java",
                         "Spring",
@@ -57,31 +54,107 @@
                         "Soap",
                         "Rest"
                     ],
-                    "media": {
-                        "projectLogo": "https://logodownload.org/wp-content/uploads/2014/09/honda-carros-logo-1.png",
-                        "projectCover": "https://images.unsplash.com/photo-1560792523-9b3e98060a4d?q=80&w=1988&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "projectImages": [
+                    "time": {
+                        "tasksDelivered": 144,
+                        "timePlayed": "128hs",
+                        "timeSpent": [
                             {
-                                "pictureUrl": "",
-                                "description": "",
-                                "pictureCaption": ""
+                                "name": "bugfixes",
+                                "color": "purple",
+                                "value": 70
                             },
                             {
-                                "pictureUrl": "",
-                                "description": "",
-                                "pictureCaption": ""
+                                "name": "new-features",
+                                "color": "green",
+                                "value": 20
                             },
                             {
-                                "pictureUrl": "",
-                                "description": "",
-                                "pictureCaption": ""
-                            },
-                            {
-                                "pictureUrl": "",
-                                "description": "",
-                                "pictureCaption": ""
+                                "name": "critical-issues",
+                                "color": "red",
+                                "value": 10
                             }
                         ]
+                    },
+                    "media": {
+                        "projectLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfo9Bkg-jxrpOVvBrjudSwDzfWQY_p2t5-VA&s",
+                        "projectCover": "https://images.unsplash.com/photo-1586486855514-8c633cc6fd38?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        "projectImages": []
+                    }
+                },
+                {
+                    "name": "Canhoto Fácil",
+                    "category": "Rastreaador de Entregas e Canhotos em Tempo Real ",
+                    "description": "Acompanhe cada etapa da sua logística de entrega com facilidade e sem complicações.",
+                    "website": "https://materiais.varitus.com.br/canhoto/",
+                    "technologies": [
+                        "Java",
+                        "Spring",
+                        "Rest",
+                        "React.js"
+                    ],
+                    "time": {
+                        "tasksDelivered": 62,
+                        "timePlayed": "71hs",
+                        "timeSpent": [
+                            {
+                                "name": "bugfixes",
+                                "color": "purple",
+                                "value": 60
+                            },
+                            {
+                                "name": "new-features",
+                                "color": "green",
+                                "value": 30
+                            },
+                            {
+                                "name": "critical-issues",
+                                "color": "red",
+                                "value": 10
+                            }
+                        ]
+                    },
+                    "media": {
+                        "projectLogo": "https://materiais.varitus.com.br/wp-content/uploads/2024/11/logo-CANHOTO-FACIL-branco-1024x267.png",
+                        "projectCover": "https://images.unsplash.com/photo-1617347454431-f49d7ff5c3b1?q=80&w=1115&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        "projectImages": []
+                    }
+                },
+                {
+                    "name": "V.Cash",
+                    "category": "Aplicação de Gestão e Controle de Fluxo de Caixa.",
+                    "description": "Tenha o controle das despesas, evitando prejuízos e gastos desnecessários. Plataforma online com armazenamento em nuvem que possui todos os recursos para apurar seu fluxo de caixa de maneira ágil, simples e inteligente!",
+                    "website": "https://www.varitus.com.br/v-cash/",
+                    "technologies": [
+                        "Java",
+                        "Spring",
+                        "Rest",
+                        "React.js"
+                    ],
+                    "time": {
+                        "tasksDelivered": 62,
+                        "timePlayed": "71hs",
+                        "timeSpent": [
+                            {
+                                "name": "bugfixes",
+                                "color": "purple",
+                                "value": 60
+                            },
+                            {
+                                "name": "new-features",
+                                "color": "green",
+                                "value": 30
+                            },
+                            {
+                                "name": "critical-issues",
+                                "color": "red",
+                                "value": 10
+                            }
+                        ]
+                    },
+                    "media": {
+                        "projectLogo": "https://www.varitus.com.br/wp-content/uploads/2021/08/vcash-white.svg",
+                        "projectCover": "https://images.unsplash.com/photo-1617347454431-f49d7ff5c3b1?q=80&w=1115&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        "projectImages": []
                     }
                 }
             ]
@@ -116,6 +189,7 @@
                 {
                     "name": "Notafaz",
                     "description": "",
+                    "category": "Sistema de Emissão e Gestão de Documentos Fiscais.",
                     "website": "https://www.google.com",
                     "technologies": [
                         "Java",
@@ -126,31 +200,31 @@
                         "Soap",
                         "Rest"
                     ],
+                    "time": {
+                        "tasksDelivered": "144",
+                        "timePlayed": "128hs",
+                        "timeSpent": [
+                            {
+                                "name": "bugfixes",
+                                "color": "purple",
+                                "value": 16
+                            },
+                            {
+                                "name": "new-features",
+                                "color": "green",
+                                "value": 18
+                            },
+                            {
+                                "name": "critical-issues",
+                                "color": "red",
+                                "value": 4
+                            }
+                        ]
+                    },
                     "media": {
                         "projectLogo": "",
                         "projectCover": "https://images.unsplash.com/photo-1604782206219-3b9576575203?q=80&w=1994&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "projectImages": [
-                            {
-                                "pictureUrl": "",
-                                "description": "",
-                                "pictureCaption": ""
-                            },
-                            {
-                                "pictureUrl": "",
-                                "description": "",
-                                "pictureCaption": ""
-                            },
-                            {
-                                "pictureUrl": "",
-                                "description": "",
-                                "pictureCaption": ""
-                            },
-                            {
-                                "pictureUrl": "",
-                                "description": "",
-                                "pictureCaption": ""
-                            }
-                        ]
+                        "projectImages": []
                     }
                 }
             ]
@@ -193,6 +267,7 @@
                 {
                     "name": "Notafaz",
                     "description": "",
+                    "category": "Sistema de Emissão e Gestão de Documentos Fiscais.",
                     "website": "https://www.google.com",
                     "technologies": [
                         "Java",
@@ -203,31 +278,31 @@
                         "Soap",
                         "Rest"
                     ],
+                    "time": {
+                        "tasksDelivered": "144",
+                        "timePlayed": "128hs",
+                        "timeSpent": [
+                            {
+                                "name": "bugfixes",
+                                "color": "purple",
+                                "value": 16
+                            },
+                            {
+                                "name": "new-features",
+                                "color": "green",
+                                "value": 18
+                            },
+                            {
+                                "name": "critical-issues",
+                                "color": "red",
+                                "value": 4
+                            }
+                        ]
+                    },
                     "media": {
                         "projectLogo": "",
                         "projectCover": "https://images.unsplash.com/photo-1572705824045-3dd0c9a47945?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "projectImages": [
-                            {
-                                "pictureUrl": "",
-                                "description": "",
-                                "pictureCaption": ""
-                            },
-                            {
-                                "pictureUrl": "",
-                                "description": "",
-                                "pictureCaption": ""
-                            },
-                            {
-                                "pictureUrl": "",
-                                "description": "",
-                                "pictureCaption": ""
-                            },
-                            {
-                                "pictureUrl": "",
-                                "description": "",
-                                "pictureCaption": ""
-                            }
-                        ]
+                        "projectImages": []
                     }
                 }
             ]
@@ -299,27 +374,48 @@
                         "Soap",
                         "Rest"
                     ],
+                    "time": {
+                        "tasksDelivered": "144",
+                        "timePlayed": "128hs",
+                        "timeSpent": [
+                            {
+                                "name": "bugfixes",
+                                "color": "purple",
+                                "value": 16
+                            },
+                            {
+                                "name": "new-features",
+                                "color": "green",
+                                "value": 18
+                            },
+                            {
+                                "name": "critical-issues",
+                                "color": "red",
+                                "value": 4
+                            }
+                        ]
+                    },
                     "media": {
                         "projectLogo": "",
                         "projectCover": "https://images.unsplash.com/photo-1456024569359-9e78b5d10a80?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         "projectImages": [
                             {
-                                "pictureUrl": "",
+                                "pictureUrl": "https://images.unsplash.com/photo-1736156725121-027231636f9d?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                                 "description": "",
                                 "pictureCaption": ""
                             },
                             {
-                                "pictureUrl": "",
+                                "pictureUrl": "https://images.unsplash.com/photo-1738363436637-ee6f4a910715?q=80&w=1365&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                                 "description": "",
                                 "pictureCaption": ""
                             },
                             {
-                                "pictureUrl": "",
+                                "pictureUrl": "https://images.unsplash.com/photo-1738251198850-39ba48c75fde?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                                 "description": "",
                                 "pictureCaption": ""
                             },
                             {
-                                "pictureUrl": "",
+                                "pictureUrl": "https://images.unsplash.com/photo-1735627062325-c978986b1871?q=80&w=1112&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                                 "description": "",
                                 "pictureCaption": ""
                             }
@@ -328,6 +424,7 @@
                 },
                 {
                     "name": "Reckitt & Benckiser",
+                    "category": "Sistema de Emissão e Gestão de Documentos Fiscais.",
                     "description": "Contribuí para a manutenção do site e o desenvolvimento de novas seções interativas, garantindo uma interface responsiva e moderna.",
                     "website": "https://www.google.com",
                     "technologies": [
@@ -339,31 +436,31 @@
                         "Soap",
                         "Rest"
                     ],
+                    "time": {
+                        "tasksDelivered": "144",
+                        "timePlayed": "128hs",
+                        "timeSpent": [
+                            {
+                                "name": "bugfixes",
+                                "color": "purple",
+                                "value": 16
+                            },
+                            {
+                                "name": "new-features",
+                                "color": "green",
+                                "value": 18
+                            },
+                            {
+                                "name": "critical-issues",
+                                "color": "red",
+                                "value": 4
+                            }
+                        ]
+                    },
                     "media": {
                         "projectLogo": "",
                         "projectCover": "https://images.unsplash.com/photo-1595105579635-662c74f88f05?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "projectImages": [
-                            {
-                                "pictureUrl": "",
-                                "description": "",
-                                "pictureCaption": ""
-                            },
-                            {
-                                "pictureUrl": "",
-                                "description": "",
-                                "pictureCaption": ""
-                            },
-                            {
-                                "pictureUrl": "",
-                                "description": "",
-                                "pictureCaption": ""
-                            },
-                            {
-                                "pictureUrl": "",
-                                "description": "",
-                                "pictureCaption": ""
-                            }
-                        ]
+                        "projectImages": []
                     }
                 }
             ]
