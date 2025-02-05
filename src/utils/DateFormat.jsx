@@ -1,4 +1,5 @@
 import { Flex } from "antd";
+import Paragraph from "antd/es/typography/Paragraph";
 
 export default function DateFormat({ dateString }) {
 
@@ -24,7 +25,7 @@ export default function DateFormat({ dateString }) {
 
   return (
     <Flex>
-      <small style={{ lineHeight: '1rem' }}>{formatDate(dateString)}</small>
+      <Paragraph type="secondary" className="small" style={{margin: 0}} ellipsis={{ rows: 1, expandable: false, symbol: '...' }}>{formatDate(dateString)}</Paragraph>
     </Flex>
   )
 }
