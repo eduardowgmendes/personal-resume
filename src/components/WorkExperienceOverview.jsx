@@ -2,8 +2,9 @@ import { Avatar, Button, Card, Col, Collapse, Empty, Flex, Image, List, Popover,
 import SectionHeader from "./SectionHeader";
 import Paragraph from "antd/es/typography/Paragraph";
 import Title from "antd/es/typography/Title";
-import { AppstoreOutlined, BranchesOutlined, BugOutlined, CheckCircleFilled, ExportOutlined, FieldTimeOutlined, IdcardOutlined, PlayCircleFilled, QuestionCircleOutlined, UserOutlined } from "@ant-design/icons";
+import { AppstoreOutlined, ArrowRightOutlined, BranchesOutlined, BugOutlined, CalendarOutlined, CheckCircleFilled, ExportOutlined, FieldTimeOutlined, HeatMapOutlined, IdcardOutlined, MinusOutlined, PlayCircleFilled, PullRequestOutlined, PushpinOutlined, QuestionCircleOutlined, RightCircleOutlined, RightOutlined, RightSquareFilled, UserOutlined } from "@ant-design/icons";
 import { useState } from "react";
+import DateFormat from "../utils/DateFormat";
 
 export default function WorkExperienceOverview({ workExperience }) {
 
@@ -38,10 +39,24 @@ export default function WorkExperienceOverview({ workExperience }) {
             <Row gutter={[8, 8]}>
                 <Col span={24}>
                     <Flex align="center" justify="start" gap={'middle'}>
-                        <Avatar shape="square" size={'large'} src={workExperience.companyLogoUrl} />
+                        <Avatar shape="square" size={64} src={workExperience.companyLogoUrl} />
                         <Flex vertical flex={1}>
                             <Title level={4} style={{ margin: 0 }}>{workExperience.company}</Title>
-                            <Title level={5} type='secondary' style={{ margin: 0 }}>{workExperience.role}</Title>
+                            <Paragraph type='secondary' style={{ margin: 0 }}>{workExperience.role}</Paragraph>
+                            <Flex align="center" justify="start" gap={'large'}>
+                                <Flex align="center" justify="space-between" gap={'small'}>
+                                    <PushpinOutlined />
+                                    <small style={{ margin: 0 }}>{workExperience.location}</small>
+                                </Flex>
+                                <Flex align="center" justify="space-between" gap={'small'}>
+                                    <CalendarOutlined />
+                                    <Flex gap={'small'} align="center" justify="start">
+                                        <DateFormat dateString={workExperience.startDate} />
+                                        <RightOutlined style={{ color: 'rgba(255, 255, 255, .32)' }} />
+                                        <DateFormat dateString={workExperience.endDate} />
+                                    </Flex>
+                                </Flex>
+                            </Flex>
                         </Flex>
                     </Flex>
                 </Col>
@@ -166,7 +181,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                                                                         <Row gutter={[8, 8]}>
 
                                                                             <Col xs={{ span: 12 }} sm={{ span: 24 }} md={{ span: 12 }} lg={{ span: 12 }} xl={{ span: 12 }} xxl={{ span: 12 }}>
-                                                                                <Statistic style={{ flex: 1 }} prefix={<BranchesOutlined />} title='Tasks Entregues' value={project.time.tasks.tasksDelivered} />
+                                                                                <Statistic style={{ flex: 1 }} prefix={<PullRequestOutlined />} title='Tasks Entregues' value={project.time.tasks.tasksDelivered} />
                                                                             </Col>
 
                                                                             <Col xs={{ span: 12 }} sm={{ span: 24 }} md={{ span: 12 }} lg={{ span: 12 }} xl={{ span: 12 }} xxl={{ span: 12 }}>
