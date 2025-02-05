@@ -2,7 +2,7 @@ import { Avatar, Button, Card, Col, Collapse, Empty, Flex, Image, List, Popover,
 import SectionHeader from "./SectionHeader";
 import Paragraph from "antd/es/typography/Paragraph";
 import Title from "antd/es/typography/Title";
-import { AppstoreOutlined, ArrowRightOutlined, BranchesOutlined, BugOutlined, CalendarOutlined, CheckCircleFilled, ExportOutlined, FieldTimeOutlined, HeatMapOutlined, IdcardOutlined, MinusOutlined, PlayCircleFilled, PullRequestOutlined, PushpinOutlined, QuestionCircleOutlined, RightCircleOutlined, RightOutlined, RightSquareFilled, UserOutlined } from "@ant-design/icons";
+import { AppstoreOutlined, ArrowRightOutlined, BranchesOutlined, BugOutlined, CalendarOutlined, CaretRightFilled, CheckCircleFilled, DoubleRightOutlined, ExportOutlined, FieldTimeOutlined, HeatMapOutlined, IdcardOutlined, MinusOutlined, PlayCircleFilled, PullRequestOutlined, PushpinOutlined, QuestionCircleOutlined, RightCircleOutlined, RightOutlined, RightSquareFilled, UserOutlined } from "@ant-design/icons";
 import { useState } from "react";
 import DateFormat from "../utils/DateFormat";
 
@@ -52,7 +52,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                                     <CalendarOutlined />
                                     <Flex gap={'small'} align="center" justify="start">
                                         <DateFormat dateString={workExperience.startDate} />
-                                        <RightOutlined style={{ color: 'rgba(255, 255, 255, .32)' }} />
+                                        <ArrowRightOutlined />
                                         <DateFormat dateString={workExperience.endDate} />
                                     </Flex>
                                 </Flex>
@@ -100,10 +100,6 @@ export default function WorkExperienceOverview({ workExperience }) {
                                         <Col span={24}>
 
                                             <Flex vertical gap={'small'}>
-
-                                                <Flex align="center" justify="space-between" gap={'small'}>
-                                                    <Title level={5}>Detalhes</Title>
-                                                </Flex>
 
                                                 <Collapse
                                                     collapsible="header"
