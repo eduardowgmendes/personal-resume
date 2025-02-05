@@ -33,6 +33,7 @@ export default function Hero({ profilePicture, name, profileDetails, bio, contac
             </Flex>
 
             <Flex align="center" justify="center" gap={'large'} style={{ padding: '1rem', textAlign: 'center' }} wrap>
+                <Paragraph><HomeOutlined />{contactDetails.address}</Paragraph>
                 <Paragraph><GithubOutlined /> <a href={contactDetails.github} target="_blank" rel="noopener noreferrer">GitHub</a></Paragraph>
                 <Paragraph><LinkedinOutlined /> <a href={contactDetails.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a></Paragraph>
                 <Paragraph><PhoneOutlined /> {contactDetails.mobile}</Paragraph>
