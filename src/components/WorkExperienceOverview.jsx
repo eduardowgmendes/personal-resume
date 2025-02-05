@@ -46,7 +46,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                             <Flex align="center" justify="start" gap={'large'}>
                                 <Flex align="center" justify="space-between" gap={'small'}>
                                     <PushpinOutlined />
-                                    <small style={{ margin: 0 }}>{workExperience.location}</small>
+                                    <Paragraph className="small" style={{ margin: 0 }} ellipsis={{ rows: 1, expandable: false, symbol: '...' }}>{workExperience.location}</Paragraph>
                                 </Flex>
                                 <Flex align="center" justify="space-between" gap={'small'}>
                                     <CalendarOutlined />
@@ -97,7 +97,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                                             </Flex>
                                         </Col>
 
-                                        <Col span={24} style={{padding: 0}}>
+                                        <Col span={24} style={{ padding: 0 }}>
 
                                             <Flex vertical gap={'small'}>
 
