@@ -97,7 +97,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                                             </Flex>
                                         </Col>
 
-                                        <Col span={24}>
+                                        <Col span={24} style={{padding: 0}}>
 
                                             <Flex vertical gap={'small'}>
 
