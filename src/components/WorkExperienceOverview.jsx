@@ -77,7 +77,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                                     <Row gutter={[16, 16]}>
 
                                         <Col span={24}>
-                                            <Flex align="center" justify="stretch" gap={'middle'}>
+                                            <Flex align="start" justify="stretch" gap={'middle'}>
                                                 {project.media.projectLogo.length > 0 ?
                                                     <Avatar shape="square" size={'large'} src={project.media.projectLogo} /> : <Avatar shape="square" size={'large'} icon={<IdcardOutlined />} />
                                                 }
@@ -86,7 +86,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                                                     <Paragraph type="secondary" style={{ margin: 0 }}>{project.category}</Paragraph>
                                                 </Flex>
                                                 <Tooltip title={'Visitar'}>
-                                                    <Button type="icon" icon={<ExportOutlined />} src={project.website} />
+                                                    <Button type="icon" icon={<ExportOutlined />} src={project.website} target="_blank" rel="noopener noreferrer" />
                                                 </Tooltip>
                                             </Flex>
                                         </Col>
