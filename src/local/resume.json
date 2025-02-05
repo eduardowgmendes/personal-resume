@@ -1,0 +1,747 @@
+{
+    "name": "Eduardo Willian Gonçalves Mendes",
+    "profile": {
+        "profession": "Junior Java Backend Developer",
+        "nationality": "Brazilian",
+        "age": 33
+    },
+    "bio": "Desenvolvedor Java e Android Júnior, super entusiasta de tecnologias mobile e sistemas operacionais. Cada vez mais apaixonado pela plataforma Java, evangelista da plataforma Android e aventureiro Kotlin. Saudosista de tecnologias mobile antigas - hardware e software - dono de um Nokia 3110. Defensor assíduo das boas práticas de desenvolvimento de software Orientado à Objetos.",
+    "contact": {
+        "address": "Rua José Sergio, 203 – JD Maria Antônia - Sumaré São Paulo - 13178-416",
+        "github": "https://github.com/eduardowgmendes",
+        "whatsapp": "(19) 98209-1363",
+        "mobile": "(19) 98209-1363",
+        "alternatePhone": "(19) 98209-1363",
+        "linkedin": "https://www.linkedin.com/in/eduardo-willian-goncalves-mendes/",
+        "primaryEmail": "eduardowilliangm@gmail.com",
+        "secondaryEmail": "eduardowilliangm@hotmail.com"
+    },
+    "workExperience": [
+        {
+            "companyWebsite": "https://www.varitus.com.br/",
+            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQH5AzTMCm_FTg/company-logo_200_200/company-logo_200_200/0/1630480530366/varitus_logo?e=1744848000&v=beta&t=A4YCOL21Q8T5USumG2qEpxn_2k54G3oa7XERXYW3Z5M",
+            "role": "Junior Java Backend Developer",
+            "location": "Araras, SP",
+            "company": "Varitus do Brasil",
+            "startDate": "June 2022",
+            "endDate": "November 2023",
+            "description": "Collaborated with the engineering team on identifying and resolving issues in the Notafaz application for issuing tax documents. Developed and maintained REST APIs supporting multiple corporate applications, ensuring system efficiency, reliability, and scalability.",
+            "achievements": [],
+            "techonologiesUsed": [
+                "Java",
+                "Spring MVC",
+                "XML",
+                "React.js",
+                "Flyway",
+                "Amazon Web Services",
+                "Jenkins",
+                "JUnit",
+                "Mockito"
+            ],
+            "alsoWorkedOn": [],
+            "projects": [
+                {
+                    "id": 1,
+                    "name": "Notafaz",
+                    "category": "Sistema de Emissão e Gestão de Documentos Fiscais.",
+                    "description": "Solução completa para emissão dos principais documentos eletrônicos, usada por mais de 10 mil empresas.",
+                    "website": "https://www.varitus.com.br/notafaz-para-medias-e-grandes-empresas/",
+                    "reach": 1750000,
+                    "dimension": "Grande",
+                    "tools": {
+                        "applications": [
+                            {
+                                "logo": "",
+                                "name": "Jasper Reports",
+                                "description": "Ferramenta de criação de relatórios."
+                            }
+                        ],
+                        "technologies": [
+                            "Java",
+                            "Spring",
+                            "Java EE",
+                            "Java Beans",
+                            "JAX-RS",
+                            "Soap",
+                            "Rest"
+                        ]
+                    },
+                    "time": {
+                        "totalPlayed": "128hs",
+                        "tasks": {
+                            "title": "Tasks Entregues & Atuação no Projeto",
+                            "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
+                            "tasksDelivered": 144
+                        },
+                        "spent": {
+                            "title": "Balanço de Tempo",
+                            "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
+                            "values": [
+                                {
+                                    "name": "Resolução de Bugs",
+                                    "color": "blue",
+                                    "value": 70
+                                },
+                                {
+                                    "name": "Novas Features",
+                                    "color": "green",
+                                    "value": 20
+                                },
+                                {
+                                    "name": "Problemas Críticos",
+                                    "color": "red",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    },
+                    "media": {
+                        "projectLogo": "./images/logos/companies/varitus/notafaz-logo.png",
+                        "projectCover": "https://images.unsplash.com/photo-1586486855514-8c633cc6fd38?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        "projectImages": [],
+                        "colors": {
+                            "primary": "blue"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "Canhoto Fácil",
+                    "category": "Rastreaador de Entregas e Canhotos em Tempo Real ",
+                    "description": "Acompanhe cada etapa da sua logística de entrega com facilidade e sem complicações.",
+                    "website": "https://materiais.varitus.com.br/canhoto/",
+                    "reach": 400000,
+                    "dimension": "Grande",
+                    "tools": {
+                        "applications": [
+                            {
+                                "logo": "",
+                                "name": "Jasper Reports",
+                                "description": "Ferramenta de criação de relatórios."
+                            }
+                        ],
+                        "technologies": [
+                            "Java",
+                            "Spring",
+                            "Java EE",
+                            "Java Beans",
+                            "JAX-RS",
+                            "Soap",
+                            "Rest"
+                        ]
+                    },
+                    "time": {
+                        "totalPlayed": "128hs",
+                        "tasks": {
+                            "title": "Tasks Entregues & Atuação no Projeto",
+                            "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
+                            "tasksDelivered": 144
+                        },
+                        "spent": {
+                            "title": "Balanço de Tempo",
+                            "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
+                            "values": [
+                                {
+                                    "name": "Resolução de Bugs",
+                                    "color": "blue",
+                                    "value": 70
+                                },
+                                {
+                                    "name": "Novas Features",
+                                    "color": "green",
+                                    "value": 20
+                                },
+                                {
+                                    "name": "Problemas Críticos",
+                                    "color": "red",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    },
+                    "media": {
+                        "projectLogo": "./images/logos/companies/varitus/canhoto-facil-logo.png",
+                        "projectCover": "https://images.unsplash.com/photo-1617347454431-f49d7ff5c3b1?q=80&w=1115&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        "projectImages": [],
+                        "colors": {
+                            "primary": "orange"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "V.Cash",
+                    "category": "Aplicação de Gestão e Controle de Fluxo de Caixa.",
+                    "description": "Tenha o controle das despesas, evitando prejuízos e gastos desnecessários. Plataforma online com armazenamento em nuvem que possui todos os recursos para apurar seu fluxo de caixa de maneira ágil, simples e inteligente!",
+                    "website": "https://www.varitus.com.br/v-cash/",
+                    "reach": 10000,
+                    "dimension": "Grande",
+                    "tools": {
+                        "applications": [
+                            {
+                                "logo": "",
+                                "name": "Jasper Reports",
+                                "description": "Ferramenta de criação de relatórios."
+                            }
+                        ],
+                        "technologies": [
+                            "Java",
+                            "Spring",
+                            "Java EE",
+                            "Java Beans",
+                            "JAX-RS",
+                            "Soap",
+                            "Rest"
+                        ]
+                    },
+                    "time": {
+                        "totalPlayed": "128hs",
+                        "tasks": {
+                            "title": "Tasks Entregues & Atuação no Projeto",
+                            "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
+                            "tasksDelivered": 144
+                        },
+                        "spent": {
+                            "title": "Balanço de Tempo",
+                            "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
+                            "values": [
+                                {
+                                    "name": "Resolução de Bugs",
+                                    "color": "blue",
+                                    "value": 70
+                                },
+                                {
+                                    "name": "Novas Features",
+                                    "color": "green",
+                                    "value": 20
+                                },
+                                {
+                                    "name": "Problemas Críticos",
+                                    "color": "red",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    },
+                    "media": {
+                        "projectLogo": "./images/logos/companies/varitus/vcash-logo.png",
+                        "projectCover": "https://images.unsplash.com/photo-1617347454431-f49d7ff5c3b1?q=80&w=1115&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        "projectImages": [],
+                        "colors": {
+                            "primary": "volcano"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "companyWebsite": "https://www.google.com.br",
+            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQG8yAXfI7--3A/company-logo_200_200/company-logo_200_200/0/1643031266208/onebrain_logo?e=1744848000&v=beta&t=3WpEFcom5-DGbcv3MdW2mISh3xJ09McBWkuHgZASwPg",
+            "role": "Junior Systems Analyst",
+            "location": "Campinas, SP",
+            "company": "OneBrain IT Solutions",
+            "startDate": "November 2020",
+            "endDate": "February 2021",
+            "description": "Assisted the backend team in developing REST APIs and maintaining and restructuring existing APIs using Java and JDBC Template for PostgreSQL database integration.",
+            "achievements": [],
+            "techonologiesUsed": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "alsoWorkedOn": [],
+            "projects": [
+                {
+                    "id": 1,
+                    "name": "Peça Chevrolet",
+                    "description": "",
+                    "category": "Sistema de Emissão e Gestão de Documentos Fiscais.",
+                    "website": "https://www.google.com",
+                    "reach": 420,
+                    "dimension": "Grande",
+                    "tools": {
+                        "applications": [
+                            {
+                                "logo": "",
+                                "name": "Jasper Reports",
+                                "description": "Ferramenta de criação de relatórios."
+                            }
+                        ],
+                        "technologies": [
+                            "Java",
+                            "Spring",
+                            "Java EE",
+                            "Java Beans",
+                            "JAX-RS",
+                            "Soap",
+                            "Rest"
+                        ]
+                    },
+                    "time": {
+                        "totalPlayed": "128hs",
+                        "tasks": {
+                            "title": "Tasks Entregues & Atuação no Projeto",
+                            "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
+                            "tasksDelivered": 144
+                        },
+                        "spent": {
+                            "title": "Balanço de Tempo",
+                            "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
+                            "values": [
+                                {
+                                    "name": "Resolução de Bugs",
+                                    "color": "blue",
+                                    "value": 70
+                                },
+                                {
+                                    "name": "Novas Features",
+                                    "color": "green",
+                                    "value": 20
+                                },
+                                {
+                                    "name": "Problemas Críticos",
+                                    "color": "red",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    },
+                    "media": {
+                        "projectLogo": "",
+                        "projectCover": "https://images.unsplash.com/photo-1604782206219-3b9576575203?q=80&w=1994&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        "projectImages": [],
+                        "colors": {
+                            "primary": "yellow"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "companyWebsite": "https://www.google.com.br",
+            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQG4N-JHQv6XRQ/company-logo_200_200/company-logo_200_200/0/1690392562952/kroton_educacional_s_a_logo?e=1744848000&v=beta&t=m4iJ9R7PESy8tiwX30frsOeZwyF-8bNbdXkg1BvN4m8",
+            "role": "Web Developer",
+            "location": "Valinhos, SP",
+            "company": "Kroton Educacional",
+            "startDate": "August 2015",
+            "endDate": "September 2018",
+            "description": "Developed interactive educational materials using CSS3, JavaScript, and HTML5, alongside frameworks like Bootstrap and jQuery, for online courses reaching over 2 million students nationwide.",
+            "achievements": [],
+            "techonologiesUsed": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "alsoWorkedOn": [
+                {
+                    "media": {
+                        "projectLogo": ""
+                    },
+                    "name": "Novo Layout Web Aulas",
+                    "description": "Definição de um novo layout e formato de Web Aulas mais interativas com utilização do Bootstrap para melhorar a experiência do aluno."
+                }
+            ],
+            "projects": [
+                {
+                    "id": 1,
+                    "name": "Web Aula 2.0",
+                    "description": "",
+                    "category": "Sistema de Emissão e Gestão de Documentos Fiscais.",
+                    "reach": 420145,
+                    "dimension": "Grande",
+                    "website": "https://www.google.com",
+                    "tools": {
+                        "applications": [
+                            {
+                                "logo": "",
+                                "name": "Jasper Reports",
+                                "description": "Ferramenta de criação de relatórios."
+                            }
+                        ],
+                        "technologies": [
+                            "Java",
+                            "Spring",
+                            "Java EE",
+                            "Java Beans",
+                            "JAX-RS",
+                            "Soap",
+                            "Rest"
+                        ]
+                    },
+                    "time": {
+                        "totalPlayed": "128hs",
+                        "tasks": {
+                            "title": "Tasks Entregues & Atuação no Projeto",
+                            "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
+                            "tasksDelivered": 144
+                        },
+                        "spent": {
+                            "title": "Balanço de Tempo",
+                            "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
+                            "values": [
+                                {
+                                    "name": "Resolução de Bugs",
+                                    "color": "blue",
+                                    "value": 70
+                                },
+                                {
+                                    "name": "Novas Features",
+                                    "color": "green",
+                                    "value": 20
+                                },
+                                {
+                                    "name": "Problemas Críticos",
+                                    "color": "red",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    },
+                    "media": {
+                        "projectLogo": "",
+                        "projectCover": "https://images.unsplash.com/photo-1572705824045-3dd0c9a47945?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        "projectImages": [],
+                        "colors": {
+                            "primary": "purple"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "companyWebsite": "https://www.google.com.br",
+            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQHodomaFlBNNg/company-logo_200_200/company-logo_200_200/0/1723577122134/agencia_humann_logo?e=1744848000&v=beta&t=LrFevsux7Pt1Ij8RBCDod3RCZzYBeApyTT87t2rpN-8",
+            "role": "Graphic Designer UI/UX",
+            "location": "Sumaré, SP",
+            "company": "Humman Inteligência Digital",
+            "startDate": "April 2014",
+            "endDate": "February 2015",
+            "description": "Collaborated on creating advertising materials for international clients and developed sophisticated user interfaces and experiences for various projects.",
+            "achievements": [
+                {
+                    "name": "Vencedor do Prêmio do Site da Beiesdorff",
+                    "description": "A agência alcançou um novo prêmio destaque no ano de 2014."
+                }
+            ],
+            "techonologiesUsed": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "alsoWorkedOn": [
+                {
+                    "media": {
+                        "projectLogo": ""
+                    },
+                    "name": "Beiersdorff WebSite",
+                    "description": "A simple project description"
+                },
+                {
+                    "media": {
+                        "projectLogo": ""
+                    },
+                    "name": "Beiersdorff WebSite",
+                    "description": "A simple project description"
+                },
+                {
+                    "media": {
+                        "projectLogo": ""
+                    },
+                    "name": "Beiersdorff WebSite",
+                    "description": "A simple project description"
+                }
+            ],
+            "projects": [
+                {
+                    "id": 1,
+                    "name": "GoodBom Supermercados ",
+                    "category": "Marketing Digital, UX/UI e Design",
+                    "description": "Fui responsável pela criação de peças publicitárias para os cabeçalhos dos folhetos de promoção semanal do GoodBom, além de desenvolver conteúdos visuais para as redes sociais da marca, incluindo Instagram e Facebook. Meu trabalho envolvia a criação de artes estratégicas que alinhavam a identidade visual do supermercado com campanhas institucionais e promocionais, garantindo um impacto visual forte e engajamento com o público.",
+                    "website": "https://institucional.goodbom.com.br/",
+                    "reach": 320000,
+                    "dimension": "Grande",
+                    "tools": {
+                        "applications": [
+                            {
+                                "logo": "",
+                                "name": "Jasper Reports",
+                                "description": "Ferramenta de criação de relatórios."
+                            }
+                        ],
+                        "technologies": [
+                            "Java",
+                            "Spring",
+                            "Java EE",
+                            "Java Beans",
+                            "JAX-RS",
+                            "Soap",
+                            "Rest"
+                        ]
+                    },
+                    "time": {
+                        "totalPlayed": "4.383hs",
+                        "tasks": {
+                            "title": "Tasks Entregues & Atuação no Projeto",
+                            "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
+                            "tasksDelivered": 96
+                        },
+                        "spent": {
+                            "title": "Balanço de Tempo",
+                            "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
+                            "values": [
+                                {
+                                    "name": "Wireframes e Prototipação",
+                                    "color": "magenta",
+                                    "value": 14
+                                },
+                                {
+                                    "name": "Design Visual e UI",
+                                    "color": "red",
+                                    "value": 64
+                                },
+                                {
+                                    "name": "Pesquisa e Benchmarking",
+                                    "color": "orange",
+                                    "value": 18
+                                },
+                                {
+                                    "name": "Colaboração e Comunicação",
+                                    "color": "lime",
+                                    "value": 23
+                                },
+                                {
+                                    "name": "Testes e Validação",
+                                    "color": "green",
+                                    "value": 31
+                                },
+                                {
+                                    "name": "Documentação e Entrega",
+                                    "color": "blue",
+                                    "value": 12
+                                }
+                            ]
+                        }
+                    },
+                    "media": {
+                        "projectLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQGU6ncY_E-x9Q/company-logo_200_200/company-logo_200_200/0/1675349186037/goodbomsupermercados_logo?e=1746662400&v=beta&t=J2oGR5vuoZqMffyNBpf5OuuBJ-rZpHb4SXHw0Gi_wMg",
+                        "projectCover": "https://images.unsplash.com/photo-1456024569359-9e78b5d10a80?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        "projectImages": [
+                            {
+                                "pictureUrl": "https://images.unsplash.com/photo-1736156725121-027231636f9d?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                                "description": "",
+                                "pictureCaption": ""
+                            },
+                            {
+                                "pictureUrl": "https://images.unsplash.com/photo-1738363436637-ee6f4a910715?q=80&w=1365&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                                "description": "",
+                                "pictureCaption": ""
+                            },
+                            {
+                                "pictureUrl": "https://images.unsplash.com/photo-1738251198850-39ba48c75fde?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                                "description": "",
+                                "pictureCaption": ""
+                            },
+                            {
+                                "pictureUrl": "https://images.unsplash.com/photo-1735627062325-c978986b1871?q=80&w=1112&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                                "description": "",
+                                "pictureCaption": ""
+                            }
+                        ],
+                        "colors": {
+                            "primary": "blue"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "Reckitt & Benckiser",
+                    "category": "Sistema de Emissão e Gestão de Documentos Fiscais.",
+                    "description": "Contribuí para a manutenção do site e o desenvolvimento de novas seções interativas, garantindo uma interface responsiva e moderna.",
+                    "reach": 1250000,
+                    "dimension": "Grande",
+                    "website": "https://www.google.com",
+                    "tools": {
+                        "applications": [
+                            {
+                                "logo": "",
+                                "name": "Jasper Reports",
+                                "description": "Ferramenta de criação de relatórios."
+                            }
+                        ],
+                        "technologies": [
+                            "Java",
+                            "Spring",
+                            "Java EE",
+                            "Java Beans",
+                            "JAX-RS",
+                            "Soap",
+                            "Rest"
+                        ]
+                    },
+                    "time": {
+                        "totalPlayed": "128hs",
+                        "tasks": {
+                            "title": "Tasks Entregues & Atuação no Projeto",
+                            "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
+                            "tasksDelivered": 144
+                        },
+                        "spent": {
+                            "title": "Balanço de Tempo",
+                            "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
+                            "values": [
+                                {
+                                    "name": "Resolução de Bugs",
+                                    "color": "blue",
+                                    "value": 70
+                                },
+                                {
+                                    "name": "Novas Features",
+                                    "color": "green",
+                                    "value": 20
+                                },
+                                {
+                                    "name": "Problemas Críticos",
+                                    "color": "red",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    },
+                    "media": {
+                        "projectLogo": "",
+                        "projectCover": "https://images.unsplash.com/photo-1595105579635-662c74f88f05?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        "projectImages": [],
+                        "colors": {
+                            "primary": "volcano"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "courses": [
+        {
+            "institutionWebsite": "",
+            "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQEZkMsv5FwbDA/company-logo_200_200/company-logo_200_200/0/1710187635900/aluracursos_logo?e=1744848000&v=beta&t=G9eg2VCq9Q_xNmPHWBwCOsdwAAZiJSs8FY_9OZ26nLI",
+            "name": "Android Recycler View",
+            "institution": "Alura",
+            "startDate": "November 2018",
+            "endDate": "December 2018",
+            "status": "Finished"
+        },
+        {
+            "institutionWebsite": "https://www.udemy.com/",
+            "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1744848000&v=beta&t=dUiQ0MY-f0i4jPuTVzpfeEJL8XlUUY_bM5Os9V5jXOU",
+            "name": "Kotlin",
+            "institution": "Udemy",
+            "startDate": "November 2019",
+            "endDate": "January 2020",
+            "status": "Finished"
+        },
+        {
+            "institutionWebsite": "https://www.udemy.com/",
+            "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1744848000&v=beta&t=dUiQ0MY-f0i4jPuTVzpfeEJL8XlUUY_bM5Os9V5jXOU",
+            "name": "Flutter",
+            "institution": "Udemy",
+            "startDate": "November 2019",
+            "endDate": "February 2020",
+            "status": "Finished"
+        },
+        {
+            "institutionWebsite": "https://www.udemy.com/",
+            "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1744848000&v=beta&t=dUiQ0MY-f0i4jPuTVzpfeEJL8XlUUY_bM5Os9V5jXOU",
+            "name": "Spring MVC",
+            "institution": "Udemy",
+            "startDate": "December 2019",
+            "endDate": "March 2020",
+            "status": "Finished"
+        }
+    ],
+    "education": [
+        {
+            "institutionWebsite": "http://www.educacao.sp.gov.br/cgrh/escolas/luiz-campo-dall-orto-sobrinho/",
+            "institutionLogoUrl": "",
+            "degree": "High School Diploma",
+            "institution": "E.E. Luiz Campos Dall’orto Sobrinho",
+            "startDate": "January 2006",
+            "endDate": "December 2008",
+            "status": "Finished"
+        },
+        {
+            "institutionWebsite": "https://ciandt.com/br/",
+            "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQFrob6OoOk9iQ/company-logo_200_200/company-logo_200_200/0/1638360715950/dextra_digital_logo?e=1744848000&v=beta&t=DfQfHkuhoOMrRUJQ-HOKkkRHJO40SO0GUZ3Y03n58Ko",
+            "degree": "Java Spring MVC Training",
+            "institution": "Dextraining - Pólis de Alta Tecnologia",
+            "startDate": "February 2016",
+            "endDate": "September 2016",
+            "status": "Finished"
+        },
+        {
+            "institutionWebsite": "https://www.wyden.com.br/",
+            "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQFRqANreQfkjQ/company-logo_200_200/company-logo_200_200/0/1698864055544/wyden_educacional_logo?e=1744848000&v=beta&t=9F46SBxH4grtkHV65WqmD8Zu6-JzJ7tWj6nbzeFCtfk",
+            "degree": "Systems Analysis and Development",
+            "institution": "Wyden - Metrocamp",
+            "startDate": "September 2023",
+            "endDate": "January 2026",
+            "status": "In Progress"
+        }
+    ],
+    "skills": {
+        "programmingLanguages": [
+            "Java",
+            "JavaScript",
+            "Kotlin"
+        ],
+        "backend": [
+            "Web application and RESTful API development using Spring",
+            "SQL database integration with JPA and Hibernate",
+            "RESTful API documentation with Swagger"
+        ],
+        "frontend": [
+            "Web interface creation with React.js, JavaScript, CSS3, HTML5, Bootstrap, and jQuery"
+        ],
+        "android": [
+            "Native app development with Java and Kotlin",
+            "Experience with libraries like Room, SQLite, and Retrofit"
+        ],
+        "databases": [
+            "PostgreSQL",
+            "MySQL"
+        ],
+        "tools": [
+            "Version control with Git",
+            "Dependency management with Maven and Gradle",
+            "Dynamic reporting with JasperReports"
+        ]
+    }
+}
