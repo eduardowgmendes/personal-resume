@@ -183,7 +183,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                                                                                         <Progress strokeColor={time.color} key={index} percent={time.value} />
                                                                                     </Col>
                                                                                 </Row>
-                                                                            )) : <Empty description='Sem dados disponíveis.' />}
+                                                                            )) : <Empty description='Sem dados disponíveis no momento.' />}
                                                                         </Flex>
 
                                                                     </Flex>
