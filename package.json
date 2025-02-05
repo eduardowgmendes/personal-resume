@@ -1,7 +1,7 @@
 {
   "name": "personal-portfolio-alternative",
   "private": true,
-  "homepage": "/personal-resume/",
+  "homepage": "https://eduardowgmendes.github.io/personal-resume/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
