@@ -203,7 +203,7 @@ export default function WorkExperienceOverview({ workExperience }) {
 
                                                                 <Col xs={{ span: 24 }} sm={{ span: 16 }} md={{ span: 12 }} lg={{ span: 12 }} xl={{ span: 12 }} xxl={{ span: 12 }}>
 
-                                                                    <Flex vertical gap={'small'} style={{ padding: '1rem 0 1rem 0' }}>
+                                                                    <Flex vertical gap={'small'} style={{ padding: '1rem 0 0 0' }}>
 
                                                                         <Flex align="center" justify="space-between" gap={'small'}>
                                                                             <Title level={5} style={{ flex: 1 }}>Balanço de Tempo</Title>
