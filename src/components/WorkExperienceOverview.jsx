@@ -72,21 +72,23 @@ export default function WorkExperienceOverview({ workExperience }) {
                     {workExperience.projects ?
                         <List grid={{ gutter: 16, xs: 1, sm: 1, md: 1, lg: 1, xl: 1, xxl: 1 }} dataSource={workExperience.projects} renderItem={(project) => (
                             <List.Item>
-                                <Card bordered>
+                                <Card>
 
                                     <Row gutter={[16, 16]}>
 
                                         <Col span={24}>
-                                            <Flex align="start" justify="stretch" gap={'middle'}>
+                                            <Flex align="start" justify="stretch" gap={'small'}>
                                                 {project.media.projectLogo.length > 0 ?
                                                     <Avatar shape="square" size={'large'} src={project.media.projectLogo} /> : <Avatar shape="square" size={'large'} icon={<IdcardOutlined />} />
                                                 }
                                                 <Flex vertical flex={1} justify="center">
-                                                    <Title style={{ margin: 0 }} level={4}>{project.name}</Title>
-                                                    <Paragraph type="secondary" style={{ margin: 0 }}>{project.category}</Paragraph>
+                                                    <Paragraph style={{ margin: 0, fontWeight: "bold" }}>{project.name}</Paragraph>
+                                                    <Paragraph type="secondary" className="small" style={{ margin: 0 }}>{project.category}</Paragraph>
                                                 </Flex>
                                                 <Tooltip title={'Visitar'}>
-                                                    <Button type="icon" icon={<ExportOutlined />} src={project.website} target="_blank" rel="noopener noreferrer" />
+                                                    <a src={project.website} target="_blank" rel="noopener noreferrer">
+                                                        <Button type="icon" icon={<ArrowRightOutlined />} />
+                                                    </a>
                                                 </Tooltip>
                                             </Flex>
                                         </Col>
@@ -104,6 +106,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                                                 <Collapse
                                                     collapsible="header"
                                                     ghost
+                                                    size="small"
                                                     key={project.id}
                                                     defaultActiveKey={activeKeys}
                                                     items={[{
