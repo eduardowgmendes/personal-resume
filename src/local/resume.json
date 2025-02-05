@@ -41,120 +41,195 @@
             "alsoWorkedOn": [],
             "projects": [
                 {
+                    "id": 1,
                     "name": "Notafaz",
                     "category": "Sistema de Emissão e Gestão de Documentos Fiscais.",
                     "description": "Solução completa para emissão dos principais documentos eletrônicos, usada por mais de 10 mil empresas.",
                     "website": "https://www.varitus.com.br/notafaz-para-medias-e-grandes-empresas/",
-                    "technologies": [
-                        "Java",
-                        "Spring",
-                        "Java EE",
-                        "Java Beans",
-                        "JAX-RS",
-                        "Soap",
-                        "Rest"
-                    ],
-                    "time": {
-                        "tasksDelivered": 144,
-                        "timePlayed": "128hs",
-                        "timeSpent": [
+                    "reach": 1750000,
+                    "dimension": "Grande",
+                    "tools": {
+                        "applications": [
                             {
-                                "name": "bugfixes",
-                                "color": "purple",
-                                "value": 70
-                            },
-                            {
-                                "name": "new-features",
-                                "color": "green",
-                                "value": 20
-                            },
-                            {
-                                "name": "critical-issues",
-                                "color": "red",
-                                "value": 10
+                                "logo": "",
+                                "name": "Jasper Reports",
+                                "description": "Ferramenta de criação de relatórios."
                             }
+                        ],
+                        "technologies": [
+                            "Java",
+                            "Spring",
+                            "Java EE",
+                            "Java Beans",
+                            "JAX-RS",
+                            "Soap",
+                            "Rest"
                         ]
                     },
+                    "time": {
+                        "totalPlayed": "128hs",
+                        "tasks": {
+                            "title": "Tasks Entregues & Atuação no Projeto",
+                            "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
+                            "tasksDelivered": 144
+                        },
+                        "spent": {
+                            "title": "Balanço de Tempo",
+                            "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
+                            "values": [
+                                {
+                                    "name": "Resolução de Bugs",
+                                    "color": "blue",
+                                    "value": 70
+                                },
+                                {
+                                    "name": "Novas Features",
+                                    "color": "green",
+                                    "value": 20
+                                },
+                                {
+                                    "name": "Problemas Críticos",
+                                    "color": "red",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    },
                     "media": {
-                        "projectLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfo9Bkg-jxrpOVvBrjudSwDzfWQY_p2t5-VA&s",
+                        "projectLogo": "./images/logos/companies/varitus/notafaz-logo.png",
                         "projectCover": "https://images.unsplash.com/photo-1586486855514-8c633cc6fd38?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "projectImages": []
+                        "projectImages": [],
+                        "colors": {
+                            "primary": "blue"
+                        }
                     }
                 },
                 {
+                    "id": 2,
                     "name": "Canhoto Fácil",
                     "category": "Rastreaador de Entregas e Canhotos em Tempo Real ",
                     "description": "Acompanhe cada etapa da sua logística de entrega com facilidade e sem complicações.",
                     "website": "https://materiais.varitus.com.br/canhoto/",
-                    "technologies": [
-                        "Java",
-                        "Spring",
-                        "Rest",
-                        "React.js"
-                    ],
-                    "time": {
-                        "tasksDelivered": 62,
-                        "timePlayed": "71hs",
-                        "timeSpent": [
+                    "reach": 400000,
+                    "dimension": "Grande",
+                    "tools": {
+                        "applications": [
                             {
-                                "name": "bugfixes",
-                                "color": "purple",
-                                "value": 60
-                            },
-                            {
-                                "name": "new-features",
-                                "color": "green",
-                                "value": 30
-                            },
-                            {
-                                "name": "critical-issues",
-                                "color": "red",
-                                "value": 10
+                                "logo": "",
+                                "name": "Jasper Reports",
+                                "description": "Ferramenta de criação de relatórios."
                             }
+                        ],
+                        "technologies": [
+                            "Java",
+                            "Spring",
+                            "Java EE",
+                            "Java Beans",
+                            "JAX-RS",
+                            "Soap",
+                            "Rest"
                         ]
                     },
+                    "time": {
+                        "totalPlayed": "128hs",
+                        "tasks": {
+                            "title": "Tasks Entregues & Atuação no Projeto",
+                            "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
+                            "tasksDelivered": 144
+                        },
+                        "spent": {
+                            "title": "Balanço de Tempo",
+                            "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
+                            "values": [
+                                {
+                                    "name": "Resolução de Bugs",
+                                    "color": "blue",
+                                    "value": 70
+                                },
+                                {
+                                    "name": "Novas Features",
+                                    "color": "green",
+                                    "value": 20
+                                },
+                                {
+                                    "name": "Problemas Críticos",
+                                    "color": "red",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    },
                     "media": {
-                        "projectLogo": "https://materiais.varitus.com.br/wp-content/uploads/2024/11/logo-CANHOTO-FACIL-branco-1024x267.png",
+                        "projectLogo": "./images/logos/companies/varitus/canhoto-facil-logo.png",
                         "projectCover": "https://images.unsplash.com/photo-1617347454431-f49d7ff5c3b1?q=80&w=1115&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "projectImages": []
+                        "projectImages": [],
+                        "colors": {
+                            "primary": "orange"
+                        }
                     }
                 },
                 {
+                    "id": 3,
                     "name": "V.Cash",
                     "category": "Aplicação de Gestão e Controle de Fluxo de Caixa.",
                     "description": "Tenha o controle das despesas, evitando prejuízos e gastos desnecessários. Plataforma online com armazenamento em nuvem que possui todos os recursos para apurar seu fluxo de caixa de maneira ágil, simples e inteligente!",
                     "website": "https://www.varitus.com.br/v-cash/",
-                    "technologies": [
-                        "Java",
-                        "Spring",
-                        "Rest",
-                        "React.js"
-                    ],
-                    "time": {
-                        "tasksDelivered": 62,
-                        "timePlayed": "71hs",
-                        "timeSpent": [
+                    "reach": 10000,
+                    "dimension": "Grande",
+                    "tools": {
+                        "applications": [
                             {
-                                "name": "bugfixes",
-                                "color": "purple",
-                                "value": 60
-                            },
-                            {
-                                "name": "new-features",
-                                "color": "green",
-                                "value": 30
-                            },
-                            {
-                                "name": "critical-issues",
-                                "color": "red",
-                                "value": 10
+                                "logo": "",
+                                "name": "Jasper Reports",
+                                "description": "Ferramenta de criação de relatórios."
                             }
+                        ],
+                        "technologies": [
+                            "Java",
+                            "Spring",
+                            "Java EE",
+                            "Java Beans",
+                            "JAX-RS",
+                            "Soap",
+                            "Rest"
                         ]
                     },
+                    "time": {
+                        "totalPlayed": "128hs",
+                        "tasks": {
+                            "title": "Tasks Entregues & Atuação no Projeto",
+                            "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
+                            "tasksDelivered": 144
+                        },
+                        "spent": {
+                            "title": "Balanço de Tempo",
+                            "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
+                            "values": [
+                                {
+                                    "name": "Resolução de Bugs",
+                                    "color": "blue",
+                                    "value": 70
+                                },
+                                {
+                                    "name": "Novas Features",
+                                    "color": "green",
+                                    "value": 20
+                                },
+                                {
+                                    "name": "Problemas Críticos",
+                                    "color": "red",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    },
                     "media": {
-                        "projectLogo": "https://www.varitus.com.br/wp-content/uploads/2021/08/vcash-white.svg",
+                        "projectLogo": "./images/logos/companies/varitus/vcash-logo.png",
                         "projectCover": "https://images.unsplash.com/photo-1617347454431-f49d7ff5c3b1?q=80&w=1115&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "projectImages": []
+                        "projectImages": [],
+                        "colors": {
+                            "primary": "volcano"
+                        }
                     }
                 }
             ]
@@ -187,44 +262,67 @@
             "alsoWorkedOn": [],
             "projects": [
                 {
-                    "name": "Notafaz",
+                    "id": 1,
+                    "name": "Peça Chevrolet",
                     "description": "",
                     "category": "Sistema de Emissão e Gestão de Documentos Fiscais.",
                     "website": "https://www.google.com",
-                    "technologies": [
-                        "Java",
-                        "Spring",
-                        "Java EE",
-                        "Java Beans",
-                        "JAX-RS",
-                        "Soap",
-                        "Rest"
-                    ],
-                    "time": {
-                        "tasksDelivered": "144",
-                        "timePlayed": "128hs",
-                        "timeSpent": [
+                    "reach": 420,
+                    "dimension": "Grande",
+                    "tools": {
+                        "applications": [
                             {
-                                "name": "bugfixes",
-                                "color": "purple",
-                                "value": 16
-                            },
-                            {
-                                "name": "new-features",
-                                "color": "green",
-                                "value": 18
-                            },
-                            {
-                                "name": "critical-issues",
-                                "color": "red",
-                                "value": 4
+                                "logo": "",
+                                "name": "Jasper Reports",
+                                "description": "Ferramenta de criação de relatórios."
                             }
+                        ],
+                        "technologies": [
+                            "Java",
+                            "Spring",
+                            "Java EE",
+                            "Java Beans",
+                            "JAX-RS",
+                            "Soap",
+                            "Rest"
                         ]
+                    },
+                    "time": {
+                        "totalPlayed": "128hs",
+                        "tasks": {
+                            "title": "Tasks Entregues & Atuação no Projeto",
+                            "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
+                            "tasksDelivered": 144
+                        },
+                        "spent": {
+                            "title": "Balanço de Tempo",
+                            "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
+                            "values": [
+                                {
+                                    "name": "Resolução de Bugs",
+                                    "color": "blue",
+                                    "value": 70
+                                },
+                                {
+                                    "name": "Novas Features",
+                                    "color": "green",
+                                    "value": 20
+                                },
+                                {
+                                    "name": "Problemas Críticos",
+                                    "color": "red",
+                                    "value": 10
+                                }
+                            ]
+                        }
                     },
                     "media": {
                         "projectLogo": "",
                         "projectCover": "https://images.unsplash.com/photo-1604782206219-3b9576575203?q=80&w=1994&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "projectImages": []
+                        "projectImages": [],
+                        "colors": {
+                            "primary": "yellow"
+                        }
                     }
                 }
             ]
@@ -265,44 +363,67 @@
             ],
             "projects": [
                 {
-                    "name": "Notafaz",
+                    "id": 1,
+                    "name": "Web Aula 2.0",
                     "description": "",
                     "category": "Sistema de Emissão e Gestão de Documentos Fiscais.",
+                    "reach": 420145,
+                    "dimension": "Grande",
                     "website": "https://www.google.com",
-                    "technologies": [
-                        "Java",
-                        "Spring",
-                        "Java EE",
-                        "Java Beans",
-                        "JAX-RS",
-                        "Soap",
-                        "Rest"
-                    ],
-                    "time": {
-                        "tasksDelivered": "144",
-                        "timePlayed": "128hs",
-                        "timeSpent": [
+                    "tools": {
+                        "applications": [
                             {
-                                "name": "bugfixes",
-                                "color": "purple",
-                                "value": 16
-                            },
-                            {
-                                "name": "new-features",
-                                "color": "green",
-                                "value": 18
-                            },
-                            {
-                                "name": "critical-issues",
-                                "color": "red",
-                                "value": 4
+                                "logo": "",
+                                "name": "Jasper Reports",
+                                "description": "Ferramenta de criação de relatórios."
                             }
+                        ],
+                        "technologies": [
+                            "Java",
+                            "Spring",
+                            "Java EE",
+                            "Java Beans",
+                            "JAX-RS",
+                            "Soap",
+                            "Rest"
                         ]
+                    },
+                    "time": {
+                        "totalPlayed": "128hs",
+                        "tasks": {
+                            "title": "Tasks Entregues & Atuação no Projeto",
+                            "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
+                            "tasksDelivered": 144
+                        },
+                        "spent": {
+                            "title": "Balanço de Tempo",
+                            "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
+                            "values": [
+                                {
+                                    "name": "Resolução de Bugs",
+                                    "color": "blue",
+                                    "value": 70
+                                },
+                                {
+                                    "name": "Novas Features",
+                                    "color": "green",
+                                    "value": 20
+                                },
+                                {
+                                    "name": "Problemas Críticos",
+                                    "color": "red",
+                                    "value": 10
+                                }
+                            ]
+                        }
                     },
                     "media": {
                         "projectLogo": "",
                         "projectCover": "https://images.unsplash.com/photo-1572705824045-3dd0c9a47945?q=80&w=1934&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "projectImages": []
+                        "projectImages": [],
+                        "colors": {
+                            "primary": "purple"
+                        }
                     }
                 }
             ]
@@ -362,41 +483,77 @@
             ],
             "projects": [
                 {
-                    "name": "Beiersdorff",
-                    "description": "Desenvolvi funcionalidades e implementei melhorias no website da Beiersdorff, focando na experiência do usuário, otimização de desempenho e alinhamento com as necessidades do cliente.",
-                    "website": "https://www.google.com",
-                    "technologies": [
-                        "Java",
-                        "Spring",
-                        "Java EE",
-                        "Java Beans",
-                        "JAX-RS",
-                        "Soap",
-                        "Rest"
-                    ],
-                    "time": {
-                        "tasksDelivered": "144",
-                        "timePlayed": "128hs",
-                        "timeSpent": [
+                    "id": 1,
+                    "name": "GoodBom Supermercados ",
+                    "category": "Marketing Digital, UX/UI e Design",
+                    "description": "Fui responsável pela criação de peças publicitárias para os cabeçalhos dos folhetos de promoção semanal do GoodBom, além de desenvolver conteúdos visuais para as redes sociais da marca, incluindo Instagram e Facebook. Meu trabalho envolvia a criação de artes estratégicas que alinhavam a identidade visual do supermercado com campanhas institucionais e promocionais, garantindo um impacto visual forte e engajamento com o público.",
+                    "website": "https://institucional.goodbom.com.br/",
+                    "reach": 320000,
+                    "dimension": "Grande",
+                    "tools": {
+                        "applications": [
                             {
-                                "name": "bugfixes",
-                                "color": "purple",
-                                "value": 16
-                            },
-                            {
-                                "name": "new-features",
-                                "color": "green",
-                                "value": 18
-                            },
-                            {
-                                "name": "critical-issues",
-                                "color": "red",
-                                "value": 4
+                                "logo": "",
+                                "name": "Jasper Reports",
+                                "description": "Ferramenta de criação de relatórios."
                             }
+                        ],
+                        "technologies": [
+                            "Java",
+                            "Spring",
+                            "Java EE",
+                            "Java Beans",
+                            "JAX-RS",
+                            "Soap",
+                            "Rest"
                         ]
                     },
+                    "time": {
+                        "totalPlayed": "4.383hs",
+                        "tasks": {
+                            "title": "Tasks Entregues & Atuação no Projeto",
+                            "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
+                            "tasksDelivered": 96
+                        },
+                        "spent": {
+                            "title": "Balanço de Tempo",
+                            "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
+                            "values": [
+                                {
+                                    "name": "Wireframes e Prototipação",
+                                    "color": "magenta",
+                                    "value": 14
+                                },
+                                {
+                                    "name": "Design Visual e UI",
+                                    "color": "red",
+                                    "value": 64
+                                },
+                                {
+                                    "name": "Pesquisa e Benchmarking",
+                                    "color": "orange",
+                                    "value": 18
+                                },
+                                {
+                                    "name": "Colaboração e Comunicação",
+                                    "color": "lime",
+                                    "value": 23
+                                },
+                                {
+                                    "name": "Testes e Validação",
+                                    "color": "green",
+                                    "value": 31
+                                },
+                                {
+                                    "name": "Documentação e Entrega",
+                                    "color": "blue",
+                                    "value": 12
+                                }
+                            ]
+                        }
+                    },
                     "media": {
-                        "projectLogo": "",
+                        "projectLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQGU6ncY_E-x9Q/company-logo_200_200/company-logo_200_200/0/1675349186037/goodbomsupermercados_logo?e=1746662400&v=beta&t=J2oGR5vuoZqMffyNBpf5OuuBJ-rZpHb4SXHw0Gi_wMg",
                         "projectCover": "https://images.unsplash.com/photo-1456024569359-9e78b5d10a80?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         "projectImages": [
                             {
@@ -419,48 +576,74 @@
                                 "description": "",
                                 "pictureCaption": ""
                             }
-                        ]
+                        ],
+                        "colors": {
+                            "primary": "blue"
+                        }
                     }
                 },
                 {
+                    "id": 2,
                     "name": "Reckitt & Benckiser",
                     "category": "Sistema de Emissão e Gestão de Documentos Fiscais.",
                     "description": "Contribuí para a manutenção do site e o desenvolvimento de novas seções interativas, garantindo uma interface responsiva e moderna.",
+                    "reach": 1250000,
+                    "dimension": "Grande",
                     "website": "https://www.google.com",
-                    "technologies": [
-                        "Java",
-                        "Spring",
-                        "Java EE",
-                        "Java Beans",
-                        "JAX-RS",
-                        "Soap",
-                        "Rest"
-                    ],
-                    "time": {
-                        "tasksDelivered": "144",
-                        "timePlayed": "128hs",
-                        "timeSpent": [
+                    "tools": {
+                        "applications": [
                             {
-                                "name": "bugfixes",
-                                "color": "purple",
-                                "value": 16
-                            },
-                            {
-                                "name": "new-features",
-                                "color": "green",
-                                "value": 18
-                            },
-                            {
-                                "name": "critical-issues",
-                                "color": "red",
-                                "value": 4
+                                "logo": "",
+                                "name": "Jasper Reports",
+                                "description": "Ferramenta de criação de relatórios."
                             }
+                        ],
+                        "technologies": [
+                            "Java",
+                            "Spring",
+                            "Java EE",
+                            "Java Beans",
+                            "JAX-RS",
+                            "Soap",
+                            "Rest"
                         ]
+                    },
+                    "time": {
+                        "totalPlayed": "128hs",
+                        "tasks": {
+                            "title": "Tasks Entregues & Atuação no Projeto",
+                            "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
+                            "tasksDelivered": 144
+                        },
+                        "spent": {
+                            "title": "Balanço de Tempo",
+                            "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
+                            "values": [
+                                {
+                                    "name": "Resolução de Bugs",
+                                    "color": "blue",
+                                    "value": 70
+                                },
+                                {
+                                    "name": "Novas Features",
+                                    "color": "green",
+                                    "value": 20
+                                },
+                                {
+                                    "name": "Problemas Críticos",
+                                    "color": "red",
+                                    "value": 10
+                                }
+                            ]
+                        }
                     },
                     "media": {
                         "projectLogo": "",
                         "projectCover": "https://images.unsplash.com/photo-1595105579635-662c74f88f05?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "projectImages": []
+                        "projectImages": [],
+                        "colors": {
+                            "primary": "volcano"
+                        }
                     }
                 }
             ]
