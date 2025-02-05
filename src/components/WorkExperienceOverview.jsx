@@ -38,7 +38,7 @@ export default function WorkExperienceOverview({ workExperience }) {
         <Flex vertical>
             <Row gutter={[8, 8]}>
                 <Col span={24}>
-                    <Flex align="center" justify="start" gap={'middle'}>
+                    <Flex align="start" justify="center" gap={'middle'}>
                         <Avatar shape="square" size={64} src={workExperience.companyLogoUrl} />
                         <Flex vertical flex={1}>
                             <Title level={4} style={{ margin: 0 }}>{workExperience.company}</Title>
@@ -50,7 +50,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                                 </Flex>
                                 <Flex align="center" justify="space-between" gap={'small'}>
                                     <CalendarOutlined />
-                                    <Flex gap={'small'} align="center" justify="start">
+                                    <Flex align="center" justify="stretch" gap={'small'} >
                                         <DateFormat dateString={workExperience.startDate} />
                                         <ArrowRightOutlined />
                                         <DateFormat dateString={workExperience.endDate} />
@@ -62,7 +62,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                 </Col>
 
                 <Col span={24}>
-                    <Flex align={'center'} justify={'center'} gap={'large'} style={{ padding: '1rem 0 1rem 0' }}>
+                    <Flex align={'center'} justify={'center'} gap={'large'}>
                         <Paragraph>{workExperience.description}</Paragraph>
                     </Flex>
                 </Col>
