@@ -50,7 +50,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                                 </Flex>
                                 <Flex align="center" justify="space-between" gap={'small'}>
                                     <CalendarOutlined />
-                                    <Flex align="center" justify="stretch" gap={'small'} >
+                                    <Flex align="center" justify="space-between" gap={'small'} >
                                         <DateFormat dateString={workExperience.startDate} />
                                         <ArrowRightOutlined />
                                         <DateFormat dateString={workExperience.endDate} />
