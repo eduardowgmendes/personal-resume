@@ -13,9 +13,9 @@ export default function Courses({ courses }) {
 
                 <SectionHeader title={'Cursos'} />
 
-                <Card bordered={false} bodyStyle={{ padding: 0 }}>
+                <Card bordered={false} size="small">
                     {courses.map((course, index) => (
-                        <Flex align="center" justify="space-between" gap={'small'} style={{ padding: '2rem' }} key={index}>
+                        <Flex align="start" justify="space-between" gap={'small'} style={{ padding: '1rem' }} key={index}>
 
                             {course.institutionWebsite && course.institutionLogoUrl ?
 
@@ -26,8 +26,8 @@ export default function Courses({ courses }) {
                             }
 
                             <Flex vertical align="start" justify="space-between" style={{ height: '100%', flex: 1, padding: '0 1rem 0 1rem' }}>
-                                <Title level={5} ellipsis={{ rows: 2, expandable: false, symbol: '...' }} style={{ margin: 0 }}>{course.name}</Title>
-                                <Paragraph type="secondary" ellipsis={{ rows: 2, expandable: false, symbol: '...' }} style={{ margin: 0 }}>{course.institution}</Paragraph>
+                                <Title level={5} ellipsis={{ rows: 3, expandable: false, symbol: '...' }} style={{ margin: 0, fontWeight: 'bold' }}>{course.name}</Title>
+                                <Paragraph className="small" type="secondary" ellipsis={{ rows: 2, expandable: false, symbol: '...' }} style={{ margin: 0 }}>{course.institution}</Paragraph>
                             </Flex>
 
 

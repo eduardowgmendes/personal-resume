@@ -22,7 +22,7 @@ export default function HomePage({ personalResume }) {
                             bio={personalResume.bio} 
                             contactDetails={personalResume.contact} />
 
-                        <Row gutter={[8, 8]}>
+                        <Row gutter={[32, 16]}>
                             
                             <Col xs={24} sm={24} md={24} xl={16} xxl={16}>
                                 <WorkExperience workExperience={personalResume.workExperience} />

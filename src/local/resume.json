@@ -491,7 +491,7 @@
             ]
         },
         {
-            "companyWebsite": "https://www.google.com.br",
+            "companyWebsite": "https://humann.com.br/",
             "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQHodomaFlBNNg/company-logo_200_200/company-logo_200_200/0/1723577122134/agencia_humann_logo?e=1744848000&v=beta&t=LrFevsux7Pt1Ij8RBCDod3RCZzYBeApyTT87t2rpN-8",
             "role": "Graphic Designer UI/UX",
             "location": "Sumaré, SP",
@@ -499,48 +499,39 @@
             "startDate": "Abril 2014",
             "endDate": "Fevereiro 2015",
             "description": "Colaborei na criação de materiais publicitários para clientes internacionais e desenvolvi interfaces e experiências de usuário sofisticadas para diversos projetos.",
-            "achievements": [
-                {
-                    "name": "Vencedor do Prêmio do Site da Beiesdorff",
-                    "description": "A agência alcançou um novo prêmio destaque no ano de 2014."
-                }
-            ],
+            "achievements": [],
             "techonologiesUsed": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Adobe Photoshop",
+                "Adobe Illustrator",
+                "Adobe XD",
+                "Adobe Premiere",
+                "Adobe After Effects",
+                "JS",
+                "CSS3",
+                "HTML5",
+                "jQuery"
             ],
             "alsoWorkedOn": [
                 {
                     "media": {
-                        "projectLogo": ""
+                        "projectLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQFldjdYBgPhOQ/company-logo_200_200/company-logo_200_200/0/1630517665962/sorridents_franchising_logo?e=1746662400&v=beta&t=an4m7BZ5yylXNIzUbUQFi8WGeMFXhUNC_0LizTtVKBk"
                     },
-                    "name": "Beiersdorff WebSite",
-                    "description": "A simple project description"
+                    "name": "Clínica Sorridents - Posts Social Media",
+                    "description": "Criação de conteúdos visuais e textos para redes sociais, promovendo os serviços e diferenciais da Clínica Sorridents."
                 },
                 {
                     "media": {
-                        "projectLogo": ""
+                        "projectLogo": "https://media.licdn.com/dms/image/v2/D560BAQEQ4o5KIYKvGQ/company-logo_200_200/company-logo_200_200/0/1726502820802/anthogyr_logo?e=1746662400&v=beta&t=W-TQoBFVOW-AwGgxA-221gvh4RZDV4rd6uVAMG-YnW4"
                     },
-                    "name": "Beiersdorff WebSite",
-                    "description": "A simple project description"
+                    "name": "Anthogyr - Posts Social Media",
+                    "description": "Desenvolvimento de posts estratégicos para redes sociais, destacando produtos e inovações da Anthogyr no setor odontológico."
                 },
                 {
                     "media": {
-                        "projectLogo": ""
+                        "projectLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQFlMxnPvF66ug/company-logo_200_200/company-logo_200_200/0/1657028057787/farmcia_passiflora_logo?e=1746662400&v=beta&t=SF_g-Ete7Uw1hktkz1afp898FgR6sXt0FLnsM2d9Kqc"
                     },
-                    "name": "Beiersdorff WebSite",
-                    "description": "A simple project description"
+                    "name": "Farmácia Passiflora - Posts Social Media",
+                    "description": "Criação de conteúdos para redes sociais, promovendo produtos e benefícios dos serviços oferecidos pela Farmácia Passiflora."
                 }
             ],
             "projects": [

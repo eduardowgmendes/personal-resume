@@ -1,12 +1,13 @@
-import { ArrowRightOutlined, MinusOutlined, RightOutlined } from "@ant-design/icons";
-import { Avatar, Card, Col, Flex, Grid, Layout, Modal, Row } from "antd";
+import { AppstoreFilled, AppstoreOutlined, BarsOutlined, MinusOutlined } from "@ant-design/icons";
+import { Avatar, Card, Col, Flex, Grid, Layout, List, Modal, Row, Segmented } from "antd";
 import Paragraph from "antd/es/typography/Paragraph";
 import Title from "antd/es/typography/Title";
 import SectionHeader from "./SectionHeader";
-import DatesFormat from "../utils/DateFormat";
 import DateFormat from "../utils/DateFormat";
 import { useState } from "react";
 import WorkExperienceOverview from "./WorkExperienceOverview";
+import ListItem from "./ListItem";
+import KanbamItem from "./KanbamItem";
 
 const { useBreakpoint } = Grid;
 
@@ -14,11 +15,11 @@ export default function WorkExperience({ workExperience }) {
 
     const screens = useBreakpoint();
 
-    // Estado para armazenar se o modal está aberto
     const [isModalOpen, setModalOpen] = useState(false);
 
-    // Estado para armazenar a experiência selecionada
     const [selectedExperience, setSelectedExperience] = useState(null);
+
+    const [layout, setLayout] = useState('list');
 
     const showModal = (experience) => {
         setSelectedExperience(experience);
@@ -27,7 +28,7 @@ export default function WorkExperience({ workExperience }) {
 
     const handleOk = () => {
         setModalOpen(false);
-        setSelectedExperience(null); // Resetando o estado ao fechar
+        setSelectedExperience(null);
     }
 
     const handleCancel = () => {
@@ -35,51 +36,37 @@ export default function WorkExperience({ workExperience }) {
         setSelectedExperience(null);
     }
 
+    const handleLayoutChange = (key) => {
+        setLayout(key)
+    }
+
     return (
         <Layout>
-            <SectionHeader title={'Experiências'} />
-            {workExperience.map((experience, index) => (
-                <Card 
-                    bordered 
-                    hoverable 
-                    onClick={() => showModal(experience)} // Passando o item correto
-                    style={{ margin: '0 0 .5rem 0' }} 
-                    bodyStyle={{ padding: 0 }} 
-                    key={index}
-                >
-                    <Flex gap={'large'} align="center" justify="space-between" style={{ padding: '2rem' }}>
-                        <Row gutter={[8, 8]}>
-                            <Col span={24} style={{ marginBottom: '1rem' }}>
-                                <a href={experience.companyWebsite}>
-                                    <Avatar shape="square" size='large' src={experience.companyLogoUrl} />
-                                </a>
-                            </Col>
+            <Flex align="center" justify="space-between" gap={'large'}>
+                <SectionHeader title={'Experiências'} />
+                <Segmented onChange={handleLayoutChange} options={[
+                    { value: 'list', icon: <BarsOutlined /> },
+                    { value: 'kanbam', icon: <AppstoreOutlined /> }
+                ]} />
+            </Flex>
 
-                            <Col xs={{ span: 24 }} sm={{ span: 16 }} md={{ span: 16 }} xl={{ span: 16 }} xxl={{ span: 16 }}>
-                                <Flex vertical align="start" justify="space-between" style={{ height: '100%' }}>
-                                    <Title level={4} ellipsis={{ rows: 1, expandable: false, symbol: '...' }}>{experience.role}</Title>
-                                    <Title level={5} type="secondary" ellipsis={{ rows: 1, expandable: false, symbol: '...' }} style={{ margin: 0, lineHeight: '1rem' }}>{experience.company}</Title>
-                                </Flex>
-                            </Col>
+            <List
+                grid={layout === 'kanbam' ? {
+                    gutter: 16,
+                    xs: 2,
+                    sm: 2,
+                    md: 3,
+                    lg: 3,
+                    xl: 3,
+                    xxl: 3,
+                } : null}
 
-                            <Col xs={{ span: 24 }} sm={{ span: 8 }} md={{ span: 8 }} xl={{ span: 8 }} xxl={{ span: 8 }}>
-                                <Flex vertical align={screens.xs ? "start" : "end"} justify="center" gap={'middle'}>
-                                    <Paragraph style={{ margin: 0, textAlign: 'end' }}>{experience.location}</Paragraph>
-                                    <Flex gap={'small'} align="center" justify="space-between" style={{ textAlign: 'end' }}>
-                                        <DateFormat dateString={experience.startDate} />
-                                        <MinusOutlined />
-                                        <DateFormat dateString={experience.endDate} />
-                                    </Flex>
-                                </Flex>
-                            </Col>
-
-                            <Col xs={24} sm={24} md={24} xl={24} xxl={24} style={{ margin: '1rem 0 1rem 0' }}>
-                                <Paragraph type="secondary" ellipsis={{ rows: 5, expandable: false, symbol: '...' }} style={{ margin: 0 }}>{experience.description}</Paragraph>
-                            </Col>
-                        </Row>
-                    </Flex>
-                </Card>
-            ))}
+                dataSource={workExperience}
+                renderItem={(experience) => (
+                    <List.Item>
+                        {layout === 'kanbam' ? <KanbamItem workExperience={experience} showModal={showModal} /> : <ListItem workExperience={experience} showModal={showModal} />}
+                    </List.Item>
+                )} />
 
             {/* Modal deve ser exibido apenas se houver uma experiência selecionada */}
             <Modal centered width={1000} open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>

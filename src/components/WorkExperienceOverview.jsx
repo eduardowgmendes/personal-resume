@@ -2,7 +2,7 @@ import { Avatar, Button, Card, Col, Collapse, Empty, Flex, Image, List, Popover,
 import SectionHeader from "./SectionHeader";
 import Paragraph from "antd/es/typography/Paragraph";
 import Title from "antd/es/typography/Title";
-import { AppstoreOutlined, ArrowRightOutlined, BranchesOutlined, BugOutlined, CalendarOutlined, CaretRightFilled, CheckCircleFilled, DoubleRightOutlined, ExportOutlined, FieldTimeOutlined, HeatMapOutlined, IdcardOutlined, MinusOutlined, PlayCircleFilled, PullRequestOutlined, PushpinOutlined, QuestionCircleOutlined, RightCircleOutlined, RightOutlined, RightSquareFilled, UserOutlined } from "@ant-design/icons";
+import { AppstoreOutlined, ArrowRightOutlined, BranchesOutlined, BugOutlined, CalendarOutlined, CaretRightFilled, CheckCircleFilled, DoubleRightOutlined, ExportOutlined, FieldTimeOutlined, HeatMapOutlined, IdcardOutlined, MinusOutlined, PlayCircleFilled, PullRequestOutlined, PushpinOutlined, QuestionCircleOutlined, RightCircleOutlined, RightOutlined, RightSquareFilled, TrophyOutlined, UserOutlined } from "@ant-design/icons";
 import { useState } from "react";
 import DateFormat from "../utils/DateFormat";
 
@@ -36,8 +36,9 @@ export default function WorkExperienceOverview({ workExperience }) {
 
     return (
         <Flex vertical>
+
             <Row gutter={[8, 8]}>
-                <Col span={24}>
+                <Col span={24} >
                     <Flex align="start" justify="center" gap={'middle'}>
                         <Avatar shape="square" size={64} src={workExperience.companyLogoUrl} />
                         <Flex vertical flex={1}>
@@ -61,18 +62,20 @@ export default function WorkExperienceOverview({ workExperience }) {
                     </Flex>
                 </Col>
 
-                <Col span={24}>
+                <Col span={24} >
                     <Flex align={'center'} justify={'center'} gap={'large'}>
                         <Paragraph>{workExperience.description}</Paragraph>
                     </Flex>
                 </Col>
 
                 <Col span={24}>
-                    <SectionHeader title={'Atuou em'} />
+                    <Flex align="center" >
+                        <SectionHeader title={'Atuou em'} />
+                    </Flex>
                     {workExperience.projects ?
                         <List grid={{ gutter: 16, xs: 1, sm: 1, md: 1, lg: 1, xl: 1, xxl: 1 }} dataSource={workExperience.projects} renderItem={(project) => (
                             <List.Item>
-                                <Card>
+                                <Card bordered>
 
                                     <Row gutter={[16, 16]}>
 
@@ -279,64 +282,70 @@ export default function WorkExperienceOverview({ workExperience }) {
                         } />
                         :
                         <Empty description='Nenhum projeto encontrado.' />}
-                </Col >
-
-                <Col xs={24} sm={24} md={24} lg={8} xl={8} xxl={8} >
-                    <Flex vertical gap={'large'}>
-                        <SectionHeader title={'Vínculo'} />
-                        <Timeline mode='left' items={[
-                            {
-                                dot: <PlayCircleFilled />,
-                                children: `Iniciado em ${workExperience.startDate}`,
-                                color: 'springgreen',
-                            },
-                            {
-                                dot: <CheckCircleFilled style={{ color: 'springgreen' }} />,
-                                children: `Finalizado em ${workExperience.endDate}`,
-                                color: 'crimsom',
-                            }
-                        ]} />
-                    </Flex>
                 </Col>
+                <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} >
+                    <Flex vertical justify="start" gap={'large'}>
+                        <SectionHeader title={'Vínculo'} />
+                        <Flex vertical style={{ padding: '0 1rem 0 1rem' }}>
+                            <Timeline mode='left' items={[
+                                {
+                                    dot: <PlayCircleFilled />,
+                                    children: `Iniciado em ${workExperience.startDate}`,
+                                    color: 'springgreen',
+                                },
+                                {
+                                    dot: <CheckCircleFilled />,
+                                    children: `Finalizado em ${workExperience.endDate}`,
+                                    color: 'crimsom',
+                                }
+                            ]} />
+                        </Flex>
+                    </Flex></Col>
+                {workExperience.alsoWorkedOn && workExperience.alsoWorkedOn.length > 0 &&
 
-                <Col xs={24} sm={24} md={24} lg={8} xl={8} xxl={8}>
-                    <Flex vertical gap={'large'}>
-                        <SectionHeader title={'Também atuou em'} />
-                        {workExperience.alsoWorkedOn && workExperience.alsoWorkedOn.length > 0 ?
+                    <Col xs={24} sm={24} md={24} lg={16} xl={16} xxl={16} >
+                        <Flex vertical gap={'large'}>
+                            <SectionHeader title={'Também atuou em'} />
                             <List size="small" grid={{ gutter: 16, xs: 1, sm: 1, md: 1, lg: 1, xl: 1, xxl: 1 }} dataSource={workExperience.alsoWorkedOn} renderItem={(item) => (
                                 <List.Item>
-                                    <Flex align="center" justify="space-between" gap={'middle'}>
+                                    <Flex align="start" justify="space-between" gap={'large'}>
                                         {item.media.projectLogo ?
-                                            <Avatar size={'small'} src={item.media.projectLogo} />
+                                            <Avatar shape='square' size={'large'} src={item.media.projectLogo} />
                                             :
-                                            <Avatar size={'small'}>{createAvatarName(item.name)}</Avatar>
+                                            <Avatar shape='square' size={'large'}>{createAvatarName(item.name)}</Avatar>
                                         }
 
                                         <Flex vertical justify='center' size={'small'} flex={1} wrap >
                                             <Paragraph style={{ margin: 0 }}>{item.name}</Paragraph>
-                                            <Paragraph type="secondary" style={{ margin: 0 }}>{item.description}</Paragraph>
+                                            <Paragraph type="secondary" style={{ margin: 0 }} ellipsis={{ rows: 3, expandable: true, symbol: 'Ver mais.' }}>{item.description}</Paragraph>
                                         </Flex>
                                     </Flex>
                                 </List.Item>
-                            )} /> : <Flex align="center" justify="space-between" gap={'middle'} style={{ padding: '1rem 0 1rem 0' }}><Empty description='Nenhum projeto encontrado.' /></Flex>}
-                    </Flex>
-                </Col>
+                            )} />
+                        </Flex>
+                    </Col>
+                }
 
-                <Col xs={24} sm={24} md={24} lg={8} xl={8} xxl={8}>
-                    <Flex vertical justify="start" gap={'large'}>
-                        <SectionHeader title={'Achievements'} />
+                {workExperience.achievements && workExperience.achievements.length > 0 &&
 
-                        {workExperience.achievements && workExperience.achievements.length > 0 ?
-                            workExperience.achievements.map((achievement) => (
-                                <Flex align="center" justify="start" gap={'middle'}>
-                                    <Flex vertical justify='center' size={'small'} flex={1} wrap >
-                                        <Paragraph style={{ margin: 0 }}>{achievement.name}</Paragraph>
-                                        <Paragraph type="secondary" style={{ margin: 0 }}>{achievement.description}</Paragraph>
+                    <Col xs={24} sm={24} md={24} lg={8} xl={8} xxl={8} >
+                        <Flex vertical justify="start" gap={'large'}>
+                            <SectionHeader title={'Achievements'} />
+                            {
+                                workExperience.achievements.map((achievement) => (
+                                    <Flex align="start" justify="start" gap={'large'}>
+                                        <Avatar size={'large'} icon={<TrophyOutlined style={{ color: 'gold' }} />} />
+                                        <Flex vertical justify='center' size={'small'} flex={1} wrap >
+                                            <Paragraph style={{ margin: 0 }}>{achievement.name}</Paragraph>
+                                            <Paragraph type="secondary" style={{ margin: 0 }}>{achievement.description}</Paragraph>
+                                        </Flex>
                                     </Flex>
-                                </Flex>
-                            )) : <Flex align="center" justify="space-between" gap={'middle'} style={{ padding: '1rem 0 1rem 0' }}><Empty description='Nenhum achievement encontrado.' /></Flex>}
-                    </Flex>
-                </Col>
+                                ))
+                            }
+                        </Flex>
+
+                    </Col>
+                }
 
             </Row >
         </Flex >

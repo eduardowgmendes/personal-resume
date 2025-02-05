@@ -15,11 +15,10 @@ export default function Education({ education }) {
     return (
         <Layout>
             <SectionHeader title={'Formação'} />
-            <Card bordered={false} bodyStyle={{padding: 0}}>
+            <Card bordered={false} size="small">
                 {education.map((item, index) => (
                     
-                        
-                        <Flex align="center" justify="space-between" gap={'small'} style={{ padding: '2rem' }} key={index}>
+                        <Flex align="start" justify="space-between" gap={'small'} style={{ padding: '1rem' }} key={index}>
 
                             {
                                 item.institutionWebsite && item.institutionLogoUrl ?
@@ -29,8 +28,8 @@ export default function Education({ education }) {
                             }
 
                             <Flex vertical align="start" justify="space-between" style={{ height: '100%', flex: 1, padding: '0 1rem 0 1rem' }}>
-                                <Title level={5} ellipsis={{ rows: 2, expandable: false, symbol: '...' }} style={{ margin: 0 }}>{item.degree}</Title>
-                                <Paragraph type="secondary" ellipsis={{ rows: 2, expandable: false, symbol: '...' }} style={{ margin: 0 }}>{item.institution}</Paragraph>
+                                <Title level={5} ellipsis={{ rows: 3, expandable: false, symbol: '...' }} style={{ margin: 0, fontWeight: 'bold' }}>{item.degree}</Title>
+                                <Paragraph className="small" type="secondary" ellipsis={{ rows: 2, expandable: false, symbol: '...' }} style={{ margin: 0 }}>{item.institution}</Paragraph>
                             </Flex>
 
 
