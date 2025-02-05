@@ -100,7 +100,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                                                         label: 'Ferramentas Utilizadas',
                                                         children:
                                                             <Row gutter={[16, 16]}>
-                                                                <Col span={12}>
+                                                                <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 12 }} lg={{ span: 12 }} xl={{ span: 12 }} xxl={{ span: 12 }}>
                                                                     {project.tools.technologies &&
                                                                         <Flex vertical gap={'small'} style={{ padding: '1rem 0 1rem 0' }} >
                                                                             <Space direction="horizontal" align="center" size={'middle'}>
@@ -116,7 +116,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                                                                         </Flex>
                                                                     }
                                                                 </Col>
-                                                                <Col span={12}>
+                                                                <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 12 }} lg={{ span: 12 }} xl={{ span: 12 }} xxl={{ span: 12 }}>
                                                                     {project.tools.applications &&
                                                                         <Flex vertical gap={'small'} style={{ padding: '1rem 0 1rem 0' }} >
                                                                             <Space direction="horizontal" align="center" size={'middle'}>
