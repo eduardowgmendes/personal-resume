@@ -37,7 +37,7 @@ export default function WorkExperience({ workExperience }) {
 
     return (
         <Layout>
-            <SectionHeader title={'Work Experience'} />
+            <SectionHeader title={'Experiências'} />
             {workExperience.map((experience, index) => (
                 <Card 
                     bordered 

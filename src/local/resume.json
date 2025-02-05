@@ -2,7 +2,7 @@
     "name": "Eduardo Willian Gonçalves Mendes",
     "profile": {
         "profession": "Junior Java Backend Developer",
-        "nationality": "Brazilian",
+        "nationality": "Brasileiro",
         "age": 33
     },
     "bio": "Desenvolvedor Java e Android Júnior, super entusiasta de tecnologias mobile e sistemas operacionais. Cada vez mais apaixonado pela plataforma Java, evangelista da plataforma Android e aventureiro Kotlin. Saudosista de tecnologias mobile antigas - hardware e software - dono de um Nokia 3110. Defensor assíduo das boas práticas de desenvolvimento de software Orientado à Objetos.",
@@ -23,9 +23,9 @@
             "role": "Junior Java Backend Developer",
             "location": "Araras, SP",
             "company": "Varitus do Brasil",
-            "startDate": "June 2022",
-            "endDate": "November 2023",
-            "description": "Collaborated with the engineering team on identifying and resolving issues in the Notafaz application for issuing tax documents. Developed and maintained REST APIs supporting multiple corporate applications, ensuring system efficiency, reliability, and scalability.",
+            "startDate": "Junho 2022",
+            "endDate": "Novembro 2023",
+            "description": "Colaborei com a equipe de engenharia na identificação e resolução de problemas no aplicativo Notafaz para emissão de documentos fiscais. Desenvolvi e mantive APIs REST que dão suporte a múltiplas aplicações corporativas, garantindo eficiência, confiabilidade e escalabilidade do sistema.",
             "achievements": [],
             "techonologiesUsed": [
                 "Java",
@@ -54,6 +54,11 @@
                                 "logo": "",
                                 "name": "Jasper Reports",
                                 "description": "Ferramenta de criação de relatórios."
+                            },
+                            {
+                                "logo": "./images/logos/companies/smartbear/soapui_logo.svg",
+                                "name": "SoapUI",
+                                "description": "Ferramenta de teste para requisições SOAP e REST."
                             }
                         ],
                         "technologies": [
@@ -63,34 +68,36 @@
                             "Java Beans",
                             "JAX-RS",
                             "Soap",
-                            "Rest"
+                            "Rest",
+                            "Jenkins",
+                            "Prime Faces"
                         ]
                     },
                     "time": {
-                        "totalPlayed": "128hs",
+                        "totalPlayed": "4.262hs",
                         "tasks": {
                             "title": "Tasks Entregues & Atuação no Projeto",
                             "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
-                            "tasksDelivered": 144
+                            "tasksDelivered": 42
                         },
                         "spent": {
                             "title": "Balanço de Tempo",
                             "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
                             "values": [
                                 {
-                                    "name": "Resolução de Bugs",
+                                    "name": "Resolvendo Bugs",
                                     "color": "blue",
-                                    "value": 70
+                                    "value": 83
                                 },
                                 {
-                                    "name": "Novas Features",
+                                    "name": "Implementando Novas Features",
                                     "color": "green",
-                                    "value": 20
+                                    "value": 16
                                 },
                                 {
-                                    "name": "Problemas Críticos",
+                                    "name": "Resolvendo Problemas Críticos",
                                     "color": "red",
-                                    "value": 10
+                                    "value": 1
                                 }
                             ]
                         }
@@ -127,34 +134,35 @@
                             "Java Beans",
                             "JAX-RS",
                             "Soap",
-                            "Rest"
+                            "Rest",
+                            "React"
                         ]
                     },
                     "time": {
-                        "totalPlayed": "128hs",
+                        "totalPlayed": "2.622hs",
                         "tasks": {
                             "title": "Tasks Entregues & Atuação no Projeto",
                             "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
-                            "tasksDelivered": 144
+                            "tasksDelivered": 21
                         },
                         "spent": {
                             "title": "Balanço de Tempo",
                             "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
                             "values": [
                                 {
-                                    "name": "Resolução de Bugs",
+                                    "name": "Resolvendo Bugs",
                                     "color": "blue",
-                                    "value": 70
+                                    "value": 42
                                 },
                                 {
-                                    "name": "Novas Features",
+                                    "name": "Implementando Novas Features",
                                     "color": "green",
-                                    "value": 20
+                                    "value": 72
                                 },
                                 {
-                                    "name": "Problemas Críticos",
+                                    "name": "Resolvendo Problemas Críticos",
                                     "color": "red",
-                                    "value": 10
+                                    "value": 2
                                 }
                             ]
                         }
@@ -195,30 +203,30 @@
                         ]
                     },
                     "time": {
-                        "totalPlayed": "128hs",
+                        "totalPlayed": "1.118hs",
                         "tasks": {
                             "title": "Tasks Entregues & Atuação no Projeto",
                             "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
-                            "tasksDelivered": 144
+                            "tasksDelivered": 18
                         },
                         "spent": {
                             "title": "Balanço de Tempo",
                             "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
                             "values": [
                                 {
-                                    "name": "Resolução de Bugs",
+                                    "name": "Resolvendo Bugs",
                                     "color": "blue",
-                                    "value": 70
+                                    "value": 82
                                 },
                                 {
-                                    "name": "Novas Features",
+                                    "name": "Implementando Novas Features",
                                     "color": "green",
-                                    "value": 20
+                                    "value": 12
                                 },
                                 {
-                                    "name": "Problemas Críticos",
+                                    "name": "Resolvendo Problemas Críticos",
                                     "color": "red",
-                                    "value": 10
+                                    "value": 3
                                 }
                             ]
                         }
@@ -240,9 +248,9 @@
             "role": "Junior Systems Analyst",
             "location": "Campinas, SP",
             "company": "OneBrain IT Solutions",
-            "startDate": "November 2020",
-            "endDate": "February 2021",
-            "description": "Assisted the backend team in developing REST APIs and maintaining and restructuring existing APIs using Java and JDBC Template for PostgreSQL database integration.",
+            "startDate": "Novembro 2020",
+            "endDate": "Fevereiro 2021",
+            "description": "Auxiliei a equipe de backend no desenvolvimento de APIs REST e na manutenção e reestruturação de APIs existentes utilizando Java e JDBC Template para integração com o banco de dados PostgreSQL.",
             "achievements": [],
             "techonologiesUsed": [
                 "",
@@ -264,52 +272,102 @@
                 {
                     "id": 1,
                     "name": "Peça Chevrolet",
-                    "description": "",
-                    "category": "Sistema de Emissão e Gestão de Documentos Fiscais.",
-                    "website": "https://www.google.com",
-                    "reach": 420,
+                    "description": "Peças Originais Com Qualidade Garantida. Acesse e conheça a loja online de autopeças da Chevrolet com peças genuínas GM.",
+                    "category": "Sistema de e-commerce.",
+                    "website": "https://www.pecachevrolet.com.br/",
+                    "reach": 14200000,
                     "dimension": "Grande",
                     "tools": {
-                        "applications": [
-                            {
-                                "logo": "",
-                                "name": "Jasper Reports",
-                                "description": "Ferramenta de criação de relatórios."
-                            }
-                        ],
                         "technologies": [
                             "Java",
-                            "Spring",
                             "Java EE",
                             "Java Beans",
                             "JAX-RS",
                             "Soap",
-                            "Rest"
+                            "Rest",
+                            "Prime Faces"
                         ]
                     },
                     "time": {
-                        "totalPlayed": "128hs",
+                        "totalPlayed": "42hs",
                         "tasks": {
                             "title": "Tasks Entregues & Atuação no Projeto",
                             "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
-                            "tasksDelivered": 144
+                            "tasksDelivered": 4
                         },
                         "spent": {
                             "title": "Balanço de Tempo",
                             "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
                             "values": [
                                 {
-                                    "name": "Resolução de Bugs",
+                                    "name": "Resolvendo Bugs",
                                     "color": "blue",
-                                    "value": 70
+                                    "value": 92
                                 },
                                 {
-                                    "name": "Novas Features",
+                                    "name": "Implementando Novas Features",
                                     "color": "green",
-                                    "value": 20
+                                    "value": 8
                                 },
                                 {
-                                    "name": "Problemas Críticos",
+                                    "name": "Resolvendo Problemas Críticos",
+                                    "color": "red",
+                                    "value": 0
+                                }
+                            ]
+                        }
+                    },
+                    "media": {
+                        "projectLogo": "",
+                        "projectCover": "https://images.unsplash.com/photo-1604782206219-3b9576575203?q=80&w=1994&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                        "projectImages": [],
+                        "colors": {
+                            "primary": "yellow"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "GoPic",
+                    "description": "Suas histórias além da tela! 📸💙 Você registra. A Gopic eterniza. Fotos polaroides adesivas, um jeito único de revelar seus melhores momentos.",
+                    "category": "Sistema de Clube de Assinaturas.",
+                    "website": "https://blog.hubhomebox.com.br/clube-de-assinatura-gopic/",
+                    "reach": 125000,
+                    "dimension": "Grande",
+                    "tools": {
+                        "technologies": [
+                            "Java",
+                            "Java EE",
+                            "Java Beans",
+                            "JAX-RS",
+                            "Soap",
+                            "Rest",
+                            "Prime Faces"
+                        ]
+                    },
+                    "time": {
+                        "totalPlayed": "122hs",
+                        "tasks": {
+                            "title": "Tasks Entregues & Atuação no Projeto",
+                            "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
+                            "tasksDelivered": 9
+                        },
+                        "spent": {
+                            "title": "Balanço de Tempo",
+                            "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
+                            "values": [
+                                {
+                                    "name": "Resolvendo Bugs",
+                                    "color": "blue",
+                                    "value": 27
+                                },
+                                {
+                                    "name": "Implementando Novas Features",
+                                    "color": "green",
+                                    "value": 63
+                                },
+                                {
+                                    "name": "Resolvendo Problemas Críticos",
                                     "color": "red",
                                     "value": 10
                                 }
@@ -333,9 +391,9 @@
             "role": "Web Developer",
             "location": "Valinhos, SP",
             "company": "Kroton Educacional",
-            "startDate": "August 2015",
-            "endDate": "September 2018",
-            "description": "Developed interactive educational materials using CSS3, JavaScript, and HTML5, alongside frameworks like Bootstrap and jQuery, for online courses reaching over 2 million students nationwide.",
+            "startDate": "Agosto 2015",
+            "endDate": "Setembro 2018",
+            "description": "Desenvolvi materiais educativos interativos utilizando CSS3, JavaScript e HTML5, juntamente com frameworks como Bootstrap e jQuery, para cursos online que alcançaram mais de 2 milhões de estudantes em todo o país.",
             "achievements": [],
             "techonologiesUsed": [
                 "",
@@ -364,55 +422,59 @@
             "projects": [
                 {
                     "id": 1,
-                    "name": "Web Aula 2.0",
-                    "description": "",
-                    "category": "Sistema de Emissão e Gestão de Documentos Fiscais.",
-                    "reach": 420145,
+                    "name": "Resdesign do Web Aula - 2018",
+                    "description": "Definição de um novo layout e formato de Web Aulas mais interativas com utilização do Bootstrap para melhorar a experiência do aluno.",
+                    "category": "Sistema Interativo de Educação à Distância.",
+                    "reach": 15000000,
                     "dimension": "Grande",
                     "website": "https://www.google.com",
                     "tools": {
                         "applications": [
                             {
-                                "logo": "",
-                                "name": "Jasper Reports",
-                                "description": "Ferramenta de criação de relatórios."
+                                "logo": "./images/logos/companies/zine/boostrap_studio_logo.svg",
+                                "name": "Bootstrap Studio",
+                                "description": "Ferramenta de CMS."
                             }
                         ],
                         "technologies": [
-                            "Java",
-                            "Spring",
-                            "Java EE",
-                            "Java Beans",
-                            "JAX-RS",
-                            "Soap",
-                            "Rest"
+                            "JS",
+                            "Bootstrap",
+                            "CSS3",
+                            "HTML5",
+                            "SVG",
+                            "jQuery"
                         ]
                     },
                     "time": {
-                        "totalPlayed": "128hs",
+                        "totalPlayed": "9.332hs",
                         "tasks": {
                             "title": "Tasks Entregues & Atuação no Projeto",
                             "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
-                            "tasksDelivered": 144
+                            "tasksDelivered": 172
                         },
                         "spent": {
                             "title": "Balanço de Tempo",
                             "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
                             "values": [
                                 {
-                                    "name": "Resolução de Bugs",
+                                    "name": "Resolvendo Bugs",
                                     "color": "blue",
-                                    "value": 70
+                                    "value": 8
                                 },
                                 {
-                                    "name": "Novas Features",
+                                    "name": "Elaborando Protótipos",
+                                    "color": "yellow",
+                                    "value": 74
+                                },
+                                {
+                                    "name": "Implementando Novas Features",
                                     "color": "green",
-                                    "value": 20
+                                    "value": 88
                                 },
                                 {
-                                    "name": "Problemas Críticos",
+                                    "name": "Resolvendo Problemas Críticos",
                                     "color": "red",
-                                    "value": 10
+                                    "value": 4
                                 }
                             ]
                         }
@@ -434,9 +496,9 @@
             "role": "Graphic Designer UI/UX",
             "location": "Sumaré, SP",
             "company": "Humman Inteligência Digital",
-            "startDate": "April 2014",
-            "endDate": "February 2015",
-            "description": "Collaborated on creating advertising materials for international clients and developed sophisticated user interfaces and experiences for various projects.",
+            "startDate": "Abril 2014",
+            "endDate": "Fevereiro 2015",
+            "description": "Colaborei na criação de materiais publicitários para clientes internacionais e desenvolvi interfaces e experiências de usuário sofisticadas para diversos projetos.",
             "achievements": [
                 {
                     "name": "Vencedor do Prêmio do Site da Beiesdorff",
@@ -493,27 +555,32 @@
                     "tools": {
                         "applications": [
                             {
-                                "logo": "",
-                                "name": "Jasper Reports",
-                                "description": "Ferramenta de criação de relatórios."
+                                "logo": "./images/logos/companies/adobe/adobe_illustrator_cc_icon.svg",
+                                "name": "Adobe Illustrator",
+                                "description": "Ferramenta de edição e criação de imagens vetoriais."
+                            },
+                            {
+                                "logo": "./images/logos/companies/adobe/adobe_photoshop_cc_icon.svg",
+                                "name": "Adobe Photoshop",
+                                "description": "Ferramenta de edição de imagens."
+                            },
+                            {
+                                "logo": "./images/logos/companies/adobe/adobe_xd_cc_icon.svg",
+                                "name": "Adobe XD",
+                                "description": "Ferramenta de prototipação."
                             }
                         ],
                         "technologies": [
-                            "Java",
-                            "Spring",
-                            "Java EE",
-                            "Java Beans",
-                            "JAX-RS",
-                            "Soap",
-                            "Rest"
+                            "Hotjar",
+                            "Facebook Ads"
                         ]
                     },
                     "time": {
-                        "totalPlayed": "4.383hs",
+                        "totalPlayed": "6.535hs",
                         "tasks": {
                             "title": "Tasks Entregues & Atuação no Projeto",
                             "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
-                            "tasksDelivered": 96
+                            "tasksDelivered": 142
                         },
                         "spent": {
                             "title": "Balanço de Tempo",
@@ -557,92 +624,13 @@
                         "projectCover": "https://images.unsplash.com/photo-1456024569359-9e78b5d10a80?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                         "projectImages": [
                             {
-                                "pictureUrl": "https://images.unsplash.com/photo-1736156725121-027231636f9d?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                                "description": "",
-                                "pictureCaption": ""
-                            },
-                            {
-                                "pictureUrl": "https://images.unsplash.com/photo-1738363436637-ee6f4a910715?q=80&w=1365&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                                "description": "",
-                                "pictureCaption": ""
-                            },
-                            {
-                                "pictureUrl": "https://images.unsplash.com/photo-1738251198850-39ba48c75fde?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                                "description": "",
-                                "pictureCaption": ""
-                            },
-                            {
-                                "pictureUrl": "https://images.unsplash.com/photo-1735627062325-c978986b1871?q=80&w=1112&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                                "pictureUrl": "./images/gallery/goodbom/goodbom_fb_post_2014.png",
                                 "description": "",
                                 "pictureCaption": ""
                             }
                         ],
                         "colors": {
                             "primary": "blue"
-                        }
-                    }
-                },
-                {
-                    "id": 2,
-                    "name": "Reckitt & Benckiser",
-                    "category": "Sistema de Emissão e Gestão de Documentos Fiscais.",
-                    "description": "Contribuí para a manutenção do site e o desenvolvimento de novas seções interativas, garantindo uma interface responsiva e moderna.",
-                    "reach": 1250000,
-                    "dimension": "Grande",
-                    "website": "https://www.google.com",
-                    "tools": {
-                        "applications": [
-                            {
-                                "logo": "",
-                                "name": "Jasper Reports",
-                                "description": "Ferramenta de criação de relatórios."
-                            }
-                        ],
-                        "technologies": [
-                            "Java",
-                            "Spring",
-                            "Java EE",
-                            "Java Beans",
-                            "JAX-RS",
-                            "Soap",
-                            "Rest"
-                        ]
-                    },
-                    "time": {
-                        "totalPlayed": "128hs",
-                        "tasks": {
-                            "title": "Tasks Entregues & Atuação no Projeto",
-                            "caption": "Estimativa baseada em registros e indicadores de desempenho (KPIs) da época.",
-                            "tasksDelivered": 144
-                        },
-                        "spent": {
-                            "title": "Balanço de Tempo",
-                            "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
-                            "values": [
-                                {
-                                    "name": "Resolução de Bugs",
-                                    "color": "blue",
-                                    "value": 70
-                                },
-                                {
-                                    "name": "Novas Features",
-                                    "color": "green",
-                                    "value": 20
-                                },
-                                {
-                                    "name": "Problemas Críticos",
-                                    "color": "red",
-                                    "value": 10
-                                }
-                            ]
-                        }
-                    },
-                    "media": {
-                        "projectLogo": "",
-                        "projectCover": "https://images.unsplash.com/photo-1595105579635-662c74f88f05?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "projectImages": [],
-                        "colors": {
-                            "primary": "volcano"
                         }
                     }
                 }
@@ -655,65 +643,65 @@
             "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQEZkMsv5FwbDA/company-logo_200_200/company-logo_200_200/0/1710187635900/aluracursos_logo?e=1744848000&v=beta&t=G9eg2VCq9Q_xNmPHWBwCOsdwAAZiJSs8FY_9OZ26nLI",
             "name": "Android Recycler View",
             "institution": "Alura",
-            "startDate": "November 2018",
-            "endDate": "December 2018",
-            "status": "Finished"
+            "startDate": "Novembro 2018",
+            "endDate": "Dezembro 2018",
+            "status": "Concluído"
         },
         {
             "institutionWebsite": "https://www.udemy.com/",
             "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1744848000&v=beta&t=dUiQ0MY-f0i4jPuTVzpfeEJL8XlUUY_bM5Os9V5jXOU",
             "name": "Kotlin",
             "institution": "Udemy",
-            "startDate": "November 2019",
-            "endDate": "January 2020",
-            "status": "Finished"
+            "startDate": "Novembro 2019",
+            "endDate": "Janeiro 2020",
+            "status": "Concluído"
         },
         {
             "institutionWebsite": "https://www.udemy.com/",
             "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1744848000&v=beta&t=dUiQ0MY-f0i4jPuTVzpfeEJL8XlUUY_bM5Os9V5jXOU",
             "name": "Flutter",
             "institution": "Udemy",
-            "startDate": "November 2019",
-            "endDate": "February 2020",
-            "status": "Finished"
+            "startDate": "Novembro 2019",
+            "endDate": "Fevereiro 2020",
+            "status": "Concluído"
         },
         {
             "institutionWebsite": "https://www.udemy.com/",
             "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1744848000&v=beta&t=dUiQ0MY-f0i4jPuTVzpfeEJL8XlUUY_bM5Os9V5jXOU",
             "name": "Spring MVC",
             "institution": "Udemy",
-            "startDate": "December 2019",
-            "endDate": "March 2020",
-            "status": "Finished"
+            "startDate": "Dezembro 2019",
+            "endDate": "Março 2020",
+            "status": "Concluído"
         }
     ],
     "education": [
         {
             "institutionWebsite": "http://www.educacao.sp.gov.br/cgrh/escolas/luiz-campo-dall-orto-sobrinho/",
             "institutionLogoUrl": "",
-            "degree": "High School Diploma",
+            "degree": "Ensino Médio Regular",
             "institution": "E.E. Luiz Campos Dall’orto Sobrinho",
-            "startDate": "January 2006",
-            "endDate": "December 2008",
-            "status": "Finished"
+            "startDate": "Janeiro 2006",
+            "endDate": "Dezembro 2008",
+            "status": "Concluído"
         },
         {
             "institutionWebsite": "https://ciandt.com/br/",
             "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQFrob6OoOk9iQ/company-logo_200_200/company-logo_200_200/0/1638360715950/dextra_digital_logo?e=1744848000&v=beta&t=DfQfHkuhoOMrRUJQ-HOKkkRHJO40SO0GUZ3Y03n58Ko",
-            "degree": "Java Spring MVC Training",
+            "degree": "Treinamento - Java Spring MVC",
             "institution": "Dextraining - Pólis de Alta Tecnologia",
-            "startDate": "February 2016",
-            "endDate": "September 2016",
-            "status": "Finished"
+            "startDate": "Fevereiro 2016",
+            "endDate": "Setembro 2016",
+            "status": "Concluído"
         },
         {
             "institutionWebsite": "https://www.wyden.com.br/",
             "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQFRqANreQfkjQ/company-logo_200_200/company-logo_200_200/0/1698864055544/wyden_educacional_logo?e=1744848000&v=beta&t=9F46SBxH4grtkHV65WqmD8Zu6-JzJ7tWj6nbzeFCtfk",
-            "degree": "Systems Analysis and Development",
+            "degree": "Análise e Desenvolvimento de Sistemas",
             "institution": "Wyden - Metrocamp",
-            "startDate": "September 2023",
-            "endDate": "January 2026",
-            "status": "In Progress"
+            "startDate": "Setembro 2023",
+            "endDate": "Janeiro 2026",
+            "status": "Em Andamento"
         }
     ],
     "skills": {
@@ -723,25 +711,25 @@
             "Kotlin"
         ],
         "backend": [
-            "Web application and RESTful API development using Spring",
-            "SQL database integration with JPA and Hibernate",
-            "RESTful API documentation with Swagger"
+            "Desenvolvimento de aplicações web e APIs RESTful usando Spring",
+            "Integração com banco de dados SQL utilizando JPA e Hibernate",
+            "Documentação de API RESTful com Swagger"
         ],
         "frontend": [
-            "Web interface creation with React.js, JavaScript, CSS3, HTML5, Bootstrap, and jQuery"
+            "Criação de interface web com React.js, JavaScript, CSS3, HTML5, Bootstrap e jQuery"
         ],
         "android": [
-            "Native app development with Java and Kotlin",
-            "Experience with libraries like Room, SQLite, and Retrofit"
+            "Desenvolvimento de aplicativos nativos com Java e Kotlin",
+            "Experiência com bibliotecas como Room, SQLite e Retrofit"
         ],
         "databases": [
             "PostgreSQL",
             "MySQL"
         ],
         "tools": [
-            "Version control with Git",
-            "Dependency management with Maven and Gradle",
-            "Dynamic reporting with JasperReports"
+            "Controle de versão com Git",
+            "Gerenciamento de dependências com Maven e Gradle",
+            "Relatórios dinâmicos com JasperReports"
         ]
     }
 }

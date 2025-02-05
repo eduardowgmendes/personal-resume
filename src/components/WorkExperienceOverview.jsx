@@ -2,7 +2,7 @@ import { Avatar, Button, Card, Col, Collapse, Empty, Flex, Image, List, Popover,
 import SectionHeader from "./SectionHeader";
 import Paragraph from "antd/es/typography/Paragraph";
 import Title from "antd/es/typography/Title";
-import { BranchesOutlined, BugOutlined, CheckCircleFilled, ExportOutlined, FieldTimeOutlined, IdcardOutlined, PlayCircleFilled, QuestionCircleOutlined, UserOutlined } from "@ant-design/icons";
+import { AppstoreOutlined, BranchesOutlined, BugOutlined, CheckCircleFilled, ExportOutlined, FieldTimeOutlined, IdcardOutlined, PlayCircleFilled, QuestionCircleOutlined, UserOutlined } from "@ant-design/icons";
 import { useState } from "react";
 
 export default function WorkExperienceOverview({ workExperience }) {
@@ -78,7 +78,7 @@ export default function WorkExperienceOverview({ workExperience }) {
 
                                         <Col span={24}>
                                             <Flex vertical gap={'small'}>
-                                                <Paragraph>{project.description}</Paragraph>
+                                                <Paragraph ellipsis={{ rows: 4, expandable: true, symbol: 'Ver mais.' }}>{project.description}</Paragraph>
                                             </Flex>
                                         </Col>
 
@@ -100,21 +100,48 @@ export default function WorkExperienceOverview({ workExperience }) {
                                                         label: 'Ferramentas Utilizadas',
                                                         children:
                                                             <Row gutter={[16, 16]}>
-                                                                <Col span={24}>
-                                                                    <Flex vertical gap={'small'} style={{ padding: '1rem 0 1rem 0' }} >
-                                                                        <Space direction="horizontal" align="center" size={'middle'}>
-                                                                            <Title level={5}>Tecnologias</Title>
-                                                                        </Space>
+                                                                <Col span={12}>
+                                                                    {project.tools.technologies &&
+                                                                        <Flex vertical gap={'small'} style={{ padding: '1rem 0 1rem 0' }} >
+                                                                            <Space direction="horizontal" align="center" size={'middle'}>
+                                                                                <Title level={5}>Tecnologias</Title>
+                                                                            </Space>
 
-                                                                        {project.tools.technologies ?
                                                                             <Flex gap={'small'} wrap>{
                                                                                 project.tools.technologies.map((tech, index) => (
                                                                                     <Tag key={index}>{tech}</Tag>
                                                                                 ))
                                                                             }
                                                                             </Flex>
-                                                                            : <Empty description='Nenhuma ferramenta encontrada.' />}
-                                                                    </Flex>
+                                                                        </Flex>
+                                                                    }
+                                                                </Col>
+                                                                <Col span={12}>
+                                                                    {project.tools.applications &&
+                                                                        <Flex vertical gap={'small'} style={{ padding: '1rem 0 1rem 0' }} >
+                                                                            <Space direction="horizontal" align="center" size={'middle'}>
+                                                                                <Title level={5}>Apps</Title>
+                                                                            </Space>
+
+                                                                            <Flex vertical gap={'large'} wrap>{
+                                                                                project.tools.applications.map((app, index) => (
+                                                                                    <Flex key={index} align="center" gap={'middle'}>
+                                                                                        {
+                                                                                            app.logo ?
+                                                                                                <Image preview={false} src={app.logo} width={'2rem'} />
+                                                                                                : <Avatar shape="square" icon={<AppstoreOutlined />} size={'large'} />
+                                                                                        }
+
+                                                                                        <Flex vertical flex={1}>
+                                                                                            <Title level={5} style={{ margin: 0 }}>{app.name}</Title>
+                                                                                            <Paragraph type="secondary" style={{ margin: 0 }}>{app.description}</Paragraph>
+                                                                                        </Flex>
+                                                                                    </Flex>
+                                                                                ))
+                                                                            }
+                                                                            </Flex>
+                                                                        </Flex>
+                                                                    }
                                                                 </Col>
                                                             </Row>
                                                     }, {

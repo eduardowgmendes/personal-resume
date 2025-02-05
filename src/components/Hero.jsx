@@ -22,7 +22,7 @@ export default function Hero({ profilePicture, name, profileDetails, bio, contac
                     {profileDetails.profession}
                 </Title>
                 <Paragraph>
-                    {profileDetails.nationality.concat(', ').concat(profileDetails.age).concat(' years.')}
+                    {profileDetails.nationality.concat(', ').concat(profileDetails.age).concat(' anos.')}
                 </Paragraph>
                 <Paragraph
                     type="secondary"

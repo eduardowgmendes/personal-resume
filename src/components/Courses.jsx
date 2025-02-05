@@ -11,9 +11,9 @@ export default function Courses({ courses }) {
 
             <Flex vertical>
 
-                <SectionHeader title={'Courses'} />
+                <SectionHeader title={'Cursos'} />
 
-                <Card bordered={false} bodyStyle={{padding: 0}}>
+                <Card bordered={false} bodyStyle={{ padding: 0 }}>
                     {courses.map((course, index) => (
                         <Flex align="center" justify="space-between" gap={'small'} style={{ padding: '2rem' }} key={index}>
 
@@ -32,9 +32,9 @@ export default function Courses({ courses }) {
 
 
                             <Flex vertical align="end" justify="space-between" style={{ height: '100%' }}>
-                                
+
                                 {
-                                    course.status === 'Finished' ?
+                                    course.status === 'Concluído' ?
 
                                         <Flex gap={'small'} align="center">
                                             <CheckCircleOutlined style={{ color: 'springgreen' }} />
@@ -42,8 +42,8 @@ export default function Courses({ courses }) {
                                         </Flex>
                                         :
                                         <Flex gap={'small'} align="center">
-                                            <SyncOutlined spin style={{ color: 'skyblue' }} />
-                                            <Paragraph ellipsis={{ rows: 2, expandable: false, symbol: '...' }} style={{ margin: 0, color: "dodgerblue" }}>{course.status}</Paragraph>
+                                            <SyncOutlined spin />
+                                            <Paragraph type="secondary" ellipsis={{ rows: 2, expandable: false, symbol: '...' }} style={{ margin: 0 }}>{course.status}</Paragraph>
                                         </Flex>
 
                                 }

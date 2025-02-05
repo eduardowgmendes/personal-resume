@@ -5,18 +5,18 @@ export default function DateFormat({dateString}){
     const formatDate = (date) => {
         const [month, year] = date.split(" ");
         const months = {
-          January: "Jan",
-          February: "Feb",
-          March: "Mar",
-          April: "Apr",
-          May: "May",
-          June: "Jun",
-          July: "Jul",
-          August: "Aug",
-          September: "Sep",
-          October: "Oct",
-          November: "Nov",
-          December: "Dec",
+          Janeiro: "Jan",
+          Fevereiro: "Fev",
+          Março: "Mar",
+          Abril: "Abr",
+          Maio: "Mai",
+          Junho: "Jun",
+          Julho: "Jul",
+          Agosto: "Ago",
+          Setembro: "Set",
+          Outubro: "Out",
+          Novembro: "Nov",
+          Dezembro: "Dez",
         };
     
         return `${months[month]} ${year}`;

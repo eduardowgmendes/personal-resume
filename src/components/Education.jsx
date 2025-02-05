@@ -14,7 +14,7 @@ export default function Education({ education }) {
 
     return (
         <Layout>
-            <SectionHeader title={'Education'} />
+            <SectionHeader title={'Formação'} />
             <Card bordered={false} bodyStyle={{padding: 0}}>
                 {education.map((item, index) => (
                     
@@ -36,7 +36,7 @@ export default function Education({ education }) {
 
                             <Flex vertical align="end" justify="space-between" style={{ height: '100%' }}>
                                 {
-                                    item.status === 'Finished' ?
+                                    item.status === 'Concluído' ?
                                     
                                     <Flex gap={'small'}>
                                         <CheckCircleOutlined style={{color: 'springgreen'}} />
@@ -44,8 +44,8 @@ export default function Education({ education }) {
                                     </Flex> : 
                                     
                                     <Flex gap={'small'}>
-                                        <SyncOutlined spin style={{color: 'skyblue'}}/>
-                                        <Paragraph ellipsis={{ rows: 2, expandable: false, symbol: '...' }} style={{ margin: 0, color: "dodgerblue" }}>{item.status}</Paragraph>
+                                        <SyncOutlined spin />
+                                        <Paragraph type="secondary" ellipsis={{ rows: 2, expandable: false, symbol: '...' }} style={{ margin: 0 }}>{item.status}</Paragraph>
                                     </Flex>
                                     
                                 }
