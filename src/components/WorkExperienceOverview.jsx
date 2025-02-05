@@ -113,7 +113,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                                                                                 ))
                                                                             }
                                                                             </Flex>
-                                                                            : <Empty description='No tech available.' />}
+                                                                            : <Empty description='Nenhuma ferramenta encontrada.' />}
                                                                     </Flex>
                                                                 </Col>
                                                             </Row>
@@ -183,7 +183,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                                                                                         <Progress strokeColor={time.color} key={index} percent={time.value} />
                                                                                     </Col>
                                                                                 </Row>
-                                                                            )) : <Empty description='' />}
+                                                                            )) : <Empty description='Sem dados disponíveis.' />}
                                                                         </Flex>
 
                                                                     </Flex>
