@@ -1,8 +1,8 @@
-import { Avatar, Button, Card, Col, Collapse, Divider, Empty, Flex, Image, List, Popover, Progress, Row, Space, Statistic, Tag, Timeline, Tooltip } from "antd";
+import { Avatar, Button, Card, Col, Collapse, Empty, Flex, Image, List, Popover, Progress, Row, Space, Statistic, Tag, Timeline, Tooltip } from "antd";
 import SectionHeader from "./SectionHeader";
 import Paragraph from "antd/es/typography/Paragraph";
 import Title from "antd/es/typography/Title";
-import { AimOutlined, AntDesignOutlined, AppstoreOutlined, ArrowRightOutlined, BranchesOutlined, BugOutlined, CalendarOutlined, CaretRightFilled, CheckCircleFilled, CiOutlined, DoubleRightOutlined, ExportOutlined, FacebookOutlined, FieldTimeOutlined, HeatMapOutlined, IdcardOutlined, IeOutlined, LoginOutlined, MinusOutlined, PlayCircleFilled, PullRequestOutlined, PushpinOutlined, QqSquareFilled, QuestionCircleOutlined, RightCircleOutlined, RightOutlined, RightSquareFilled, SettingOutlined, ShopOutlined, SkinOutlined, TrophyOutlined, UserAddOutlined, UserOutlined } from "@ant-design/icons";
+import { AppstoreOutlined, ArrowRightOutlined, CalendarOutlined, FieldTimeOutlined, IdcardOutlined, PullRequestOutlined, PushpinOutlined, QuestionCircleOutlined, ShopOutlined, TrophyOutlined, UserOutlined } from "@ant-design/icons";
 import { useState } from "react";
 import DateFormat from "../utils/DateFormat";
 import IconUtils from "../utils/IconUtils";
@@ -284,6 +284,53 @@ export default function WorkExperienceOverview({ workExperience }) {
                         )
                         } />
                     </Col>
+                }
+                {workExperience.tools?.technologies || workExperience.tools?.applications &&
+                    <Row gutter={[16, 16]}>
+                        <Col span={24}>
+                            {workExperience.tools.technologies &&
+                                <Flex vertical gap={'small'} style={{ padding: '1rem' }} >
+                                    <Space direction="horizontal" align="center" size={'middle'}>
+                                        <Title level={5}>Tecnologias</Title>
+                                    </Space>
+
+                                    <Flex gap={'small'} wrap>{
+                                        workExperience.tools.technologies.map((tech, index) => (
+                                            <Tag key={index}>{tech}</Tag>
+                                        ))
+                                    }
+                                    </Flex>
+                                </Flex>
+                            }
+                        </Col>
+                        <Col span={24}>
+                            {workExperience.tools.applications &&
+                                <Flex vertical gap={'small'} style={{ padding: '1rem' }} >
+                                    <Space direction="horizontal" align="center" size={'middle'}>
+                                        <Title level={5}>Apps</Title>
+                                    </Space>
+
+                                    <Flex vertical gap={'large'} wrap>{
+                                        workExperience.tools.applications.map((app, index) => (
+                                            <Flex key={index} align="center" gap={'middle'}>
+                                                {
+                                                    app.logo ?
+                                                        <Image preview={false} src={app.logo} width={'2rem'} />
+                                                        : <Avatar shape="square" icon={<AppstoreOutlined />} size={'large'} />
+                                                }
+
+                                                <Flex vertical flex={1}>
+                                                    <Title level={5} style={{ margin: 0 }}>{app.name}</Title>
+                                                    <Paragraph type="secondary" style={{ margin: 0 }}>{app.description}</Paragraph>
+                                                </Flex>
+                                            </Flex>
+                                        ))
+                                    }
+                                    </Flex>
+                                </Flex>
+                            }
+                        </Col>
+                    </Row>
                 }
 
                 {workExperience.workRoutine && workExperience.workRoutine.length > 0 &&

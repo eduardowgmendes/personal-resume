@@ -991,6 +991,25 @@
                 "Adobe Photoshop",
                 "Corel Draw"
             ],
+            "tools": {
+                "applications": [
+                    {
+                        "logo": "./images/logos/companies/adobe/adobe_illustrator_cc_icon.svg",
+                        "name": "Adobe Illustrator",
+                        "description": "Ferramenta de edição e criação de imagens vetoriais."
+                    },
+                    {
+                        "logo": "./images/logos/companies/adobe/adobe_photoshop_cc_icon.svg",
+                        "name": "Adobe Photoshop",
+                        "description": "Ferramenta de edição de imagens."
+                    },
+                    {
+                        "logo": "./images/logos/companies/adobe/adobe_xd_cc_icon.svg",
+                        "name": "Adobe XD",
+                        "description": "Ferramenta de prototipação."
+                    }
+                ]
+            },
             "alsoWorkedOn": [
                 {
                     "media": {
@@ -1056,6 +1075,15 @@
                 "SAP",
                 "ABAP"
             ],
+            "tools": {
+                "applications": [
+                    {
+                        "logo": "./images/logos/companies/sap/sap_logo.jpeg",
+                        "name": "SAP",
+                        "description": "Ferramenta de gerenciamento de recursos corporativos (ERP)."
+                    }
+                ]
+            },
             "alsoWorkedOn": [],
             "timeline": [
                 {
@@ -1097,6 +1125,15 @@
             "technologiesUsed": [
                 "SAP"
             ],
+            "tools": {
+                "applications": [
+                    {
+                        "logo": "./images/logos/companies/sap/sap_logo.jpeg",
+                        "name": "SAP",
+                        "description": "Ferramenta de gerenciamento de recursos corporativos (ERP)."
+                    }
+                ]
+            },
             "alsoWorkedOn": [],
             "timeline": [
                 {
