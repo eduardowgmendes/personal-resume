@@ -41,7 +41,7 @@ export default function WorkExperience({ workExperience }) {
     return (
         <Layout>
             <Flex align="center" justify="space-between" gap={'large'}>
-                <SectionHeader title={'Experiências'} />
+                <SectionHeader title={'Experiência Profissional'} />
                 <Segmented onChange={handleLayoutChange} options={[
                     { value: 'list', icon: <BarsOutlined /> },
                     { value: 'kanbam', icon: <AppstoreOutlined /> }

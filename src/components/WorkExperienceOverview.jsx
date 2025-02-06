@@ -41,6 +41,7 @@ export default function WorkExperienceOverview({ workExperience }) {
             <Row gutter={[8, 8]}>
                 <Col span={24} >
                     <Flex align="start" justify="center" gap={'large'}>
+                        
                         {workExperience.companyLogoUrl ?
                             <Avatar shape="square" size={'large'} src={workExperience.companyLogoUrl} /> : <Avatar shape="square" size={64} icon={<ShopOutlined />} />
                         }

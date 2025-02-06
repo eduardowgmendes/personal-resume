@@ -332,7 +332,7 @@
             ]
         },
         {
-            "companyWebsite": "https://www.google.com.br",
+            "companyWebsite": "https://onebrain.com.br/",
             "companyLogoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQG8yAXfI7--3A/company-logo_200_200/company-logo_200_200/0/1643031266208/onebrain_logo?e=1744848000&v=beta&t=3WpEFcom5-DGbcv3MdW2mISh3xJ09McBWkuHgZASwPg",
             "role": "Junior Systems Analyst",
             "location": "Campinas, SP",
@@ -342,19 +342,15 @@
             "description": "Auxiliei a equipe de backend no desenvolvimento de APIs REST e na manutenção e reestruturação de APIs existentes utilizando Java e JDBC Template para integração com o banco de dados PostgreSQL.",
             "achievements": [],
             "techonologiesUsed": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
+                "Java",
+                "Spring MVC",
+                "XML",
+                "React.js",
+                "Flyway",
+                "Amazon Web Services",
+                "Jenkins",
+                "JUnit",
+                "Mockito"
             ],
             "alsoWorkedOn": [],
             "timeline": [
@@ -535,7 +531,7 @@
             ]
         },
         {
-            "companyWebsite": "https://www.jetbrains.com/",
+            "companyWebsite": "",
             "companyLogoUrl": "",
             "role": "Freelance Java Developer",
             "location": "São Paulo, SP",
@@ -583,7 +579,7 @@
             ]
         },
         {
-            "companyWebsite": "https://www.jetmobiletech.com.br/",
+            "companyWebsite": "",
             "companyLogoUrl": "",
             "role": "Freelancer Android Developer",
             "location": "Campinas, SP",
@@ -630,7 +626,7 @@
             ]
         },
         {
-            "companyWebsite": "https://www.google.com.br",
+            "companyWebsite": "https://www.google.com/search?client=ubuntu-sn&channel=fs&q=kroton",
             "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQG4N-JHQv6XRQ/company-logo_200_200/company-logo_200_200/0/1690392562952/kroton_educacional_s_a_logo?e=1744848000&v=beta&t=m4iJ9R7PESy8tiwX30frsOeZwyF-8bNbdXkg1BvN4m8",
             "role": "Web Developer",
             "location": "Valinhos, SP",
