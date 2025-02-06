@@ -2,7 +2,7 @@ import { Avatar, Button, Card, Col, Collapse, Divider, Empty, Flex, Image, List,
 import SectionHeader from "./SectionHeader";
 import Paragraph from "antd/es/typography/Paragraph";
 import Title from "antd/es/typography/Title";
-import { AimOutlined, AntDesignOutlined, AppstoreOutlined, ArrowRightOutlined, BranchesOutlined, BugOutlined, CalendarOutlined, CaretRightFilled, CheckCircleFilled, CiOutlined, DoubleRightOutlined, ExportOutlined, FacebookOutlined, FieldTimeOutlined, HeatMapOutlined, IdcardOutlined, IeOutlined, LoginOutlined, MinusOutlined, PlayCircleFilled, PullRequestOutlined, PushpinOutlined, QqSquareFilled, QuestionCircleOutlined, RightCircleOutlined, RightOutlined, RightSquareFilled, SettingOutlined, SkinOutlined, TrophyOutlined, UserAddOutlined, UserOutlined } from "@ant-design/icons";
+import { AimOutlined, AntDesignOutlined, AppstoreOutlined, ArrowRightOutlined, BranchesOutlined, BugOutlined, CalendarOutlined, CaretRightFilled, CheckCircleFilled, CiOutlined, DoubleRightOutlined, ExportOutlined, FacebookOutlined, FieldTimeOutlined, HeatMapOutlined, IdcardOutlined, IeOutlined, LoginOutlined, MinusOutlined, PlayCircleFilled, PullRequestOutlined, PushpinOutlined, QqSquareFilled, QuestionCircleOutlined, RightCircleOutlined, RightOutlined, RightSquareFilled, SettingOutlined, ShopOutlined, SkinOutlined, TrophyOutlined, UserAddOutlined, UserOutlined } from "@ant-design/icons";
 import { useState } from "react";
 import DateFormat from "../utils/DateFormat";
 import IconUtils from "../utils/IconUtils";
@@ -41,7 +41,9 @@ export default function WorkExperienceOverview({ workExperience }) {
             <Row gutter={[8, 8]}>
                 <Col span={24} >
                     <Flex align="start" justify="center" gap={'middle'}>
-                        <Avatar shape="square" size={64} src={workExperience.companyLogoUrl} />
+                        {workExperience.companyLogoUrl ?
+                            <Avatar shape="square" size={64} src={workExperience.companyLogoUrl} /> : <Avatar shape="square" size={64} icon={<ShopOutlined />} />
+                        }
                         <Flex vertical flex={1}>
                             <Title level={4} style={{ margin: 0 }}>{workExperience.company}</Title>
                             <Paragraph type='secondary' style={{ margin: 0 }}>{workExperience.role}</Paragraph>
