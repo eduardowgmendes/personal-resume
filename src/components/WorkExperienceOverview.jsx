@@ -1,10 +1,11 @@
-import { Avatar, Button, Card, Col, Collapse, Empty, Flex, Image, List, Popover, Progress, Row, Space, Statistic, Tag, Timeline, Tooltip } from "antd";
+import { Avatar, Button, Card, Col, Collapse, Divider, Empty, Flex, Image, List, Popover, Progress, Row, Space, Statistic, Tag, Timeline, Tooltip } from "antd";
 import SectionHeader from "./SectionHeader";
 import Paragraph from "antd/es/typography/Paragraph";
 import Title from "antd/es/typography/Title";
-import { AppstoreOutlined, ArrowRightOutlined, BranchesOutlined, BugOutlined, CalendarOutlined, CaretRightFilled, CheckCircleFilled, DoubleRightOutlined, ExportOutlined, FieldTimeOutlined, HeatMapOutlined, IdcardOutlined, MinusOutlined, PlayCircleFilled, PullRequestOutlined, PushpinOutlined, QuestionCircleOutlined, RightCircleOutlined, RightOutlined, RightSquareFilled, TrophyOutlined, UserOutlined } from "@ant-design/icons";
+import { AimOutlined, AntDesignOutlined, AppstoreOutlined, ArrowRightOutlined, BranchesOutlined, BugOutlined, CalendarOutlined, CaretRightFilled, CheckCircleFilled, CiOutlined, DoubleRightOutlined, ExportOutlined, FacebookOutlined, FieldTimeOutlined, HeatMapOutlined, IdcardOutlined, IeOutlined, LoginOutlined, MinusOutlined, PlayCircleFilled, PullRequestOutlined, PushpinOutlined, QqSquareFilled, QuestionCircleOutlined, RightCircleOutlined, RightOutlined, RightSquareFilled, SettingOutlined, SkinOutlined, TrophyOutlined, UserAddOutlined, UserOutlined } from "@ant-design/icons";
 import { useState } from "react";
 import DateFormat from "../utils/DateFormat";
+import IconUtils from "../utils/IconUtils";
 
 export default function WorkExperienceOverview({ workExperience }) {
 
@@ -68,11 +69,11 @@ export default function WorkExperienceOverview({ workExperience }) {
                     </Flex>
                 </Col>
 
-                <Col span={24}>
-                    <Flex align="center" >
-                        <SectionHeader title={'Atuou em'} />
-                    </Flex>
-                    {workExperience.projects ?
+                {workExperience.projects && workExperience.projects.length > 0 &&
+                    <Col span={24}>
+                        <Flex align="center" >
+                            <SectionHeader title={'Atuou em'} />
+                        </Flex>
                         <List grid={{ gutter: 16, xs: 1, sm: 1, md: 1, lg: 1, xl: 1, xxl: 1 }} dataSource={workExperience.projects} renderItem={(project) => (
                             <List.Item>
                                 <Card bordered>
@@ -80,7 +81,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                                     <Row gutter={[16, 16]}>
 
                                         <Col span={24}>
-                                            <Flex align="start" justify="stretch" gap={'small'}>
+                                            <Flex align="start" justify="stretch" gap={'large'}>
                                                 {project.media.projectLogo.length > 0 ?
                                                     <Avatar shape="square" size={'large'} src={project.media.projectLogo} /> : <Avatar shape="square" size={'large'} icon={<IdcardOutlined />} />
                                                 }
@@ -89,7 +90,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                                                     <Paragraph type="secondary" className="small" style={{ margin: 0 }}>{project.category}</Paragraph>
                                                 </Flex>
                                                 <Tooltip title={'Visitar'}>
-                                                    <a src={project.website} target="_blank" rel="noopener noreferrer">
+                                                    <a href={project.website} target="_blank" rel="noopener noreferrer">
                                                         <Button type="icon" icon={<ArrowRightOutlined />} />
                                                     </a>
                                                 </Tooltip>
@@ -280,46 +281,92 @@ export default function WorkExperienceOverview({ workExperience }) {
                             </List.Item >
                         )
                         } />
-                        :
-                        <Empty description='Nenhum projeto encontrado.' />}
-                </Col>
-                <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} >
-                    <Flex vertical justify="start" gap={'large'}>
-                        <SectionHeader title={'Vínculo'} />
-                        <Flex vertical style={{ padding: '0 1rem 0 1rem' }}>
-                            <Timeline mode='left' items={[
-                                {
-                                    dot: <PlayCircleFilled />,
-                                    children: `Iniciado em ${workExperience.startDate}`,
-                                    color: 'springgreen',
-                                },
-                                {
-                                    dot: <CheckCircleFilled />,
-                                    children: `Finalizado em ${workExperience.endDate}`,
-                                    color: 'crimsom',
-                                }
-                            ]} />
+                    </Col>
+                }
+
+                {workExperience.workRoutine && workExperience.workRoutine.length > 0 &&
+                    <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} >
+                        <Flex vertical justify="start" gap={'large'}>
+                            <SectionHeader title={'Rotina de Trabalho'} />
+                            <List grid={{ gutter: 16, xs: 1 }} dataSource={workExperience.workRoutine} renderItem={(routine) => (
+                                <List.Item>
+                                    <Flex align="start" gap={'large'} style={{ padding: '0 1rem 0 1rem' }}>
+
+                                        <Avatar icon={IconUtils.getIcon(routine.keyword)} shape='square' size={'large'} style={{ backgroundColor: routine.color }} />
+
+                                        <Flex vertical gap={'small'} flex={1}>
+                                            <Paragraph style={{ fontWeight: 'bold', margin: 0 }}>{routine.name}</Paragraph>
+                                            <Paragraph type="secondary" ellipsis={{ rows: 3, expandable: true, symbol: 'Ver mais.' }}>{routine.description}</Paragraph>
+                                        </Flex>
+                                    </Flex>
+                                </List.Item>
+                            )} />
                         </Flex>
-                    </Flex></Col>
+                    </Col>
+                }
+
+                {workExperience.timeline && workExperience.timeline.length > 0 &&
+
+                    <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} >
+                        <Flex vertical justify="start" gap={'large'}>
+                            <SectionHeader title={'Vínculo'} />
+                            <Flex vertical style={{ padding: '0 1rem 0 1rem' }}>
+                                <Timeline
+                                    mode="left"
+                                    items={workExperience.timeline.map(time => ({
+                                        dot: IconUtils.getIcon(time.icon),
+                                        children: time.title,
+                                        color: time.color
+                                    }))}
+                                />
+                            </Flex>
+                        </Flex>
+                    </Col>
+                }
+
                 {workExperience.alsoWorkedOn && workExperience.alsoWorkedOn.length > 0 &&
 
                     <Col xs={24} sm={24} md={24} lg={16} xl={16} xxl={16} >
                         <Flex vertical gap={'large'}>
                             <SectionHeader title={'Também atuou em'} />
-                            <List size="small" grid={{ gutter: 16, xs: 1, sm: 1, md: 1, lg: 1, xl: 1, xxl: 1 }} dataSource={workExperience.alsoWorkedOn} renderItem={(item) => (
+                            <List size="small" grid={{ gutter: 16, xs: 1, sm: 1, md: 1, lg: 1, xl: 1, xxl: 1 }} dataSource={workExperience.alsoWorkedOn} renderItem={(work) => (
                                 <List.Item>
-                                    <Flex align="start" justify="space-between" gap={'large'}>
-                                        {item.media.projectLogo ?
-                                            <Avatar shape='square' size={'large'} src={item.media.projectLogo} />
-                                            :
-                                            <Avatar shape='square' size={'large'}>{createAvatarName(item.name)}</Avatar>
-                                        }
+                                    <Row gutter={[16, 16]}>
 
-                                        <Flex vertical justify='center' size={'small'} flex={1} wrap >
-                                            <Paragraph style={{ margin: 0 }}>{item.name}</Paragraph>
-                                            <Paragraph type="secondary" style={{ margin: 0 }} ellipsis={{ rows: 3, expandable: true, symbol: 'Ver mais.' }}>{item.description}</Paragraph>
-                                        </Flex>
-                                    </Flex>
+                                        <Col span={24}>
+                                            <Flex align="start" justify="space-between" gap={'large'}>
+                                                {work.media.projectLogo ?
+                                                    <Avatar shape='square' size={'large'} src={work.media.projectLogo} />
+                                                    :
+                                                    <Avatar shape='square' size={'large'} style={{ backgroundColor: work.media.colors.primary }}><Paragraph style={{ fontFamily: 'Outfit', margin: 0, fontWeight: 'bold', color: 'whitesmoke' }}>{createAvatarName(work.name)}</Paragraph></Avatar>
+                                                }
+
+                                                <Flex vertical justify='center' gap={'small'} flex={1} wrap >
+                                                    <Paragraph style={{ margin: 0, fontWeight: 'bold' }}>{work.name}</Paragraph>
+                                                    <Paragraph type="secondary" style={{ margin: 0 }} ellipsis={{ rows: 3, expandable: true, symbol: 'Ver mais.' }}>{work.description}</Paragraph>
+
+                                                    {work.collabWith &&
+                                                        <Flex vertical justify='center' gap={'small'} flex={1} wrap style={{ padding: '1rem 0 1rem 0' }}>
+                                                            <Paragraph style={{ margin: 0, fontWeight: 'bold' }}>Colaboração de</Paragraph>
+                                                            <List grid={{ gutter: 16, xs: 1 }} dataSource={work.collabWith} renderItem={(collab) => (
+                                                                <List.Item style={{ padding: 0 }}>
+                                                                    <Flex align="center" gap={'small'}>
+                                                                        <Avatar size={16} icon={<UserOutlined />} />
+                                                                        <Flex vertical justify='center' gap={'small'} flex={1} wrap >
+                                                                            <Paragraph className="small" type="secondary" style={{ margin: 0 }} ellipsis={{ rows: 1, expandable: false, symbol: '...' }}>{collab.name}</Paragraph>
+                                                                        </Flex>
+                                                                    </Flex>
+                                                                </List.Item>
+                                                            )} />
+                                                        </Flex>
+
+                                                    }
+                                                </Flex>
+
+                                            </Flex>
+                                        </Col>
+                                    </Row>
+
                                 </List.Item>
                             )} />
                         </Flex>

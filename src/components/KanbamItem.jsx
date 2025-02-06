@@ -1,8 +1,8 @@
-import { Avatar, Card, Col, Flex, Grid, Row } from "antd";
+import { Avatar, Card, Col, Flex, Grid, Row, Tooltip } from "antd";
 import Paragraph from "antd/es/typography/Paragraph";
 import Title from "antd/es/typography/Title";
 import DateFormat from "../utils/DateFormat";
-import { MinusOutlined } from "@ant-design/icons";
+import { MinusOutlined, ShopOutlined } from "@ant-design/icons";
 
 const { useBreakpoint } = Grid;
 
@@ -20,9 +20,15 @@ export default function KanbamItem({ workExperience, showModal }) {
             <Flex gap={'small'} align="center" justify="center">
                 <Row gutter={[8, 8]}>
                     <Col span={24} style={{ marginBottom: '1rem' }}>
-                        <a href={workExperience.companyWebsite}>
-                            <Avatar shape="square" size='large' src={workExperience.companyLogoUrl} />
-                        </a>
+                        <Tooltip title={`Visitar ${workExperience.company}`}>
+                            {workExperience.companyLogoUrl ?
+                                <a href={workExperience.companyWebsite} target="_blank" rel="noopener noreferrer">
+                                    <Avatar shape="square" size='large' src={workExperience.companyLogoUrl} />
+                                </a> : <a href={workExperience.companyWebsite} target="_blank" rel="noopener noreferrer">
+                                    <Avatar shape="square" size='large' icon={<ShopOutlined />} />
+                                </a>
+                            }
+                        </Tooltip>
                     </Col>
 
                     <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} xl={{ span: 24 }} xxl={{ span: 24 }}>

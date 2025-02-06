@@ -7,7 +7,7 @@
     },
     "bio": "Desenvolvedor Java e Android Júnior, super entusiasta de tecnologias mobile e sistemas operacionais. Cada vez mais apaixonado pela plataforma Java, evangelista da plataforma Android e aventureiro Kotlin. Saudosista de tecnologias mobile antigas - hardware e software - dono de um Nokia 3110. Defensor assíduo das boas práticas de desenvolvimento de software Orientado à Objetos.",
     "contact": {
-        "address":"Sumaré, SP",
+        "address": "Sumaré, SP",
         "github": "https://github.com/eduardowgmendes",
         "whatsapp": "(19) 98209-1363",
         "mobile": "(19) 98209-1363",
@@ -38,7 +38,96 @@
                 "JUnit",
                 "Mockito"
             ],
-            "alsoWorkedOn": [],
+            "alsoWorkedOn": [
+                {
+                    "media": {
+                        "projectLogo": "",
+                        "colors": {
+                            "primary": "orangered"
+                        }
+                    },
+                    "name": "V.Cash RDV API",
+                    "description": "API RESTful para o sistema V.Cash RDV, responsável pelo processamento de transações financeiras, autenticação de usuários e integração com serviços externos."
+                },
+                {
+                    "media": {
+                        "projectLogo": "",
+                        "colors": {
+                            "primary": "deeppink"
+                        }
+                    },
+                    "name": "V.Cash RDV Protótipo App",
+                    "description": "Protótipo interativo do aplicativo V.Cash RDV, desenvolvido no Figma, simulando a experiência do usuário e os principais fluxos do sistema.",
+                    "website": "https://www.varitus.com.br/v-cash-rdv/",
+                    "collabWith": [
+                        {
+                            "name": "Michell Adam Bento",
+                            "role": "Desenvolvedor Backend Java Júnior",
+                            "company": "Varitus do Brasil"
+                        },
+                        {
+                            "name": "Valdir Mendes",
+                            "role": "Desenvolvedor Backend Java Senior",
+                            "company": "Varitus do Brasil"
+                        }
+                    ]
+                },
+                {
+                    "media": {
+                        "projectLogo": "",
+                        "colors": {
+                            "primary": "purple"
+                        }
+                    },
+                    "name": "Integração Midas",
+                    "description": "Desenvolvimento da integração com APIs oficiais de órgãos fiscais do governo para consulta e validação de dados. Responsável pela comunicação segura entre sistemas, garantindo a obtenção precisa e eficiente de informações fiscais em tempo real.",
+                    "website": "",
+                    "collabWith": [
+                        {
+                            "name": "Michell Adam Bento",
+                            "role": "Desenvolvedor Backend Java Júnior",
+                            "company": "Varitus do Brasil"
+                        },
+                        {
+                            "name": "Valdir Mendes",
+                            "role": "Desenvolvedor Backend Java Senior",
+                            "company": "Varitus do Brasil"
+                        }
+                    ]
+                },
+                {
+                    "media": {
+                        "projectLogo": "",
+                        "colors": {
+                            "primary": "crimson"
+                        }
+                    },
+                    "name": "V.Boleto API",
+                    "description": "API para emissão e gerenciamento de boletos bancários, integrando-se com instituições financeiras para automatizar pagamentos e conciliação de transações."
+                },
+                {
+                    "media": {
+                        "projectLogo": "",
+                        "colors": {
+                            "primary": "purple"
+                        }
+                    },
+                    "name": "V.Cash RDV",
+                    "description": "Plataforma financeira que centraliza e gerencia recebimentos, pagamentos e fluxo de caixa para empresas e autônomos, proporcionando maior controle financeiro."
+                }
+            ],
+            "timeline": [
+                {
+                    "icon": "play",
+                    "title": "Iniciado em Junho 2022",
+                    "color": "green"
+                },
+                {
+                    "icon": "finished",
+                    "title": "Finalizado em Outubro 2023",
+                    "color": "red"
+                }
+            ],
             "projects": [
                 {
                     "id": 1,
@@ -268,6 +357,18 @@
                 ""
             ],
             "alsoWorkedOn": [],
+            "timeline": [
+                {
+                    "icon": "play",
+                    "title": "Iniciado em Novembro 2020",
+                    "color": "green"
+                },
+                {
+                    "icon": "finished",
+                    "title": "Finalizado em Fevereiro 2021",
+                    "color": "red"
+                }
+            ],
             "projects": [
                 {
                     "id": 1,
@@ -386,6 +487,149 @@
             ]
         },
         {
+            "companyWebsite": "https://www.somoseducacao.com.br/",
+            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQHYauLtC-U1wQ/company-logo_200_200/company-logo_200_200/0/1631334937139?e=1746662400&v=beta&t=8BjK-9psC_xf9pWqnqxkpzcfuvemKZWGdv5XDSTP5LA",
+            "role": "Freelancer - Front End Developer",
+            "location": "São Paulo, Brazil",
+            "company": "Somos Educação",
+            "startDate": "Abril 2020",
+            "endDate": "Novembro 2020",
+            "description": "Atuei como freelancer da Somos no desenvolvimento de uma página inovadora, permitindo aos alunos personalizar suas grades curriculares de acordo com suas agendas pessoais. Integração com o backend garantiu uma experiência de usuário perfeita, com uma plataforma interativa e personalizada.",
+            "achievements": [],
+            "technologiesUsed": [
+                "JavaScript",
+                "CSS3",
+                "HTML5",
+                "jQuery",
+                "Bootstrap",
+                "Git",
+                "SQL",
+                "Scrum"
+            ],
+            "alsoWorkedOn": [],
+            "timeline": [
+                {
+                    "icon": "play",
+                    "title": "Iniciado em Abril 2020",
+                    "color": "green"
+                },
+                {
+                    "icon": "finished",
+                    "title": "Finalizado em Novembro 2020",
+                    "color": "red"
+                }
+            ],
+            "workRoutine": [
+                {
+                    "color": "dimgrey",
+                    "keyword": "ux-design",
+                    "name": "Desenvolvimento de Experiência do Usuário",
+                    "description": "Foco na criação de interfaces interativas e intuitivas para personalização de grades curriculares, proporcionando uma experiência de usuário agradável."
+                },
+                {
+                    "color": "blue",
+                    "keyword": "frontend-development",
+                    "name": "Desenvolvimento Frontend",
+                    "description": "Desenvolvimento da página web interativa utilizando HTML5, CSS3, JavaScript, jQuery e integração com backend."
+                }
+            ]
+        },
+        {
+            "companyWebsite": "https://www.jetbrains.com/",
+            "companyLogoUrl": "",
+            "role": "Freelance Java Developer",
+            "location": "São Paulo, SP",
+            "company": "Freelancer",
+            "startDate": "Março 2017",
+            "endDate": "Novembro 2020",
+            "description": "Atuo como desenvolvedor Java freelancer, com foco em sistemas e aplicações web RESTful. Trabalho com Spring Boot, Swagger, JPA, Hibernate, e MySQL. Experiência com a implementação de soluções em serviços web, utilizando metodologias ágeis como Scrum.",
+            "achievements": [],
+            "technologiesUsed": [
+                "Java",
+                "Spring Boot",
+                "Swagger",
+                "Hibernate",
+                "JPA",
+                "MySQL",
+                "REST",
+                "Scrum"
+            ],
+            "alsoWorkedOn": [],
+            "timeline": [
+                {
+                    "icon": "play",
+                    "title": "Iniciado em Março 2017",
+                    "color": "green"
+                },
+                {
+                    "icon": "finished",
+                    "title": "Finalizado em Novembro 2020",
+                    "color": "red"
+                }
+            ],
+            "workRoutine": [
+                {
+                    "color": "dimgrey",
+                    "keyword": "backend-development",
+                    "name": "Desenvolvimento Backend",
+                    "description": "Desenvolvimento de soluções backend para aplicações web RESTful com Spring Boot, utilizando JPA e Hibernate para persistência de dados."
+                },
+                {
+                    "color": "blue",
+                    "keyword": "api-development",
+                    "name": "Desenvolvimento de APIs RESTful",
+                    "description": "Criação de APIs RESTful com documentação Swagger, integrando o sistema a soluções de front-end e garantindo a interoperabilidade entre sistemas."
+                }
+            ]
+        },
+        {
+            "companyWebsite": "https://www.jetmobiletech.com.br/",
+            "companyLogoUrl": "",
+            "role": "Freelancer Android Developer",
+            "location": "Campinas, SP",
+            "company": "JET Mobile Technologies",
+            "startDate": "Março 2016",
+            "endDate": "Dezembro 2019",
+            "description": "Atuei como freelancer e sócio-parceiro de uma empresa de tecnologia, oferecendo soluções móveis para clientes. Desenvolvi aplicativos Android utilizando Java, Kotlin, Flutter, e outras tecnologias. Experiência com o ciclo completo de desenvolvimento e soluções criativas para atender as necessidades dos clientes.",
+            "achievements": [],
+            "technologiesUsed": [
+                "Java",
+                "Kotlin",
+                "Flutter",
+                "SQLite",
+                "Room",
+                "Material Design",
+                "Android SDK"
+            ],
+            "alsoWorkedOn": [],
+            "timeline": [
+                {
+                    "icon": "play",
+                    "title": "Iniciado em Março 2016",
+                    "color": "green"
+                },
+                {
+                    "icon": "finished",
+                    "title": "Finalizado em Dezembro 2019",
+                    "color": "red"
+                }
+            ],
+            "workRoutine": [
+                {
+                    "color": "dimgrey",
+                    "keyword": "mobile-development",
+                    "name": "Desenvolvimento de Aplicativos Móveis",
+                    "description": "Desenvolvimento de soluções móveis utilizando Android SDK, Kotlin, Flutter e integração com backend."
+                },
+                {
+                    "color": "blue",
+                    "keyword": "client-consulting",
+                    "name": "Consultoria para Clientes",
+                    "description": "Consultoria técnica e criação de soluções personalizadas para clientes, alinhando as necessidades deles com as melhores tecnologias móveis disponíveis."
+                }
+            ]
+        },
+        {
             "companyWebsite": "https://www.google.com.br",
             "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQG4N-JHQv6XRQ/company-logo_200_200/company-logo_200_200/0/1690392562952/kroton_educacional_s_a_logo?e=1744848000&v=beta&t=m4iJ9R7PESy8tiwX30frsOeZwyF-8bNbdXkg1BvN4m8",
             "role": "Web Developer",
@@ -413,10 +657,62 @@
             "alsoWorkedOn": [
                 {
                     "media": {
-                        "projectLogo": ""
+                        "projectLogo": "",
+                        "colors": {
+                            "primary": "orangered"
+                        }
                     },
-                    "name": "Novo Layout Web Aulas",
-                    "description": "Definição de um novo layout e formato de Web Aulas mais interativas com utilização do Bootstrap para melhorar a experiência do aluno."
+                    "name": "App Musical",
+                    "description": "API RESTful para o sistema V.Cash RDV, responsável pelo processamento de transações financeiras, autenticação de usuários e integração com serviços externos."
+                },
+                {
+                    "media": {
+                        "projectLogo": "",
+                        "colors": {
+                            "primary": "deeppink"
+                        }
+                    },
+                    "name": "Redesign WebAula",
+                    "description": "Protótipo interativo do aplicativo V.Cash RDV, desenvolvido no Figma, simulando a experiência do usuário e os principais fluxos do sistema.",
+                    "website": "https://www.varitus.com.br/v-cash-rdv/",
+                    "collabWith": [
+                        {
+                            "name": "Tiago Pinotti",
+                            "role": "Web Developer",
+                            "company": "Kroton Educacional"
+                        }
+                    ]
+                }
+            ],
+            "timeline": [
+                {
+                    "icon": "play",
+                    "title": "Iniciado em Agosto 2015",
+                    "color": "green"
+                },
+                {
+                    "icon": "promoted",
+                    "title": "Promovido à Web Multimedia Specialist em Agosto 2015",
+                    "color": "blue"
+                },
+                {
+                    "icon": "finished",
+                    "title": "Finalizado em Setembro 2018",
+                    "color": "red"
+                }
+            ],
+            "workRoutine": [
+                {
+                    "color": "green",
+                    "keyword": "interactive-learning",
+                    "name": "Desenvolvimento de Materiais Educativos Interativos",
+                    "description": "Criação de conteúdos educacionais interativos para cursos online, utilizando HTML5, CSS3 e JavaScript, além de frameworks como Bootstrap e jQuery. Os materiais desenvolvidos impactaram mais de 2 milhões de estudantes em todo o país, proporcionando uma experiência de aprendizado dinâmica e envolvente."
+                },
+                {
+                    "color": "crimson",
+                    "keyword": "interactive-learning-gamification",
+                    "name": "Desenvolvimento de Materiais Educativos Hiper Interativos e Gamificados",
+                    "description": "Atuei na criação de experiências educacionais inovadoras para cursos online, desenvolvendo materiais altamente interativos e gamificados utilizando HTML5, CSS3 e JavaScript. A implementação de frameworks como Bootstrap e jQuery permitiu criar interfaces responsivas e dinâmicas, proporcionando uma experiência de aprendizado imersiva para mais de 2 milhões de estudantes em todo o país.\n\nMinha rotina envolvia a concepção de mecânicas interativas, como quizzes dinâmicos, simulações visuais, animações explicativas e desafios gamificados que aumentavam o engajamento e a retenção dos alunos. Além disso, trabalhei na otimização da usabilidade e acessibilidade dos conteúdos, garantindo compatibilidade com diferentes dispositivos e navegadores. \n\nColaborei diretamente com designers instrucionais e pedagogos para alinhar a tecnologia aos objetivos educacionais, assegurando que cada elemento interativo reforçasse o aprendizado de forma intuitiva e eficaz. Também realizei testes A/B para avaliar a performance das interações e iterar melhorias contínuas com base no feedback dos usuários e métricas de engajamento."
                 }
             ],
             "projects": [
@@ -514,24 +810,77 @@
             "alsoWorkedOn": [
                 {
                     "media": {
-                        "projectLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQFldjdYBgPhOQ/company-logo_200_200/company-logo_200_200/0/1630517665962/sorridents_franchising_logo?e=1746662400&v=beta&t=an4m7BZ5yylXNIzUbUQFi8WGeMFXhUNC_0LizTtVKBk"
+                        "projectLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQFldjdYBgPhOQ/company-logo_200_200/company-logo_200_200/0/1630517665962/sorridents_franchising_logo?e=1746662400&v=beta&t=an4m7BZ5yylXNIzUbUQFi8WGeMFXhUNC_0LizTtVKBk",
+                        "colors": {
+                            "primary": "crimson"
+                        }
                     },
                     "name": "Clínica Sorridents - Posts Social Media",
                     "description": "Criação de conteúdos visuais e textos para redes sociais, promovendo os serviços e diferenciais da Clínica Sorridents."
                 },
                 {
                     "media": {
-                        "projectLogo": "https://media.licdn.com/dms/image/v2/D560BAQEQ4o5KIYKvGQ/company-logo_200_200/company-logo_200_200/0/1726502820802/anthogyr_logo?e=1746662400&v=beta&t=W-TQoBFVOW-AwGgxA-221gvh4RZDV4rd6uVAMG-YnW4"
+                        "projectLogo": "https://media.licdn.com/dms/image/v2/D560BAQEQ4o5KIYKvGQ/company-logo_200_200/company-logo_200_200/0/1726502820802/anthogyr_logo?e=1746662400&v=beta&t=W-TQoBFVOW-AwGgxA-221gvh4RZDV4rd6uVAMG-YnW4",
+                        "colors": {
+                            "primary": "deeppink"
+                        }
                     },
                     "name": "Anthogyr - Posts Social Media",
                     "description": "Desenvolvimento de posts estratégicos para redes sociais, destacando produtos e inovações da Anthogyr no setor odontológico."
                 },
                 {
                     "media": {
-                        "projectLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQFlMxnPvF66ug/company-logo_200_200/company-logo_200_200/0/1657028057787/farmcia_passiflora_logo?e=1746662400&v=beta&t=SF_g-Ete7Uw1hktkz1afp898FgR6sXt0FLnsM2d9Kqc"
+                        "projectLogo": "https://media.licdn.com/dms/image/v2/C4D0BAQFlMxnPvF66ug/company-logo_200_200/company-logo_200_200/0/1657028057787/farmcia_passiflora_logo?e=1746662400&v=beta&t=SF_g-Ete7Uw1hktkz1afp898FgR6sXt0FLnsM2d9Kqc",
+                        "colors": {
+                            "primary": "gold"
+                        }
                     },
                     "name": "Farmácia Passiflora - Posts Social Media",
                     "description": "Criação de conteúdos para redes sociais, promovendo produtos e benefícios dos serviços oferecidos pela Farmácia Passiflora."
+                }
+            ],
+            "timeline": [
+                {
+                    "icon": "play",
+                    "title": "Iniciado em Abril 2014",
+                    "color": "green"
+                },
+                {
+                    "icon": "finished",
+                    "title": "Finalizado em Fevereiro 2015",
+                    "color": "red"
+                }
+            ],
+            "workRoutine": [
+                {
+                    "color": "goldenrod",
+                    "keyword": "advertising-design",
+                    "name": "Criação de Materiais Publicitários",
+                    "description": "Desenvolvimento de peças e materiais publicitários para clientes de grande porte, incluindo Reckitt Benckiser, C.H. Robinson, Anthogyr, BASF, Sorridents e GoodBom Supermercados, garantindo alta qualidade e impacto visual."
+                },
+                {
+                    "color": "indigo",
+                    "keyword": "social-media-content",
+                    "name": "Gestão de Conteúdo para Mídias Sociais",
+                    "description": "Criação de conteúdo visual e textual para redes sociais, auxiliando o núcleo de Social Media responsável por campanhas de clientes multinacionais e regionais."
+                },
+                {
+                    "color": "orange",
+                    "keyword": "email-marketing",
+                    "name": "Criação de E-mails Marketing",
+                    "description": "Desenvolvimento de campanhas de e-mail marketing estratégicas para engajamento e conversão, utilizando design responsivo e copywriting persuasivo."
+                },
+                {
+                    "color": "steelblue",
+                    "keyword": "frontend",
+                    "name": "Atuação em Front-End",
+                    "description": "Participação no desenvolvimento de interfaces web, garantindo design responsivo e alinhado à identidade visual dos clientes."
+                },
+                {
+                    "color": "darkgreen",
+                    "keyword": "print-media",
+                    "name": "Design Gráfico para Mídias Impressas",
+                    "description": "Criação de jornais informativos, fachadas e outros materiais gráficos impressos para campanhas publicitárias e institucionais."
                 }
             ],
             "projects": [
@@ -624,6 +973,155 @@
                             "primary": "blue"
                         }
                     }
+                }
+            ]
+        },
+        {
+            "companyWebsite": "https://www.ultrasign.com.br/sobre-nos/",
+            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGEB-GWAlQZyQ/company-logo_200_200/company-logo_200_200/0/1664986303938/ultrasign_comunicacao_visual_logo?e=1746662400&v=beta&t=EdgC85CcW_f8HpVHjguye9QfyTj66LeSF12H3edNugM",
+            "role": "Designer Gráfico",
+            "location": "Paulínia, SP",
+            "company": "UltraSign - Comunicação Visual",
+            "startDate": "Janeiro 2013",
+            "endDate": "Abril 2013",
+            "description": "Elaborava layouts para mídias impressas, como folders, flyers, panfletos, cartazes, outdoors e fachadas, utilizando o pacote Adobe™. Desenvolvia marcas e logotipos para novos estabelecimentos nas regiões de Paulínia, Campinas e Sumaré. Criava conteúdo para redes sociais, focado na divulgação de eventos e promoções, além de atuar como Social Media, gerenciando perfis e interações.",
+            "achievements": [],
+            "techonologiesUsed": [
+                "Adobe Illustrator",
+                "Adobe Photoshop",
+                "Corel Draw"
+            ],
+            "alsoWorkedOn": [
+                {
+                    "media": {
+                        "projectLogo": "",
+                        "colors": {
+                            "primary": "blue"
+                        }
+                    },
+                    "name": "Carros Fantasia Petrobrás",
+                    "description": "Desenvolvimento do conceito dos carros fantasia da Petrobrás no muunicípio de Paulínia em 2013."
+                }
+            ],
+            "timeline": [
+                {
+                    "icon": "play",
+                    "title": "Iniciado em Janeiro 2013",
+                    "color": "green"
+                },
+                {
+                    "icon": "finished",
+                    "title": "Finalizado em Abril 2013",
+                    "color": "red"
+                }
+            ],
+            "workRoutine": [
+                {
+                    "color": "dimgrey",
+                    "keyword": "graphic-design",
+                    "name": "Design Gráfico para Mídias Impressas",
+                    "description": "Criação de layouts para folders, flyers, panfletos, cartazes, outdoors e fachadas utilizando o pacote Adobe™, garantindo qualidade visual e identidade coesa para os materiais de divulgação."
+                },
+                {
+                    "color": "purple",
+                    "keyword": "branding",
+                    "name": "Desenvolvimento de Identidade Visual",
+                    "description": "Criação de marcas e logos para novos estabelecimentos em Paulínia, Campinas e Sumaré, alinhando design estratégico com as necessidades de cada cliente."
+                },
+                {
+                    "color": "crimson",
+                    "keyword": "social-media-content",
+                    "name": "Gestão de Conteúdo para Redes Sociais",
+                    "description": "Elaboração de conteúdo para divulgação de eventos e promoções em redes sociais, com planejamento estratégico e design visual impactante."
+                },
+                {
+                    "color": "blue",
+                    "keyword": "social-media",
+                    "name": "Atuação como Social Media",
+                    "description": "Gerenciamento de perfis sociais, criação de posts e interações para aumentar engajamento e alcance das campanhas digitais."
+                }
+            ]
+        },
+        {
+            "companyWebsite": "https://www.bosch.com/",
+            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQG9V8ylf9r--g/company-logo_200_200/company-logo_200_200/0/1720017140973/boschbrasil_logo?e=1746662400&v=beta&t=tALOhUCaA9AaBYvX5kfPaw05RfEZj7SYb2PxvsWP1EQ",
+            "role": "Auxiliar Fiscal Pleno",
+            "location": "Campinas, SP",
+            "company": "Robert Bosch Limitada",
+            "startDate": "Abril 2011",
+            "endDate": "Novembro 2011",
+            "description": "Trabalhei ativamente com a equipe de faturamento e retenção de impostos. Durante esse período, tive contato com a linguagem ABAP, comecei a estudá-la e posteriormente auxiliei as equipes de implementação de novos módulos para atender diversas áreas da companhia.",
+            "achievements": [],
+            "technologiesUsed": [
+                "SAP",
+                "ABAP"
+            ],
+            "alsoWorkedOn": [],
+            "timeline": [
+                {
+                    "icon": "play",
+                    "title": "Iniciado em Abril 2011",
+                    "color": "green"
+                },
+                {
+                    "icon": "finished",
+                    "title": "Finalizado em Novembro 2011",
+                    "color": "red"
+                }
+            ],
+            "workRoutine": [
+                {
+                    "color": "dimgrey",
+                    "keyword": "tax-compliance",
+                    "name": "Faturamento e Retenção de Impostos",
+                    "description": "Apoio às atividades da equipe fiscal, incluindo processos de faturamento e retenção de impostos, garantindo conformidade com a legislação vigente."
+                },
+                {
+                    "color": "blue",
+                    "keyword": "abap-programming",
+                    "name": "Contato com ABAP e Implementação de Módulos",
+                    "description": "Primeira experiência com a linguagem ABAP, estudando e aplicando conhecimentos para suporte às equipes de implementação de novos módulos no SAP."
+                }
+            ]
+        },
+        {
+            "companyWebsite": "https://www.mabe.com/",
+            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D560BAQGkFzwt8nBC5w/company-logo_200_200/company-logo_200_200/0/1664677306110/mabe_logo?e=1746662400&v=beta&t=kafaBbYlIIVl8iQqQTbK_lxjQaT_O5Gs6ZW_hvZOUzk",
+            "role": "Auxiliar Fiscal Pleno",
+            "location": "Hortolândia, SP",
+            "company": "Mabe Eletrodomésticos S.A",
+            "startDate": "Junho 2009",
+            "endDate": "Fevereiro 2011",
+            "description": "Atuei nos processos administrativos e auxiliei no Recebimento Fiscal, realizando lançamentos de notas fiscais de venda (CFOP 5.101/5.102) no ambiente SAP. Também fui responsável pela captação de arquivos XML junto aos fornecedores para garantir o cumprimento da legislação.",
+            "achievements": [],
+            "technologiesUsed": [
+                "SAP"
+            ],
+            "alsoWorkedOn": [],
+            "timeline": [
+                {
+                    "icon": "play",
+                    "title": "Iniciado em Junho 2009",
+                    "color": "green"
+                },
+                {
+                    "icon": "finished",
+                    "title": "Finalizado em Fevereiro 2011",
+                    "color": "red"
+                }
+            ],
+            "workRoutine": [
+                {
+                    "color": "orange",
+                    "keyword": "fiscal-receiving",
+                    "name": "Recebimento Fiscal e Lançamento de Notas Fiscais",
+                    "description": "Participação nos processos administrativos e suporte no recebimento fiscal, garantindo correto lançamento de notas fiscais no SAP."
+                },
+                {
+                    "color": "purple",
+                    "keyword": "xml-compliance",
+                    "name": "Captação de Arquivos XML",
+                    "description": "Responsável pela coleta e verificação de arquivos XML de fornecedores, garantindo conformidade com as exigências fiscais e regulatórias."
                 }
             ]
         }

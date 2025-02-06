@@ -1,9 +1,7 @@
-import { AppstoreFilled, AppstoreOutlined, BarsOutlined, MinusOutlined } from "@ant-design/icons";
-import { Avatar, Card, Col, Flex, Grid, Layout, List, Modal, Row, Segmented } from "antd";
-import Paragraph from "antd/es/typography/Paragraph";
-import Title from "antd/es/typography/Title";
+import { AppstoreOutlined, BarsOutlined } from "@ant-design/icons";
+import { Flex, Grid, Layout, List, Modal, Segmented } from "antd";
+;
 import SectionHeader from "./SectionHeader";
-import DateFormat from "../utils/DateFormat";
 import { useState } from "react";
 import WorkExperienceOverview from "./WorkExperienceOverview";
 import ListItem from "./ListItem";
@@ -69,7 +67,7 @@ export default function WorkExperience({ workExperience }) {
                 )} />
 
             {/* Modal deve ser exibido apenas se houver uma experiência selecionada */}
-            <Modal centered width={1000} open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
+            <Modal centered width={1000} cancelText='Fechar' okText='OK' open={isModalOpen} onOk={handleOk} onCancel={handleCancel}>
                 {selectedExperience && <WorkExperienceOverview workExperience={selectedExperience} />}
             </Modal>
         </Layout>

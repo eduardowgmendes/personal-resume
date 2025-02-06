@@ -22,7 +22,7 @@ export default function Education({ education }) {
 
                             {
                                 item.institutionWebsite && item.institutionLogoUrl ?
-                                    <a href={item.institutionWebsite}>
+                                    <a href={item.institutionWebsite} target="_blank" rel="noopener noreferrer">
                                         <Avatar shape="circle" size={'large'} src={item.institutionLogoUrl} />
                                     </a> : <Avatar shape="square" size={'large'} icon={<ReadOutlined />} />
                             }

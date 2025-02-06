@@ -19,7 +19,7 @@ export default function Courses({ courses }) {
 
                             {course.institutionWebsite && course.institutionLogoUrl ?
 
-                                <a href={course.institutionWebsite}>
+                                <a href={course.institutionWebsite} target="_blank" rel="noopener noreferrer">
                                     <Avatar shape="square" size={'large'} src={course.institutionLogoUrl} />
                                 </a> : <Avatar shape="square" size={'large'} icon={<ShopOutlined />} />
 
