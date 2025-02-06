@@ -118,13 +118,13 @@
             ],
             "timeline": [
                 {
-                    "icon": "play",
-                    "title": "Iniciado em Junho 2022",
-                    "color": "green"
+                    "icon": "hired",
+                    "title": "Contratado em Junho 2022",
+                    "color": "lime"
                 },
                 {
                     "icon": "finished",
-                    "title": "Finalizado em Outubro 2023",
+                    "title": "Saiu em Outubro 2023",
                     "color": "red"
                 }
             ],
@@ -180,7 +180,7 @@
                                 },
                                 {
                                     "name": "Implementando Novas Features",
-                                    "color": "green",
+                                    "color": "lime",
                                     "value": 16
                                 },
                                 {
@@ -245,7 +245,7 @@
                                 },
                                 {
                                     "name": "Implementando Novas Features",
-                                    "color": "green",
+                                    "color": "lime",
                                     "value": 72
                                 },
                                 {
@@ -309,7 +309,7 @@
                                 },
                                 {
                                     "name": "Implementando Novas Features",
-                                    "color": "green",
+                                    "color": "lime",
                                     "value": 12
                                 },
                                 {
@@ -359,13 +359,13 @@
             "alsoWorkedOn": [],
             "timeline": [
                 {
-                    "icon": "play",
-                    "title": "Iniciado em Novembro 2020",
-                    "color": "green"
+                    "icon": "hired",
+                    "title": "Contratado em Novembro 2020",
+                    "color": "lime"
                 },
                 {
                     "icon": "finished",
-                    "title": "Finalizado em Fevereiro 2021",
+                    "title": "Saiu em Fevereiro 2021",
                     "color": "red"
                 }
             ],
@@ -407,7 +407,7 @@
                                 },
                                 {
                                     "name": "Implementando Novas Features",
-                                    "color": "green",
+                                    "color": "lime",
                                     "value": 8
                                 },
                                 {
@@ -464,7 +464,7 @@
                                 },
                                 {
                                     "name": "Implementando Novas Features",
-                                    "color": "green",
+                                    "color": "lime",
                                     "value": 63
                                 },
                                 {
@@ -509,13 +509,13 @@
             "alsoWorkedOn": [],
             "timeline": [
                 {
-                    "icon": "play",
-                    "title": "Iniciado em Abril 2020",
-                    "color": "green"
+                    "icon": "hired",
+                    "title": "Contratado em Abril 2020",
+                    "color": "lime"
                 },
                 {
                     "icon": "finished",
-                    "title": "Finalizado em Novembro 2020",
+                    "title": "Saiu em Novembro 2020",
                     "color": "red"
                 }
             ],
@@ -557,13 +557,13 @@
             "alsoWorkedOn": [],
             "timeline": [
                 {
-                    "icon": "play",
-                    "title": "Iniciado em Março 2017",
-                    "color": "green"
+                    "icon": "hired",
+                    "title": "Contratado em Março 2017",
+                    "color": "lime"
                 },
                 {
                     "icon": "finished",
-                    "title": "Finalizado em Novembro 2020",
+                    "title": "Saiu em Novembro 2020",
                     "color": "red"
                 }
             ],
@@ -604,13 +604,13 @@
             "alsoWorkedOn": [],
             "timeline": [
                 {
-                    "icon": "play",
-                    "title": "Iniciado em Março 2016",
-                    "color": "green"
+                    "icon": "hired",
+                    "title": "Contratado em Março 2016",
+                    "color": "lime"
                 },
                 {
                     "icon": "finished",
-                    "title": "Finalizado em Dezembro 2019",
+                    "title": "Saiu em Dezembro 2019",
                     "color": "red"
                 }
             ],
@@ -686,24 +686,24 @@
             ],
             "timeline": [
                 {
-                    "icon": "play",
-                    "title": "Iniciado em Agosto 2015",
-                    "color": "green"
+                    "icon": "hired",
+                    "title": "Contratado em Agosto 2015",
+                    "color": "lime"
                 },
                 {
                     "icon": "promoted",
-                    "title": "Promovido à Web Multimedia Specialist em Agosto 2015",
-                    "color": "blue"
+                    "title": "Promovido à Web Multimedia Specialist em Setembro 2016",
+                    "color": "gold"
                 },
                 {
                     "icon": "finished",
-                    "title": "Finalizado em Setembro 2018",
+                    "title": "Saiu em Setembro 2018",
                     "color": "red"
                 }
             ],
             "workRoutine": [
                 {
-                    "color": "green",
+                    "color": "lime",
                     "keyword": "interactive-learning",
                     "name": "Desenvolvimento de Materiais Educativos Interativos",
                     "description": "Criação de conteúdos educacionais interativos para cursos online, utilizando HTML5, CSS3 e JavaScript, além de frameworks como Bootstrap e jQuery. Os materiais desenvolvidos impactaram mais de 2 milhões de estudantes em todo o país, proporcionando uma experiência de aprendizado dinâmica e envolvente."
@@ -764,7 +764,7 @@
                                 },
                                 {
                                     "name": "Implementando Novas Features",
-                                    "color": "green",
+                                    "color": "lime",
                                     "value": 88
                                 },
                                 {
@@ -841,13 +841,13 @@
             ],
             "timeline": [
                 {
-                    "icon": "play",
-                    "title": "Iniciado em Abril 2014",
-                    "color": "green"
+                    "icon": "hired",
+                    "title": "Contratado em Abril 2014",
+                    "color": "lime"
                 },
                 {
                     "icon": "finished",
-                    "title": "Finalizado em Fevereiro 2015",
+                    "title": "Saiu em Fevereiro 2015",
                     "color": "red"
                 }
             ],
@@ -877,7 +877,7 @@
                     "description": "Participação no desenvolvimento de interfaces web, garantindo design responsivo e alinhado à identidade visual dos clientes."
                 },
                 {
-                    "color": "darkgreen",
+                    "color": "darklime",
                     "keyword": "print-media",
                     "name": "Design Gráfico para Mídias Impressas",
                     "description": "Criação de jornais informativos, fachadas e outros materiais gráficos impressos para campanhas publicitárias e institucionais."
@@ -948,7 +948,7 @@
                                 },
                                 {
                                     "name": "Testes e Validação",
-                                    "color": "green",
+                                    "color": "lime",
                                     "value": 31
                                 },
                                 {
@@ -1004,10 +1004,13 @@
                         "description": "Ferramenta de edição de imagens."
                     },
                     {
-                        "logo": "./images/logos/companies/adobe/adobe_xd_cc_icon.svg",
-                        "name": "Adobe XD",
-                        "description": "Ferramenta de prototipação."
+                        "logo": "./images/logos/companies/corel/coreldraw-logo.png",
+                        "name": "CorelDRAW",
+                        "description": "Ferramenta de edição e criação de imagens vetoriais."
                     }
+                ],
+                "technologies": [
+                    "Vinyl Plotter Software"
                 ]
             },
             "alsoWorkedOn": [
@@ -1024,13 +1027,13 @@
             ],
             "timeline": [
                 {
-                    "icon": "play",
-                    "title": "Iniciado em Janeiro 2013",
-                    "color": "green"
+                    "icon": "hired",
+                    "title": "Contratado em Janeiro 2013",
+                    "color": "lime"
                 },
                 {
                     "icon": "finished",
-                    "title": "Finalizado em Abril 2013",
+                    "title": "Saiu em Abril 2013",
                     "color": "red"
                 }
             ],
@@ -1087,13 +1090,18 @@
             "alsoWorkedOn": [],
             "timeline": [
                 {
-                    "icon": "play",
-                    "title": "Iniciado em Abril 2011",
-                    "color": "green"
+                    "icon": "hired",
+                    "title": "Contratado em Abril 2011",
+                    "color": "lime"
+                },
+                {
+                    "icon": "promoted",
+                    "title": "Promovido à Assistente Fiscal Pleno II em Setembro 2011",
+                    "color": "gold"
                 },
                 {
                     "icon": "finished",
-                    "title": "Finalizado em Novembro 2011",
+                    "title": "Saiu em Novembro 2011",
                     "color": "red"
                 }
             ],
@@ -1137,13 +1145,18 @@
             "alsoWorkedOn": [],
             "timeline": [
                 {
-                    "icon": "play",
-                    "title": "Iniciado em Junho 2009",
-                    "color": "green"
+                    "icon": "hired",
+                    "title": "Contratado em Junho 2009",
+                    "color": "lime"
+                },
+                {
+                    "icon": "promoted",
+                    "title": "Promovido à Auxiliar Fiscal Pleno em Maio 2010",
+                    "color": "gold"
                 },
                 {
                     "icon": "finished",
-                    "title": "Finalizado em Fevereiro 2011",
+                    "title": "Saiu em Fevereiro 2011",
                     "color": "red"
                 }
             ],

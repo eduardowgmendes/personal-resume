@@ -22,7 +22,13 @@ import {
     PlayCircleOutlined,
     CloseCircleOutlined,
     UpOutlined,
-    ApiOutlined
+    ApiOutlined,
+    TrophyFilled,
+    CloseOutlined,
+    TrophyOutlined,
+    CloseCircleFilled,
+    PlayCircleFilled,
+    FileDoneOutlined
 } from "@ant-design/icons";
 
 const IconUtils = {
@@ -47,9 +53,9 @@ const IconUtils = {
         "print-media": <PrinterOutlined />,
         "interactive-learning": <ExperimentOutlined />,
         "interactive-learning-gamification": <HeartOutlined />,
-        "play": <PlayCircleOutlined />,
-        "finished": <CloseCircleOutlined />,
-        "promoted": <UpOutlined />,
+        "hired": <FileDoneOutlined />,
+        "finished": <CloseCircleFilled />,
+        "promoted": <TrophyFilled />,
         "fiscal-receiving": <FileTextOutlined />,
         "xml-compliance": <ApiOutlined />,
     },

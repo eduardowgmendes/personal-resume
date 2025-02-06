@@ -40,12 +40,12 @@ export default function WorkExperienceOverview({ workExperience }) {
 
             <Row gutter={[8, 8]}>
                 <Col span={24} >
-                    <Flex align="start" justify="center" gap={'middle'}>
+                    <Flex align="start" justify="center" gap={'large'}>
                         {workExperience.companyLogoUrl ?
-                            <Avatar shape="square" size={64} src={workExperience.companyLogoUrl} /> : <Avatar shape="square" size={64} icon={<ShopOutlined />} />
+                            <Avatar shape="square" size={'large'} src={workExperience.companyLogoUrl} /> : <Avatar shape="square" size={64} icon={<ShopOutlined />} />
                         }
                         <Flex vertical flex={1}>
-                            <Title level={4} style={{ margin: 0 }}>{workExperience.company}</Title>
+                            <Title level={4} style={{ margin: 0 }} ellipsis={{ rows: 1, expandable: false, symbol: '...' }}>{workExperience.company}</Title>
                             <Paragraph type='secondary' style={{ margin: 0 }}>{workExperience.role}</Paragraph>
                             <Flex align="center" justify="start" gap={'large'}>
                                 <Flex align="center" justify="space-between" gap={'small'}>
@@ -285,10 +285,17 @@ export default function WorkExperienceOverview({ workExperience }) {
                         } />
                     </Col>
                 }
-                {workExperience.tools?.technologies || workExperience.tools?.applications &&
+                {workExperience.tools &&
+
                     <Row gutter={[16, 16]}>
+
                         <Col span={24}>
-                            {workExperience.tools.technologies &&
+                            <SectionHeader title={'Ferramentas'} />
+                        </Col>
+
+                        {workExperience.tools.technologies &&
+
+                            <Col span={workExperience.tools.applications ? 12 : 24} xs={24} sm={24} md={12}>
                                 <Flex vertical gap={'small'} style={{ padding: '1rem' }} >
                                     <Space direction="horizontal" align="center" size={'middle'}>
                                         <Title level={5}>Tecnologias</Title>
@@ -301,10 +308,12 @@ export default function WorkExperienceOverview({ workExperience }) {
                                     }
                                     </Flex>
                                 </Flex>
-                            }
-                        </Col>
-                        <Col span={24}>
-                            {workExperience.tools.applications &&
+                            </Col>
+                        }
+
+                        {workExperience.tools.applications &&
+
+                            <Col span={workExperience.tools.technologies ? 12 : 24} xs={24} sm={24} md={12}>
                                 <Flex vertical gap={'small'} style={{ padding: '1rem' }} >
                                     <Space direction="horizontal" align="center" size={'middle'}>
                                         <Title level={5}>Apps</Title>
@@ -328,15 +337,15 @@ export default function WorkExperienceOverview({ workExperience }) {
                                     }
                                     </Flex>
                                 </Flex>
-                            }
-                        </Col>
+                            </Col>
+                        }
                     </Row>
                 }
 
                 {workExperience.workRoutine && workExperience.workRoutine.length > 0 &&
                     <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} >
                         <Flex vertical justify="start" gap={'large'}>
-                            <SectionHeader title={'Rotina de Trabalho'} />
+                            <SectionHeader title={'Funções & Atribuições'} />
                             <List grid={{ gutter: 16, xs: 1 }} dataSource={workExperience.workRoutine} renderItem={(routine) => (
                                 <List.Item>
                                     <Flex align="start" gap={'large'} style={{ padding: '0 1rem 0 1rem' }}>
@@ -358,7 +367,7 @@ export default function WorkExperienceOverview({ workExperience }) {
 
                     <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} >
                         <Flex vertical justify="start" gap={'large'}>
-                            <SectionHeader title={'Vínculo'} />
+                            <SectionHeader title={'Linha do Tempo'} />
                             <Flex vertical style={{ padding: '0 1rem 0 1rem' }}>
                                 <Timeline
                                     mode="left"
