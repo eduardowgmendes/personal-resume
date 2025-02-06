@@ -503,18 +503,6 @@
                 "Scrum"
             ],
             "alsoWorkedOn": [],
-            "timeline": [
-                {
-                    "icon": "hired",
-                    "title": "Contratado em Abril 2020",
-                    "color": "lime"
-                },
-                {
-                    "icon": "finished",
-                    "title": "Saiu em Novembro 2020",
-                    "color": "red"
-                }
-            ],
             "workRoutine": [
                 {
                     "color": "dimgrey",
@@ -551,18 +539,6 @@
                 "Scrum"
             ],
             "alsoWorkedOn": [],
-            "timeline": [
-                {
-                    "icon": "hired",
-                    "title": "Contratado em Março 2017",
-                    "color": "lime"
-                },
-                {
-                    "icon": "finished",
-                    "title": "Saiu em Novembro 2020",
-                    "color": "red"
-                }
-            ],
             "workRoutine": [
                 {
                     "color": "dimgrey",
@@ -598,18 +574,6 @@
                 "Android SDK"
             ],
             "alsoWorkedOn": [],
-            "timeline": [
-                {
-                    "icon": "hired",
-                    "title": "Contratado em Março 2016",
-                    "color": "lime"
-                },
-                {
-                    "icon": "finished",
-                    "title": "Saiu em Dezembro 2019",
-                    "color": "red"
-                }
-            ],
             "workRoutine": [
                 {
                     "color": "dimgrey",
