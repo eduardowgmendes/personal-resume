@@ -3,6 +3,7 @@ import Paragraph from "antd/es/typography/Paragraph";
 import Title from "antd/es/typography/Title";
 import DateFormat from "../utils/DateFormat";
 import { MinusOutlined, ShopOutlined } from "@ant-design/icons";
+import { IconBuilding, IconBuildingEstate, IconBuildings, IconBuildingSkyscraper, IconBuildingWarehouse } from "@tabler/icons-react";
 
 const { useBreakpoint } = Grid;
 
@@ -25,7 +26,14 @@ export default function KanbamItem({ workExperience, showModal }) {
                                 <a href={workExperience.companyWebsite} target="_blank" rel="noopener noreferrer">
                                     <Avatar shape="square" size='large' src={workExperience.companyLogoUrl} />
                                 </a> : <a href={workExperience.companyWebsite} target="_blank" rel="noopener noreferrer">
-                                    <Avatar shape="square" size='large' icon={<ShopOutlined />} />
+                                    {workExperience.companySize === 'micro' ?
+                                        <Avatar shape="square" size='large' icon={<IconBuildingEstate />} /> :
+                                        workExperience.companySize === 'small' ? <Avatar shape="square" size='large' icon={<IconBuildingEstate />} /> :
+                                            workExperience.companySize === 'medium' ? <Avatar shape="square" size='large' icon={<IconBuilding />} /> :
+                                                workExperience.companySize === 'large' ? <Avatar shape="square" size='large' icon={<IconBuildings />} /> :
+                                                    workExperience.companySize === 'enterprise' ? <Avatar shape="square" size='large' icon={<IconBuildingSkyscraper />} /> :
+                                                        <Avatar shape="square" size='large' icon={<IconBuildingWarehouse />} />
+                                    }
                                 </a>
                             }
                         </Tooltip>

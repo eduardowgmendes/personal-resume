@@ -7,6 +7,8 @@ import { useState } from "react";
 import DateFormat from "../utils/DateFormat";
 import IconUtils from "../utils/IconUtils";
 
+import { IconBuilding, IconBuildingEstate, IconBuildings, IconBuildingSkyscraper, IconBuildingWarehouse } from "@tabler/icons-react";
+
 export default function WorkExperienceOverview({ workExperience }) {
 
     const [activeKeys, setActiveKeys] = useState([]);
@@ -41,12 +43,19 @@ export default function WorkExperienceOverview({ workExperience }) {
             <Row gutter={[8, 8]}>
                 <Col span={24} >
                     <Flex align="start" justify="center" gap={'large'}>
-                        
+
                         {workExperience.companyLogoUrl ?
-                            <Avatar shape="square" size={'large'} src={workExperience.companyLogoUrl} /> : <Avatar shape="square" size={64} icon={<ShopOutlined />} />
+                            <Avatar shape="square" size={'large'} src={workExperience.companyLogoUrl} /> :
+                            workExperience.companySize === 'micro' ?
+                                <Avatar shape="square" size='large' icon={<IconBuildingEstate />} /> :
+                                workExperience.companySize === 'small' ? <Avatar shape="square" size='large' icon={<IconBuildingEstate />} /> :
+                                    workExperience.companySize === 'medium' ? <Avatar shape="square" size='large' icon={<IconBuilding />} /> :
+                                        workExperience.companySize === 'large' ? <Avatar shape="square" size='large' icon={<IconBuildings />} /> :
+                                            workExperience.companySize === 'enterprise' ? <Avatar shape="square" size='large' icon={<IconBuildingSkyscraper />} /> :
+                                                <Avatar shape="square" size='large' icon={<IconBuildingWarehouse />} />
                         }
                         <Flex vertical flex={1}>
-                            <Title level={4} style={{ margin: 0 }} ellipsis={{ rows: 1, expandable: false, symbol: '...' }}>{workExperience.company}</Title>
+                            <Title level={4} style={{ margin: 0, maxWidth: '14em' }} ellipsis={{ rows: 1, expandable: false, symbol: '...' }}>{workExperience.company}</Title>
                             <Paragraph type='secondary' style={{ margin: 0 }}>{workExperience.role}</Paragraph>
                             <Flex align="center" justify="start" gap={'large'}>
                                 <Flex align="center" justify="space-between" gap={'small'}>
