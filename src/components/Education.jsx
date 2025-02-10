@@ -17,47 +17,47 @@ export default function Education({ education }) {
             <SectionHeader title={'Formação'} />
             <Card bordered={false} size="small">
                 {education.map((item, index) => (
-                    
-                        <Flex align="start" justify="space-between" gap={'small'} style={{ padding: '1rem' }} key={index}>
 
+                    <Flex align="start" justify="space-between" gap={'small'} style={{ padding: '1rem' }} key={index}>
+
+                        {
+                            item.institutionWebsite && item.institutionLogoUrl ?
+                                <a href={item.institutionWebsite} target="_blank" rel="noopener noreferrer">
+                                    <Avatar shape="circle" size={'large'} src={item.institutionLogoUrl} />
+                                </a> : <Avatar shape="square" size={'large'} icon={<ReadOutlined />} />
+                        }
+
+                        <Flex vertical align="start" justify="space-between" style={{ height: '100%', flex: 1, padding: '0 1rem 0 1rem' }}>
+                            <Title level={5} ellipsis={{ rows: 3, expandable: false, symbol: '...' }} style={{ margin: 0, fontWeight: 'bold', wordBreak: "keep-all" }}>{item.degree}</Title>
+                            <Paragraph className="small" type="secondary" ellipsis={{ rows: 2, expandable: false, symbol: '...' }} style={{ margin: 0, wordBreak: "keep-all" }}>{item.institution}</Paragraph>
+                        </Flex>
+
+
+                        <Flex vertical align="end" justify="space-between" style={{ height: '100%' }}>
                             {
-                                item.institutionWebsite && item.institutionLogoUrl ?
-                                    <a href={item.institutionWebsite} target="_blank" rel="noopener noreferrer">
-                                        <Avatar shape="circle" size={'large'} src={item.institutionLogoUrl} />
-                                    </a> : <Avatar shape="square" size={'large'} icon={<ReadOutlined />} />
-                            }
+                                item.status === 'Concluído' ?
 
-                            <Flex vertical align="start" justify="space-between" style={{ height: '100%', flex: 1, padding: '0 1rem 0 1rem' }}>
-                                <Title level={5} ellipsis={{ rows: 3, expandable: false, symbol: '...' }} style={{ margin: 0, fontWeight: 'bold' }}>{item.degree}</Title>
-                                <Paragraph className="small" type="secondary" ellipsis={{ rows: 2, expandable: false, symbol: '...' }} style={{ margin: 0 }}>{item.institution}</Paragraph>
-                            </Flex>
-
-
-                            <Flex vertical align="end" justify="space-between" style={{ height: '100%' }}>
-                                {
-                                    item.status === 'Concluído' ?
-                                    
                                     <Flex gap={'small'}>
-                                        <CheckCircleOutlined style={{color: 'springgreen'}} />
+                                        <CheckCircleOutlined style={{ color: 'springgreen' }} />
                                         <Paragraph ellipsis={{ rows: 2, expandable: false, symbol: '...' }} style={{ margin: 0, color: "seagreen" }}>{item.status}</Paragraph>
-                                    </Flex> : 
-                                    
+                                    </Flex> :
+
                                     <Flex gap={'small'}>
-                                        <SyncOutlined spin />
+                                        <LoadingOutlined spin />
                                         <Paragraph type="secondary" ellipsis={{ rows: 2, expandable: false, symbol: '...' }} style={{ margin: 0 }}>{item.status}</Paragraph>
                                     </Flex>
-                                    
-                                }
-                                <Flex align="center" justify="space-between" gap={'small'}>
-                                    <DateFormat dateString={item.startDate} />
-                                    <MinusOutlined />
-                                    <DateFormat dateString={item.endDate} />
-                                </Flex>
+
+                            }
+                            <Flex align="center" justify="space-between" gap={'small'}>
+                                <DateFormat dateString={item.startDate} />
+                                <MinusOutlined />
+                                <DateFormat dateString={item.endDate} />
                             </Flex>
-
-
                         </Flex>
-                    
+
+
+                    </Flex>
+
                 ))}
             </Card>
         </Layout>

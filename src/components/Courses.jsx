@@ -3,7 +3,7 @@ import SectionHeader from "./SectionHeader";
 import Title from "antd/es/typography/Title";
 import Paragraph from "antd/es/typography/Paragraph";
 import DateFormat from "../utils/DateFormat";
-import { CheckCircleOutlined, MinusOutlined, ReadOutlined, ShopOutlined, SyncOutlined } from "@ant-design/icons";
+import { CheckCircleOutlined, LoadingOutlined, MinusOutlined, ReadOutlined, ShopOutlined, SyncOutlined } from "@ant-design/icons";
 
 export default function Courses({ courses }) {
     return (
@@ -26,8 +26,8 @@ export default function Courses({ courses }) {
                             }
 
                             <Flex vertical align="start" justify="space-between" style={{ height: '100%', flex: 1, padding: '0 1rem 0 1rem' }}>
-                                <Title level={5} ellipsis={{ rows: 3, expandable: false, symbol: '...' }} style={{ margin: 0, fontWeight: 'bold' }}>{course.name}</Title>
-                                <Paragraph className="small" type="secondary" ellipsis={{ rows: 2, expandable: false, symbol: '...' }} style={{ margin: 0 }}>{course.institution}</Paragraph>
+                                <Title level={5} ellipsis={{ rows: 3, expandable: false, symbol: '...' }} style={{ margin: 0, fontWeight: 'bold', wordBreak: "keep-all" }}>{course.name}</Title>
+                                <Paragraph className="small" type="secondary" ellipsis={{ rows: 2, expandable: false, symbol: '...' }} style={{ margin: 0, wordBreak: "keep-all" }}>{course.institution}</Paragraph>
                             </Flex>
 
 
@@ -42,7 +42,7 @@ export default function Courses({ courses }) {
                                         </Flex>
                                         :
                                         <Flex gap={'small'} align="center">
-                                            <SyncOutlined spin />
+                                            <LoadingOutlined spin />
                                             <Paragraph type="secondary" ellipsis={{ rows: 2, expandable: false, symbol: '...' }} style={{ margin: 0 }}>{course.status}</Paragraph>
                                         </Flex>
 

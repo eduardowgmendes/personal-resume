@@ -1,4 +1,4 @@
-import { Avatar, Button, Card, Col, Collapse, Empty, Flex, Image, List, Popover, Progress, Row, Space, Statistic, Tag, Timeline, Tooltip } from "antd";
+import { Avatar, Button, Card, Col, Collapse, Empty, Flex, Grid, Image, List, Popover, Progress, Row, Space, Statistic, Tag, Timeline, Tooltip } from "antd";
 import SectionHeader from "./SectionHeader";
 import Paragraph from "antd/es/typography/Paragraph";
 import Title from "antd/es/typography/Title";
@@ -9,7 +9,11 @@ import IconUtils from "../utils/IconUtils";
 
 import { IconBuilding, IconBuildingEstate, IconBuildings, IconBuildingSkyscraper, IconBuildingWarehouse } from "@tabler/icons-react";
 
+const { useBreakpoint } = Grid;
+
 export default function WorkExperienceOverview({ workExperience }) {
+
+    const screens = useBreakpoint();
 
     const [activeKeys, setActiveKeys] = useState([]);
 
@@ -55,7 +59,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                                                 <Avatar shape="square" size='large' icon={<IconBuildingWarehouse />} />
                         }
                         <Flex vertical flex={1}>
-                            <Title level={4} style={{ margin: 0, maxWidth: '14em' }} ellipsis={{ rows: 1, expandable: false, symbol: '...' }}>{workExperience.company}</Title>
+                            <Title level={4} style={{ margin: 0, maxWidth: screens.xs ? '14em' : 'none' }} ellipsis={{ rows: 1, expandable: false, symbol: '...' }}>{workExperience.company}</Title>
                             <Paragraph type='secondary' style={{ margin: 0 }}>{workExperience.role}</Paragraph>
                             <Flex align="center" justify="start" gap={'large'}>
                                 <Flex align="center" justify="space-between" gap={'small'}>
@@ -76,8 +80,11 @@ export default function WorkExperienceOverview({ workExperience }) {
                 </Col>
 
                 <Col span={24} >
-                    <Flex align={'center'} justify={'center'} gap={'large'}>
-                        <Paragraph>{workExperience.description}</Paragraph>
+                    <Flex align="center" >
+                        <SectionHeader title={'Resumo'} />
+                    </Flex>
+                    <Flex align={'center'} justify={'center'} style={{ padding: '1rem' }}>
+                        <Paragraph type="secondary">{workExperience.description}</Paragraph>
                     </Flex>
                 </Col>
 
