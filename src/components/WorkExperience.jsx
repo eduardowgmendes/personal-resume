@@ -6,6 +6,7 @@ import { useState } from "react";
 import WorkExperienceOverview from "./WorkExperienceOverview";
 import ListItem from "./ListItem";
 import KanbamItem from "./KanbamItem";
+import { IconTools } from "@tabler/icons-react";
 
 const { useBreakpoint } = Grid;
 
@@ -41,7 +42,7 @@ export default function WorkExperience({ workExperience }) {
     return (
         <Layout>
             <Flex align="center" justify="space-between" gap={'large'}>
-                <SectionHeader title={'Experiência Profissional'} />
+                <SectionHeader icon={<IconTools size={20} />} title={'Experiência Profissional'} />
                 <Segmented onChange={handleLayoutChange} options={[
                     { value: 'list', icon: <BarsOutlined /> },
                     { value: 'kanbam', icon: <AppstoreOutlined /> }

@@ -4,6 +4,7 @@ import Title from "antd/es/typography/Title";
 import Paragraph from "antd/es/typography/Paragraph";
 import DateFormat from "../utils/DateFormat";
 import { CheckCircleOutlined, LoadingOutlined, MinusOutlined, ReadOutlined, ShopOutlined, SyncOutlined } from "@ant-design/icons";
+import { IconBook, IconBooks, IconFileCertificate } from "@tabler/icons-react";
 
 export default function Courses({ courses }) {
     return (
@@ -11,7 +12,7 @@ export default function Courses({ courses }) {
 
             <Flex vertical>
 
-                <SectionHeader title={'Cursos'} />
+                <SectionHeader icon={<IconFileCertificate size={20} />} title={'Cursos'} />
 
                 <Card bordered={false} size="small">
                     {courses.map((course, index) => (

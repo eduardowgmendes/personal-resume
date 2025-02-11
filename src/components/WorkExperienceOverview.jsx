@@ -44,7 +44,7 @@ export default function WorkExperienceOverview({ workExperience }) {
     return (
         <Flex vertical>
 
-            <Row gutter={[8, 8]}>
+            <Row gutter={[8, 48]}>
                 <Col span={24} >
                     <Flex align="start" justify="center" gap={'large'}>
 
@@ -83,7 +83,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                     <Flex align="center" >
                         <SectionHeader title={'Resumo'} />
                     </Flex>
-                    <Flex align={'center'} justify={'center'} style={{ padding: '1rem' }}>
+                    <Flex align={'center'} justify={'center'}>
                         <Paragraph type="secondary">{workExperience.description}</Paragraph>
                     </Flex>
                 </Col>
@@ -385,7 +385,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                     <Col xs={24} sm={24} md={24} lg={24} xl={24} xxl={24} >
                         <Flex vertical justify="start" gap={'large'}>
                             <SectionHeader title={'Linha do Tempo'} />
-                            <Flex vertical style={{ padding: '0 1rem 0 1rem' }}>
+                            <Flex vertical>
                                 <Timeline
                                     mode="left"
                                     items={workExperience.timeline.map(time => ({

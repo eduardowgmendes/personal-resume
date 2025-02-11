@@ -5,6 +5,7 @@ import Paragraph from "antd/es/typography/Paragraph";
 import DateFormat from "../utils/DateFormat";
 import { CheckCircleOutlined, LoadingOutlined, MinusOutlined, ReadOutlined, RightOutlined, SyncOutlined } from "@ant-design/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { IconSchool } from "@tabler/icons-react";
 
 const { useBreakpoint } = Grid;
 
@@ -14,7 +15,7 @@ export default function Education({ education }) {
 
     return (
         <Layout>
-            <SectionHeader title={'Formação'} />
+            <SectionHeader icon={<IconSchool size={20} />} title={'Formação'} />
             <Card bordered={false} size="small">
                 {education.map((item, index) => (
 
