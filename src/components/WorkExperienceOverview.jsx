@@ -46,7 +46,8 @@ export default function WorkExperienceOverview({ workExperience }) {
 
             <Row gutter={[8, 48]}>
                 <Col span={24} >
-                    <Flex align="start" justify="center" gap={'large'}>
+                
+                    <Flex align="center" gap={'large'}>
 
                         {workExperience.companyLogoUrl ?
                             <Avatar shape="square" size={'large'} src={workExperience.companyLogoUrl} /> :
@@ -59,8 +60,8 @@ export default function WorkExperienceOverview({ workExperience }) {
                                                 <Avatar shape="square" size='large' icon={<IconBuildingWarehouse />} />
                         }
                         <Flex vertical flex={1}>
-                            <Title level={4} style={{ margin: 0, maxWidth: screens.xs ? '14em' : 'none' }} ellipsis={{ rows: 1, expandable: false, symbol: '...' }}>{workExperience.company}</Title>
-                            <Paragraph type='secondary' style={{ margin: 0 }}>{workExperience.role}</Paragraph>
+                            <Title level={4} style={{ margin: 0, maxWidth: screens.xs ? '14em' : 'none' }} ellipsis={{ rows: 1, expandable: false, symbol: '...' }}>{workExperience.role}</Title>
+                            <Paragraph type='secondary' style={{ margin: 0 }}>{workExperience.company}</Paragraph>
                             <Flex align="center" justify="start" gap={'large'}>
                                 <Flex align="center" justify="space-between" gap={'small'}>
                                     <PushpinOutlined />

@@ -1,7 +1,7 @@
 {
     "name": "Eduardo Mendes",
     "profile": {
-        "profession": "Junior Java Backend Developer",
+        "profession": "Desenvolvedor Java Backend Júnior",
         "nationality": "Brasileiro",
         "age": 33
     },
@@ -20,7 +20,7 @@
         {
             "companyWebsite": "https://www.varitus.com.br/",
             "companyLogoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQH5AzTMCm_FTg/company-logo_200_200/company-logo_200_200/0/1630480530366/varitus_logo?e=1744848000&v=beta&t=A4YCOL21Q8T5USumG2qEpxn_2k54G3oa7XERXYW3Z5M",
-            "role": "Junior Java Backend Developer",
+            "role": "Desenvolvedor Backend Java Júnior",
             "location": "Araras, SP",
             "companySize": "large",
             "company": "Varitus do Brasil",
@@ -335,7 +335,7 @@
         {
             "companyWebsite": "https://onebrain.com.br/",
             "companyLogoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQG8yAXfI7--3A/company-logo_200_200/company-logo_200_200/0/1643031266208/onebrain_logo?e=1744848000&v=beta&t=3WpEFcom5-DGbcv3MdW2mISh3xJ09McBWkuHgZASwPg",
-            "role": "Junior Systems Analyst",
+            "role": "Analista de Sistemas Júnior",
             "location": "Campinas, SP",
             "companySize": "medium",
             "company": "OneBrain IT Solutions",
@@ -428,7 +428,7 @@
                 {
                     "id": 2,
                     "name": "GoPic",
-                    "description": "Suas histórias além da tela! 📸💙 Você registra. A Gopic eterniza. Fotos polaroides adesivas, um jeito único de revelar seus melhores momentos.",
+                    "description": "Suas histórias além da tela! Você registra. A Gopic eterniza. Fotos polaroides adesivas, um jeito único de revelar seus melhores momentos.",
                     "category": "Sistema de Clube de Assinaturas.",
                     "website": "https://blog.hubhomebox.com.br/clube-de-assinatura-gopic/",
                     "reach": 125000,
@@ -487,7 +487,7 @@
         {
             "companyWebsite": "https://www.somoseducacao.com.br/",
             "companyLogoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQHYauLtC-U1wQ/company-logo_200_200/company-logo_200_200/0/1631334937139?e=1746662400&v=beta&t=8BjK-9psC_xf9pWqnqxkpzcfuvemKZWGdv5XDSTP5LA",
-            "role": "Freelancer - Front End Developer",
+            "role": "Desenvolvedor Front-end",
             "location": "São Paulo, SP",
             "company": "Somos Educação",
             "companySize": "enterprise",
@@ -524,13 +524,13 @@
         {
             "companyWebsite": "",
             "companyLogoUrl": "",
-            "role": "Freelance Java Developer",
+            "role": "Desenvolvedor Backend Java",
             "location": "São Paulo, SP",
             "company": "Freelancer",
             "companySize": "micro",
             "startDate": "Março 2017",
             "endDate": "Novembro 2020",
-            "description": "Atuo como desenvolvedor Java freelancer, com foco em sistemas e aplicações web RESTful. Trabalho com Spring Boot, Swagger, JPA, Hibernate, e MySQL. Experiência com a implementação de soluções em serviços web, utilizando metodologias ágeis como Scrum.",
+            "description": "Atuei como desenvolvedor Java freelancer, com foco em sistemas e aplicações web RESTful. Trabalho com Spring Boot, Swagger, JPA, Hibernate, e MySQL. Experiência com a implementação de soluções em serviços web, utilizando metodologias ágeis como Scrum.",
             "achievements": [],
             "technologiesUsed": [
                 "Java",
@@ -561,7 +561,7 @@
         {
             "companyWebsite": "",
             "companyLogoUrl": "",
-            "role": "Freelancer Android Developer",
+            "role": "Desenvolvedor Android",
             "location": "Campinas, SP",
             "companySize": "micro",
             "company": "JET Mobile Technologies",
@@ -597,7 +597,7 @@
         {
             "companyWebsite": "https://www.google.com/search?client=ubuntu-sn&channel=fs&q=kroton",
             "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQG4N-JHQv6XRQ/company-logo_200_200/company-logo_200_200/0/1690392562952/kroton_educacional_s_a_logo?e=1744848000&v=beta&t=m4iJ9R7PESy8tiwX30frsOeZwyF-8bNbdXkg1BvN4m8",
-            "role": "Web Developer",
+            "role": "Desenvolvedor Web",
             "location": "Valinhos, SP",
             "company": "Kroton Educacional",
             "companySize": "enterprise",
@@ -644,7 +644,7 @@
                     "collabWith": [
                         {
                             "name": "Tiago Pinotti",
-                            "role": "Web Developer",
+                            "role": "Desenvolvedor Web",
                             "company": "Kroton Educacional"
                         }
                     ]
@@ -755,7 +755,7 @@
         {
             "companyWebsite": "https://humann.com.br/",
             "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQHodomaFlBNNg/company-logo_200_200/company-logo_200_200/0/1723577122134/agencia_humann_logo?e=1744848000&v=beta&t=LrFevsux7Pt1Ij8RBCDod3RCZzYBeApyTT87t2rpN-8",
-            "role": "Graphic Designer UI/UX",
+            "role": "Designer Gráfico",
             "location": "Sumaré, SP",
             "company": "Humman Inteligência Digital",
             "startDate": "Abril 2014",
@@ -1035,7 +1035,7 @@
         {
             "companyWebsite": "https://www.bosch.com/",
             "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQG9V8ylf9r--g/company-logo_200_200/company-logo_200_200/0/1720017140973/boschbrasil_logo?e=1746662400&v=beta&t=tALOhUCaA9AaBYvX5kfPaw05RfEZj7SYb2PxvsWP1EQ",
-            "role": "Auxiliar Fiscal Pleno",
+            "role": "Auxiliar Fiscal ",
             "location": "Campinas, SP",
             "company": "Robert Bosch Limitada",
             "startDate": "Abril 2011",
@@ -1065,7 +1065,7 @@
                 },
                 {
                     "icon": "promoted",
-                    "title": "Promovido à Assistente Fiscal Pleno II em Setembro 2011",
+                    "title": "Promovido à Assistente Fiscal  II em Setembro 2011",
                     "color": "gold"
                 },
                 {
@@ -1092,7 +1092,7 @@
         {
             "companyWebsite": "https://www.mabe.com/",
             "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D560BAQGkFzwt8nBC5w/company-logo_200_200/company-logo_200_200/0/1664677306110/mabe_logo?e=1746662400&v=beta&t=kafaBbYlIIVl8iQqQTbK_lxjQaT_O5Gs6ZW_hvZOUzk",
-            "role": "Auxiliar Fiscal Pleno",
+            "role": "Auxiliar Fiscal ",
             "location": "Hortolândia, SP",
             "company": "Mabe Eletrodomésticos S.A",
             "startDate": "Junho 2009",
@@ -1121,7 +1121,7 @@
                 },
                 {
                     "icon": "promoted",
-                    "title": "Promovido à Auxiliar Fiscal Pleno em Maio 2010",
+                    "title": "Promovido à Auxiliar Fiscal em Maio 2010",
                     "color": "gold"
                 },
                 {
