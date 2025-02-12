@@ -98,13 +98,13 @@
                 },
                 {
                     "media": {
-                        "projectLogo": "",
+                        "projectLogo": "https://play-lh.googleusercontent.com/rq-lf8G5hMpf-67oKZ-0CksjeSFM6blur2a8OOerT6KMx47t7KYBWboSb0vrIexJWg=s48",
                         "colors": {
-                            "primary": "crimson"
+                            "primary": "teal"
                         }
                     },
-                    "name": "V.Boleto API",
-                    "description": "API para emissão e gerenciamento de boletos bancários, integrando-se com instituições financeiras para automatizar pagamentos e conciliação de transações."
+                    "name": "Publicação do Canhoto Fácil no Play Store",
+                    "description": "Responsável pela publicação e atualizações do aplicativo Canhoto Fácil na Play Store, garantindo a conformidade com as diretrizes do Google e gerenciamento do processo de revisão para um lançamento bem-sucedido."
                 },
                 {
                     "media": {
