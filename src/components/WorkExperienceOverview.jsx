@@ -184,7 +184,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                                                             </Row>
                                                     }, {
                                                         key: 2,
-                                                        label: 'Atuação',
+                                                        label: 'Performance',
                                                         children:
                                                             <Row gutter={[16, 16]}>
 
