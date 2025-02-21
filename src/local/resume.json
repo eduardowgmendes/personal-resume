@@ -932,8 +932,13 @@
                         "projectImages": [
                             {
                                 "pictureUrl": "./images/gallery/goodbom/goodbom_fb_post_2014.png",
-                                "description": "",
-                                "pictureCaption": ""
+                                "description": "Campanha Vote Consciente - Post Facebook - 2014",
+                                "pictureCaption": "Post para Facebook criado para a campanha 'Vote Consciente' em 2014, incentivando a participação responsável nas eleições."
+                            },
+                            {
+                                "pictureUrl": "./images/gallery/goodbom/goodbom-folheto.png",
+                                "description": "Arte de Cabeçalho - Jornal de Ofertas Semanais",
+                                "pictureCaption": "Cabeçalho desenvolvido para o jornal de ofertas semanais, destacando a identidade visual da marca e promovendo engajamento."
                             }
                         ],
                         "colors": {

@@ -46,7 +46,7 @@ export default function WorkExperienceOverview({ workExperience }) {
 
             <Row gutter={[8, 48]}>
                 <Col span={24} >
-                
+
                     <Flex align="center" gap={'large'}>
 
                         {workExperience.companyLogoUrl ?
@@ -284,7 +284,7 @@ export default function WorkExperienceOverview({ workExperience }) {
                                                                 dataSource={project.media.projectImages}
                                                                 renderItem={(image) => (
                                                                     <Card hoverable bordered style={{ overflow: 'hidden', borderRadius: '1rem', margin: '.5rem' }} bodyStyle={{ padding: 0 }}>
-                                                                        <Image key={image.pictureUrl} width={'100%'} src={image.pictureUrl} />
+                                                                        <Image key={image.pictureUrl} preview={{ title: image.description, description: image.pictureCaption }} width={'100%'} src={image.pictureUrl} />
                                                                     </Card>
                                                                 )}
                                                             />
