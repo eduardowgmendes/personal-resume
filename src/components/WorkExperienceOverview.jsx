@@ -283,9 +283,13 @@ export default function WorkExperienceOverview({ workExperience }) {
                                                                 }}
                                                                 dataSource={project.media.projectImages}
                                                                 renderItem={(image) => (
-                                                                    <Card hoverable bordered style={{ overflow: 'hidden', borderRadius: '1rem', margin: '.5rem' }} bodyStyle={{ padding: 0 }}>
-                                                                        <Image key={image.pictureUrl} preview={{ title: image.description, description: image.pictureCaption }} width={'100%'} src={image.pictureUrl} />
-                                                                    </Card>
+                                                                    <Flex vertical gap={'small'} style={{ margin: '.5rem' }}>
+                                                                        <Paragraph ellipsis={{ rows: 2, expandable: false, symbol: '...' }} style={{ margin: 0, fontWeight: 'bold' }}>{image.description}</Paragraph>
+                                                                        <Card hoverable bordered style={{ overflow: 'hidden', borderRadius: '1rem' }} bodyStyle={{ padding: 0 }}>
+                                                                            <Image key={image.pictureUrl} width={'100%'} src={image.pictureUrl} />
+                                                                        </Card>
+                                                                        <Paragraph type="secondary" className="small" ellipsis={{ rows: 3, expandable: false, symbol: '...' }}>{image.pictureCaption}</Paragraph>
+                                                                    </Flex>
                                                                 )}
                                                             />
                                                         </Image.PreviewGroup>
