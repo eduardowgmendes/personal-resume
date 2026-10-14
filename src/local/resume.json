@@ -19,7 +19,7 @@
     "workExperience": [
         {
             "companyWebsite": "https://www.varitus.com.br/",
-            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQH5AzTMCm_FTg/company-logo_200_200/company-logo_200_200/0/1630480530366/varitus_logo?e=1744848000&v=beta&t=A4YCOL21Q8T5USumG2qEpxn_2k54G3oa7XERXYW3Z5M",
+            "companyLogoUrl": "/images/logos/companies/varitus/varitus_logo.jpeg",
             "role": "Desenvolvedor Backend Java Júnior",
             "location": "Araras, SP",
             "companySize": "large",
@@ -334,7 +334,7 @@
         },
         {
             "companyWebsite": "https://onebrain.com.br/",
-            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQG8yAXfI7--3A/company-logo_200_200/company-logo_200_200/0/1643031266208/onebrain_logo?e=1744848000&v=beta&t=3WpEFcom5-DGbcv3MdW2mISh3xJ09McBWkuHgZASwPg",
+            "companyLogoUrl": "/images/logos/companies/onebrain/onebrain_logo.jpeg",
             "role": "Analista de Sistemas Júnior",
             "location": "Campinas, SP",
             "companySize": "medium",
@@ -486,7 +486,7 @@
         },
         {
             "companyWebsite": "https://www.somoseducacao.com.br/",
-            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQHYauLtC-U1wQ/company-logo_200_200/company-logo_200_200/0/1631334937139?e=1746662400&v=beta&t=8BjK-9psC_xf9pWqnqxkpzcfuvemKZWGdv5XDSTP5LA",
+            "companyLogoUrl": "/images/logos/companies/somos/somoseducacao_logo.jpeg",
             "role": "Desenvolvedor Front-end",
             "location": "São Paulo, SP",
             "company": "Somos Educação",
@@ -596,7 +596,7 @@
         },
         {
             "companyWebsite": "https://www.google.com/search?client=ubuntu-sn&channel=fs&q=kroton",
-            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQG4N-JHQv6XRQ/company-logo_200_200/company-logo_200_200/0/1690392562952/kroton_educacional_s_a_logo?e=1744848000&v=beta&t=m4iJ9R7PESy8tiwX30frsOeZwyF-8bNbdXkg1BvN4m8",
+            "companyLogoUrl": "/images/logos/companies/kroton/kroton_educacional_s_a_logo.jpeg",
             "role": "Desenvolvedor Web",
             "location": "Valinhos, SP",
             "company": "Kroton Educacional",
@@ -754,7 +754,7 @@
         },
         {
             "companyWebsite": "https://humann.com.br/",
-            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQHodomaFlBNNg/company-logo_200_200/company-logo_200_200/0/1723577122134/agencia_humann_logo?e=1744848000&v=beta&t=LrFevsux7Pt1Ij8RBCDod3RCZzYBeApyTT87t2rpN-8",
+            "companyLogoUrl": "/images/logos/companies/humann/agencia_humann_logo.jpeg",
             "role": "Designer Gráfico",
             "location": "Sumaré, SP",
             "company": "Humman Inteligência Digital",
@@ -950,7 +950,7 @@
         },
         {
             "companyWebsite": "https://www.ultrasign.com.br/sobre-nos/",
-            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGEB-GWAlQZyQ/company-logo_200_200/company-logo_200_200/0/1664986303938/ultrasign_comunicacao_visual_logo?e=1746662400&v=beta&t=EdgC85CcW_f8HpVHjguye9QfyTj66LeSF12H3edNugM",
+            "companyLogoUrl": "/images/logos/companies/ultrasign/ultrasign_comunicacao_visual_logo.jpeg",
             "role": "Designer Gráfico",
             "location": "Paulínia, SP",
             "company": "UltraSign Comunicação Visual",
@@ -1039,7 +1039,7 @@
         },
         {
             "companyWebsite": "https://www.bosch.com/",
-            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQG9V8ylf9r--g/company-logo_200_200/company-logo_200_200/0/1720017140973/boschbrasil_logo?e=1746662400&v=beta&t=tALOhUCaA9AaBYvX5kfPaw05RfEZj7SYb2PxvsWP1EQ",
+            "companyLogoUrl": "/images/logos/companies/bosch/boschbrasil_logo.jpeg",
             "role": "Auxiliar Fiscal ",
             "location": "Campinas, SP",
             "company": "Robert Bosch Limitada",
@@ -1096,7 +1096,7 @@
         },
         {
             "companyWebsite": "https://www.mabe.com/",
-            "companyLogoUrl": "https://media.licdn.com/dms/image/v2/D560BAQGkFzwt8nBC5w/company-logo_200_200/company-logo_200_200/0/1664677306110/mabe_logo?e=1746662400&v=beta&t=kafaBbYlIIVl8iQqQTbK_lxjQaT_O5Gs6ZW_hvZOUzk",
+            "companyLogoUrl": "/images/logos/companies/mabe/mabe_logo.jpeg",
             "role": "Auxiliar Fiscal ",
             "location": "Hortolândia, SP",
             "company": "Mabe Eletrodomésticos S.A",
