@@ -157,6 +157,11 @@
                                 "logo": "/personal-resume/images/logos/companies/fiftyfivepbx/fifty_five_pbx_logo.png",
                                 "name": "55PBX",
                                 "description": "Plataforma de telefonia integrada para acesso a relatórios operacionais e recursos relacionados a chamadas e URA."
+                            },
+                            {
+                                "logo": "/personal-resume/images/logos/companies/tibco/jaspersoft_studio_logo.webp",
+                                "name": "Jasper Reports",
+                                "description": "Ferramenta de criação de relatórios."
                             }
                         ],
                         "technologies": [
@@ -400,7 +405,7 @@
                     "tools": {
                         "applications": [
                             {
-                                "logo": "",
+                                "logo": "/personal-resume/images/logos/companies/tibco/jaspersoft_studio_logo.webp",
                                 "name": "Jasper Reports",
                                 "description": "Ferramenta de criação de relatórios."
                             },
@@ -471,7 +476,7 @@
                     "tools": {
                         "applications": [
                             {
-                                "logo": "",
+                                "logo": "/personal-resume/images/logos/companies/tibco/jaspersoft_studio_logo.webp",
                                 "name": "Jasper Reports",
                                 "description": "Ferramenta de criação de relatórios."
                             }
@@ -536,7 +541,7 @@
                     "tools": {
                         "applications": [
                             {
-                                "logo": "",
+                                "logo": "/personal-resume/images/logos/companies/tibco/jaspersoft_studio_logo.webp",
                                 "name": "Jasper Reports",
                                 "description": "Ferramenta de criação de relatórios."
                             }
