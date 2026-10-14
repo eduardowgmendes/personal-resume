@@ -1154,7 +1154,7 @@
     "courses": [
         {
             "institutionWebsite": "",
-            "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQEZkMsv5FwbDA/company-logo_200_200/company-logo_200_200/0/1710187635900/aluracursos_logo?e=1744848000&v=beta&t=G9eg2VCq9Q_xNmPHWBwCOsdwAAZiJSs8FY_9OZ26nLI",
+            "institutionLogoUrl": "/personal-resume/images/logos/companies/alura/aluracursos_logo.jpeg",
             "name": "Android Recycler View",
             "institution": "Alura",
             "startDate": "Novembro 2018",
@@ -1163,7 +1163,7 @@
         },
         {
             "institutionWebsite": "https://www.udemy.com/",
-            "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1744848000&v=beta&t=dUiQ0MY-f0i4jPuTVzpfeEJL8XlUUY_bM5Os9V5jXOU",
+            "institutionLogoUrl": "/personal-resume/images/logos/companies/jetbrains/Kotlin icon.svg",
             "name": "Kotlin",
             "institution": "Udemy",
             "startDate": "Novembro 2019",
@@ -1172,7 +1172,7 @@
         },
         {
             "institutionWebsite": "https://www.udemy.com/",
-            "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1744848000&v=beta&t=dUiQ0MY-f0i4jPuTVzpfeEJL8XlUUY_bM5Os9V5jXOU",
+            "institutionLogoUrl": "/personal-resume/images/logos/companies/google/flutter_app_development_firm_logo.jpeg",
             "name": "Flutter",
             "institution": "Udemy",
             "startDate": "Novembro 2019",
@@ -1181,7 +1181,7 @@
         },
         {
             "institutionWebsite": "https://www.udemy.com/",
-            "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/D560BAQEf_NHzN2yVQg/company-logo_200_200/company-logo_200_200/0/1723593046388/udemy_logo?e=1744848000&v=beta&t=dUiQ0MY-f0i4jPuTVzpfeEJL8XlUUY_bM5Os9V5jXOU",
+            "institutionLogoUrl": "/personal-resume/images/logos/companies/vmware/spring-icon.svg",
             "name": "Spring MVC",
             "institution": "Udemy",
             "startDate": "Dezembro 2019",
@@ -1201,7 +1201,7 @@
         },
         {
             "institutionWebsite": "https://ciandt.com/br/",
-            "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQFrob6OoOk9iQ/company-logo_200_200/company-logo_200_200/0/1638360715950/dextra_digital_logo?e=1744848000&v=beta&t=DfQfHkuhoOMrRUJQ-HOKkkRHJO40SO0GUZ3Y03n58Ko",
+            "institutionLogoUrl": "/personal-resume/images/logos/companies/ciandt/ciandt_logo.jpeg",
             "degree": "Treinamento Java Spring MVC",
             "institution": "Dextraining - Pólis de Alta Tecnologia",
             "startDate": "Fevereiro 2016",
@@ -1210,7 +1210,7 @@
         },
         {
             "institutionWebsite": "https://www.wyden.com.br/",
-            "institutionLogoUrl": "https://media.licdn.com/dms/image/v2/D4D0BAQFRqANreQfkjQ/company-logo_200_200/company-logo_200_200/0/1698864055544/wyden_educacional_logo?e=1744848000&v=beta&t=9F46SBxH4grtkHV65WqmD8Zu6-JzJ7tWj6nbzeFCtfk",
+            "institutionLogoUrl": "/personal-resume/images/logos/companies/wyden/wyden_educacional_logo.jpeg",
             "degree": "Análise e Desenvolvimento de Sistemas",
             "institution": "Wyden - Metrocamp",
             "startDate": "Setembro 2023",
