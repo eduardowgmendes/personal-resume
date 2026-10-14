@@ -19,7 +19,7 @@
     "workExperience": [
         {
             "companyWebsite": "https://www.varitus.com.br/",
-            "companyLogoUrl": "/images/logos/companies/varitus/varitus_logo.jpeg",
+            "companyLogoUrl": "/personal-resume/images/logos/companies/varitus/varitus_logo.jpeg",
             "role": "Desenvolvedor Backend Java Júnior",
             "location": "Araras, SP",
             "companySize": "large",
@@ -334,7 +334,7 @@
         },
         {
             "companyWebsite": "https://onebrain.com.br/",
-            "companyLogoUrl": "/images/logos/companies/onebrain/onebrain_logo.jpeg",
+            "companyLogoUrl": "/personal-resume/images/logos/companies/onebrain/onebrain_logo.jpeg",
             "role": "Analista de Sistemas Júnior",
             "location": "Campinas, SP",
             "companySize": "medium",
@@ -486,7 +486,7 @@
         },
         {
             "companyWebsite": "https://www.somoseducacao.com.br/",
-            "companyLogoUrl": "/images/logos/companies/somos/somoseducacao_logo.jpeg",
+            "companyLogoUrl": "/personal-resume/images/logos/companies/somos/somoseducacao_logo.jpeg",
             "role": "Desenvolvedor Front-end",
             "location": "São Paulo, SP",
             "company": "Somos Educação",
@@ -596,7 +596,7 @@
         },
         {
             "companyWebsite": "https://www.google.com/search?client=ubuntu-sn&channel=fs&q=kroton",
-            "companyLogoUrl": "/images/logos/companies/kroton/kroton_educacional_s_a_logo.jpeg",
+            "companyLogoUrl": "/personal-resume/images/logos/companies/kroton/kroton_educacional_s_a_logo.jpeg",
             "role": "Desenvolvedor Web",
             "location": "Valinhos, SP",
             "company": "Kroton Educacional",
@@ -754,7 +754,7 @@
         },
         {
             "companyWebsite": "https://humann.com.br/",
-            "companyLogoUrl": "/images/logos/companies/humann/agencia_humann_logo.jpeg",
+            "companyLogoUrl": "/personal-resume/images/logos/companies/humann/agencia_humann_logo.jpeg",
             "role": "Designer Gráfico",
             "location": "Sumaré, SP",
             "company": "Humman Inteligência Digital",
@@ -950,7 +950,7 @@
         },
         {
             "companyWebsite": "https://www.ultrasign.com.br/sobre-nos/",
-            "companyLogoUrl": "/images/logos/companies/ultrasign/ultrasign_comunicacao_visual_logo.jpeg",
+            "companyLogoUrl": "/personal-resume/images/logos/companies/ultrasign/ultrasign_comunicacao_visual_logo.jpeg",
             "role": "Designer Gráfico",
             "location": "Paulínia, SP",
             "company": "UltraSign Comunicação Visual",
@@ -1039,7 +1039,7 @@
         },
         {
             "companyWebsite": "https://www.bosch.com/",
-            "companyLogoUrl": "/images/logos/companies/bosch/boschbrasil_logo.jpeg",
+            "companyLogoUrl": "/personal-resume/images/logos/companies/bosch/boschbrasil_logo.jpeg",
             "role": "Auxiliar Fiscal ",
             "location": "Campinas, SP",
             "company": "Robert Bosch Limitada",
@@ -1096,7 +1096,7 @@
         },
         {
             "companyWebsite": "https://www.mabe.com/",
-            "companyLogoUrl": "/images/logos/companies/mabe/mabe_logo.jpeg",
+            "companyLogoUrl": "/personal-resume/images/logos/companies/mabe/mabe_logo.jpeg",
             "role": "Auxiliar Fiscal ",
             "location": "Hortolândia, SP",
             "company": "Mabe Eletrodomésticos S.A",
