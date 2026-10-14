@@ -487,6 +487,7 @@
                             "Java EE",
                             "Java Beans",
                             "JAX-RS",
+                            "React",
                             "Soap",
                             "Rest",
                             "React"
@@ -544,6 +545,11 @@
                                 "logo": "/personal-resume/images/logos/companies/tibco/jaspersoft_studio_logo.webp",
                                 "name": "Jasper Reports",
                                 "description": "Ferramenta de criação de relatórios."
+                            },
+                            {
+                                "logo": "/personal-resume/images/logos/companies/tibco/jaspersoft_studio_logo.webp",
+                                "name": "Jasper Reports",
+                                "description": "Ferramenta de criação de relatórios."
                             }
                         ],
                         "technologies": [
@@ -552,6 +558,7 @@
                             "Java EE",
                             "Java Beans",
                             "JAX-RS",
+                            "React",
                             "Soap",
                             "Rest"
                         ]
