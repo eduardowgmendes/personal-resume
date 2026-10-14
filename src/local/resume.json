@@ -18,6 +18,265 @@
     },
     "workExperience": [
         {
+            "companyWebsite": "https://www.ultragaz.com.br/",
+            "companyLogoUrl": "/personal-resume/images/logos/companies/ultragaz/ultragaz_logo.jpeg",
+            "role": "Analista de Desenvolvimento",
+            "location": "Bauru, SP",
+            "companySize": "large",
+            "company": "Ultragaz Energia Elétrica",
+            "startDate": "Agosto 2025",
+            "endDate": "Outubro 2026",
+            "description": "Atuei no desenvolvimento de soluções para sistemas corporativos, com foco no backend em Java utilizando o ecossistema Spring (Spring Boot, Spring MVC, Spring Data JPA e Spring Security). Minha atuação envolve desde o desenho e implementação de APIs até a manutenção e evolução de sistemas já existentes, sempre seguindo boas práticas de arquitetura e segurança.",
+            "achievements": [],
+            "techonologiesUsed": [
+                "Java",
+                "Spring MVC",
+                "Thymeleaf",
+                "Liquibase",
+                "PostgreSQL",
+                "JUnit",
+                "Mockito"
+            ],
+            "alsoWorkedOn": [
+                {
+                    "media": {
+                        "projectLogo": "",
+                        "colors": {
+                            "primary": "deeppink"
+                        }
+                    },
+                    "name": "DBControlX",
+                    "description": "Projeto interno legado que dá suporte a diversas áreas da companhia como Faturamento e Backoffice.",
+                    "website": "",
+                    "collabWith": [
+                        {
+                            "name": "Eloi Domingos",
+                            "role": "Analista de Desenvolvimento",
+                            "company": "Ultragaz Energia Elétrica"
+                        },
+                        {
+                            "name": "Lucas Bueno",
+                            "role": "Tech Lead",
+                            "company": "Ultragaz Energia Elétrica"
+                        },
+                        {
+                            "name": "Leonardo Sobreira",
+                            "role": "Gerente de TI",
+                            "company": "Ultragaz Energia Elétrica"
+                        }
+                    ]
+                }
+            ],
+            "timeline": [
+                {
+                    "icon": "hired",
+                    "title": "Contratado em Agosto 2025",
+                    "color": "lime"
+                },
+                {
+                    "icon": "finished",
+                    "title": "Saiu em Outubro 2026",
+                    "color": "red"
+                }
+            ],
+            "projects": [
+                {
+                    "id": 1,
+                    "name": "LightHouse API",
+                    "category": "Sistema Interno de Suporte a Múltiplos Setores",
+                    "description": "Aplicação interna utilizada como sistema central de suporte às operações de diferentes setores da companhia. Atuação no desenvolvimento e na manutenção de APIs e funcionalidades de negócio, correção de bugs, evolução de recursos existentes e integração entre componentes do sistema. Participação na sustentação de uma aplicação de grande porte, com foco em confiabilidade, manutenção e atendimento às necessidades operacionais.",
+                    "website": "",
+                    "reach": 4500,
+                    "dimension": "Grande",
+                    "tools": {
+                        "applications": [
+                            {
+                                "logo": "/personal-resume/images/logos/companies/liquibase/liquibase_logo.svg",
+                                "name": "Liquibase",
+                                "description": "Ferramenta de versionamento e gerenciamento de alterações em bancos de dados."
+                            }
+                        ],
+                        "technologies": [
+                            "Java",
+                            "Spring Boot",
+                            "Spring Data JPA",
+                            "REST APIs",
+                            "MapStruct",
+                            "Liquibase"
+                        ]
+                    },
+                    "time": {
+                        "totalPlayed": "4.262hs",
+                        "tasks": {
+                            "title": "Entregas e Atuação no Projeto",
+                            "caption": "Estimativa baseada em registros e indicadores de desempenho da época.",
+                            "tasksDelivered": 46
+                        },
+                        "spent": {
+                            "title": "Distribuição Estimada do Tempo",
+                            "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
+                            "values": [
+                                {
+                                    "name": "Correção de Bugs",
+                                    "color": "blue",
+                                    "value": 2
+                                },
+                                {
+                                    "name": "Novas Funcionalidades",
+                                    "color": "lime",
+                                    "value": 44
+                                },
+                                {
+                                    "name": "Incidentes Críticos",
+                                    "color": "red",
+                                    "value": 0
+                                }
+                            ]
+                        }
+                    },
+                    "media": {
+                        "projectLogo": "",
+                        "projectCover": "https://images.unsplash.com/photo-1586486855514-8c633cc6fd38?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.0.3",
+                        "projectImages": [],
+                        "colors": {
+                            "primary": "blue"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "InsightBridge",
+                    "category": "Integração de Telefonia, URA Dinâmica e Inteligência Operacional",
+                    "description": "Aplicação desenvolvida em Java e Spring Boot para integração com a plataforma de telefonia 55PBX. O projeto contempla a integração e a normalização de relatórios operacionais, configurações de fluxos de URA dinâmica e construção de métricas proprietárias alinhadas às necessidades do negócio. A solução busca transformar dados de chamadas e de desempenho operacional em indicadores e insights que apoiem a identificação de gargalos, o acompanhamento de operadores e a tomada de decisões.",
+                    "website": "",
+                    "reach": 0,
+                    "dimension": "Grande",
+                    "tools": {
+                        "applications": [
+                            {
+                                "logo": "/personal-resume/images/logos/companies/fiftyfivepbx/fifty_five_pbx_logo.png",
+                                "name": "55PBX",
+                                "description": "Plataforma de telefonia integrada para acesso a relatórios operacionais e recursos relacionados a chamadas e URA."
+                            }
+                        ],
+                        "technologies": [
+                            "Java 21",
+                            "Spring Boot",
+                            "Spring Data JPA",
+                            "Spring Security",
+                            "REST APIs",
+                            "HTTP Integration",
+                            "Thymeleaf"
+                        ]
+                    },
+                    "time": {
+                        "totalPlayed": "2.880 Horas",
+                        "tasks": {
+                            "title": "Entregas e Atuação no Projeto",
+                            "caption": "Projeto em evolução; métricas de produtividade ainda não consolidadas.",
+                            "tasksDelivered": 32
+                        },
+                        "spent": {
+                            "title": "Distribuição Estimada do Tempo",
+                            "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
+                            "values": [
+                                {
+                                    "name": "Correção de Bugs",
+                                    "color": "blue",
+                                    "value": 10
+                                },
+                                {
+                                    "name": "Novas Funcionalidades",
+                                    "color": "lime",
+                                    "value": 90
+                                },
+                                {
+                                    "name": "Incidentes Críticos",
+                                    "color": "red",
+                                    "value": 0
+                                }
+                            ]
+                        }
+                    },
+                    "media": {
+                        "projectLogo": "",
+                        "projectCover": "",
+                        "projectImages": [],
+                        "colors": {
+                            "primary": "teal"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "QuackiPay",
+                    "category": "Pagamentos Digitais e Automação de Cobranças",
+                    "description": "Aplicação desenvolvida com o objetivo de viabilizar a oferta do Pix Automático aos consumidores da Ultragaz Energia Elétrica. A iniciativa buscava simplificar o pagamento recorrente das faturas de energia, proporcionando mais praticidade aos clientes e contribuindo para a modernização dos processos de cobrança. O projeto envolveu o desenvolvimento de uma solução voltada à integração de pagamentos digitais ao contexto de negócio da companhia.",
+                    "website": "",
+                    "reach": 0,
+                    "dimension": "Grande",
+                    "tools": {
+                        "applications": [
+                            {
+                                "logo": "/personal-resume/images/logos/companies/itau/itau_logo.jpeg",
+                                "name": "API Pagamentos PIX - Itaú",
+                                "description": "API bancária para integração de pagamentos via Pix, permitindo a comunicação entre a aplicação e os serviços de pagamento do Itaú."
+                            },
+                            {
+                                "logo": "/personal-resume/images/logos/companies/itau/itau_logo.jpeg",
+                                "name": "API PIX Automático - Itaú",
+                                "description": "API para integração com o Pix Automático, possibilitando a implementação de pagamentos recorrentes mediante autorização prévia do consumidor."
+                            }
+                        ],
+                        "technologies": [
+                            "Java",
+                            "Spring Boot",
+                            "Spring Security",
+                            "Thymeleaf",
+                            "mTLS"
+                        ]
+                    },
+                    "time": {
+                        "totalPlayed": "3.224 Horas",
+                        "tasks": {
+                            "title": "Entregas e Atuação no Projeto",
+                            "caption": "Métricas de produtividade ainda não consolidadas.",
+                            "tasksDelivered": 46
+                        },
+                        "spent": {
+                            "title": "Distribuição Estimada do Tempo",
+                            "caption": "Estimativa baseada nas principais atividades desempenhadas no projeto.",
+                            "values": [
+                                {
+                                    "name": "Correção de Bugs",
+                                    "color": "blue",
+                                    "value": 12
+                                },
+                                {
+                                    "name": "Novas Funcionalidades",
+                                    "color": "lime",
+                                    "value": 88
+                                },
+                                {
+                                    "name": "Incidentes Críticos",
+                                    "color": "red",
+                                    "value": 0
+                                }
+                            ]
+                        }
+                    },
+                    "media": {
+                        "projectLogo": "",
+                        "projectCover": "",
+                        "projectImages": [],
+                        "colors": {
+                            "primary": "teal"
+                        }
+                    }
+                }
+            ]
+        },
+        {
             "companyWebsite": "https://www.varitus.com.br/",
             "companyLogoUrl": "/personal-resume/images/logos/companies/varitus/varitus_logo.jpeg",
             "role": "Desenvolvedor Backend Java Júnior",
